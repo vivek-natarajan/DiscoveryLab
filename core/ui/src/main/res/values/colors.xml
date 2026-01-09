@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Colors -->
+    <color name="core_white">#FFFFFFFF</color>
+    <color name="core_black">#FF1A1A1A</color>
+
+    <!-- Background -->
+    <color name="bg_surface">#FFFFFBF7</color>
+    <color name="bg_surface_inverse">#FF1A1A1A</color>
+    <color name="container_primary">#FFFFFEFC</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FF1A1A1A</color>
+    <color name="text_primary_inverse">#FFFFFFFF</color>
+    <color name="text_secondary">#FFA3A3A3</color>
+
+    <!-- Brand -->
+    <color name="brand_orange">#FFF56F1E</color>
+
+    <!-- Status Bar -->
+    <color name="status_bar">#FF1A1A1A</color>
+</resources>
