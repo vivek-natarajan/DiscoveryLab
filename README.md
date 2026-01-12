@@ -20,7 +20,17 @@ An interactive periodic table Android app built with Kotlin and Jetpack Compose.
 
 ## Screenshots
 
-*Coming soon*
+<p align="center">
+  <img src="screenshots/screenshot_1.jpg" width="80%" alt="Periodic Table Overview"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/screenshot_2.jpg" width="80%" alt="Element Detail View"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/screenshot_3.jpg" width="80%" alt="Element Properties"/>
+</p>
 
 ## Architecture
 
