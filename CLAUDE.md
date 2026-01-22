@@ -2,6 +2,28 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Project Purpose: Content Prototyping Playground
+
+**DiscoveryLab is a prototyping playground** for building interactive "book-like" content modules. Content developed here is designed to be **migrated to the main codebase** where "books" is one of several content types.
+
+### Workflow
+1. **Prototype here**: Build and iterate on new content types in this playground
+2. **Validate**: Test interactions, UI patterns, and data models
+3. **Migrate**: Move polished content modules to the main production codebase
+
+### Migration Status
+| Content Module | Status | Notes |
+|----------------|--------|-------|
+| Periodic Table | ✅ Migrated | First content type, served as template |
+| *Future modules* | 🔨 To be built | Use periodic-table as reference |
+
+### Design for Migration
+When building new content modules:
+- Keep modules **self-contained** in `:content:*` directories
+- Depend only on `:core:ui` for theming/components
+- Use **JSON assets** for data (easy to transfer)
+- Follow established patterns from periodic-table module
+
 ## Codebase Context File
 
 **IMPORTANT:** Before exploring the codebase, read `CODEBASE_CONTEXT.md` first. This file contains:

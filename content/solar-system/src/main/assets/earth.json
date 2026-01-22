@@ -1,0 +1,365 @@
+{
+  "id": "earth",
+  "name": "Earth",
+  "alternativeNames": [
+    "The Blue Planet",
+    "Terra",
+    "Gaia"
+  ],
+  "order": 3,
+  "planetType": "terrestrial",
+  "descriptions": {
+    "short": "Earth is our home planet! It's the only place we know of with life, covered with water, land, and air.",
+    "medium": "Earth is the third planet from the Sun and the only known planet with life. About 71% of its surface is covered by oceans, and it has a protective atmosphere that keeps us safe from space radiation. Earth has one moon and takes 365 days to orbit the Sun.",
+    "long": "Earth is a rocky planet with a unique combination of conditions that support life: liquid water, a protective atmosphere, a magnetic field, and the right temperature range. The planet has diverse ecosystems ranging from frozen poles to tropical rainforests. Earth's atmosphere is composed mainly of nitrogen and oxygen, which sustains life. The planet has active plate tectonics, which recycles its crust and helps regulate climate over geological time. Earth formed about 4.5 billion years ago and has been home to life for at least 3.5 billion years."
+  },
+  "funFacts": [
+    "Earth is the only planet not named after a god or goddess",
+    "A year on Earth is 365.25 days, which is why we have leap years every 4 years",
+    "Earth's atmosphere protects us from meteorites—most burn up before reaching the ground",
+    "The Earth's core is as hot as the surface of the Sun!",
+    "Earth is the densest planet in the solar system",
+    "70% of Earth's surface is covered by water, but 97% of that is saltwater",
+    "Earth's magnetic field protects us from harmful solar radiation",
+    "One day on Earth is getting longer—millions of years ago, a day was only 23 hours!"
+  ],
+  "physicalCharacteristics": {
+    "mass": {
+      "value": 5.9724,
+      "unit": "10^24 kg",
+      "earthComparison": 1.0
+    },
+    "volume": {
+      "value": 108.321,
+      "unit": "10^10 km³",
+      "earthComparison": 1.0
+    },
+    "radius": {
+      "equatorial": 6378.1,
+      "polar": 6356.8,
+      "mean": 6371,
+      "unit": "km"
+    },
+    "diameter": {
+      "value": 12742,
+      "unit": "km",
+      "earthComparison": 1.0
+    },
+    "density": {
+      "value": 5514,
+      "unit": "kg/m³"
+    },
+    "gravity": {
+      "surface": 9.8,
+      "unit": "m/s²",
+      "earthComparison": 1.0
+    },
+    "escapeVelocity": {
+      "value": 11.19,
+      "unit": "km/s"
+    },
+    "temperature": {
+      "mean": 15,
+      "unit": "°C",
+      "kelvin": 254,
+      "range": "-88°C to 58°C",
+      "description": "Average global temperature supports liquid water and life"
+    }
+  },
+  "orbitalCharacteristics": {
+    "distanceFromSun": {
+      "semimajorAxis": 149.6,
+      "perihelion": 147.09,
+      "aphelion": 152.1,
+      "unit": "million km"
+    },
+    "orbitalPeriod": {
+      "value": 365.256,
+      "unit": "Earth days"
+    },
+    "orbitalVelocity": {
+      "mean": 29.78,
+      "max": 30.29,
+      "min": 29.29,
+      "unit": "km/s"
+    },
+    "orbitalEccentricity": 0.0167,
+    "orbitalInclination": {
+      "value": 0,
+      "unit": "degrees",
+      "description": "Earth's orbit defines the ecliptic plane"
+    },
+    "rotationPeriod": {
+      "value": 23.9345,
+      "unit": "hours",
+      "days": 0.99726968
+    },
+    "lengthOfDay": {
+      "value": 24.0,
+      "unit": "hours",
+      "days": 1.0
+    },
+    "axialTilt": {
+      "value": 23.44,
+      "unit": "degrees",
+      "description": "This tilt causes our seasons"
+    }
+  },
+  "atmosphere": {
+    "composition": [
+      {
+        "gas": "Nitrogen",
+        "percentage": 78.08
+      },
+      {
+        "gas": "Oxygen",
+        "percentage": 20.95
+      },
+      {
+        "gas": "Argon",
+        "percentage": 0.93
+      },
+      {
+        "gas": "Carbon Dioxide",
+        "percentage": 0.04
+      },
+      {
+        "gas": "Other gases",
+        "percentage": 0.003
+      }
+    ],
+    "surfacePressure": {
+      "value": 101.325,
+      "unit": "kPa",
+      "earthComparison": 1.0,
+      "description": "Standard atmospheric pressure at sea level"
+    },
+    "description": "Earth's atmosphere is unique in the solar system for its high oxygen content, which is produced and maintained by life. The atmosphere protects us from harmful solar and cosmic radiation, regulates temperature through the greenhouse effect, and provides the air we breathe. It consists of several layers: troposphere (weather), stratosphere (ozone layer), mesosphere, thermosphere, and exosphere."
+  },
+  "surface": {
+    "features": [
+      {
+        "name": "Pacific Ocean",
+        "type": "Ocean",
+        "description": "The largest and deepest ocean, covering more than 30% of Earth's surface",
+        "significance": "Contains the Mariana Trench, the deepest point on Earth at 11 km deep"
+      },
+      {
+        "name": "Mount Everest",
+        "type": "Mountain",
+        "description": "The highest mountain above sea level at 8,849 meters",
+        "significance": "Part of the Himalayan mountain range formed by tectonic plate collision"
+      },
+      {
+        "name": "Amazon Rainforest",
+        "type": "Biome",
+        "description": "The world's largest tropical rainforest, covering 5.5 million km²",
+        "significance": "Produces about 20% of Earth's oxygen and contains incredible biodiversity"
+      },
+      {
+        "name": "Sahara Desert",
+        "type": "Desert",
+        "description": "The world's largest hot desert, covering 9 million km²",
+        "significance": "Shows Earth's climate diversity and geological processes"
+      },
+      {
+        "name": "Great Barrier Reef",
+        "type": "Coral Reef System",
+        "description": "The world's largest coral reef system, stretching over 2,300 km",
+        "significance": "Visible from space, home to thousands of species"
+      }
+    ],
+    "color": "Blue and white (oceans and clouds), with brown and green landmasses",
+    "terrain": "Diverse: oceans, continents, mountains, valleys, deserts, forests, ice caps",
+    "composition": "Rocky crust with silicate rocks, water covers 71% of surface",
+    "tectonics": "Active plate tectonics with 7 major plates constantly moving, causing earthquakes, volcanoes, and mountain formation"
+  },
+  "moons": {
+    "total": 1,
+    "majorMoons": [
+      {
+        "name": "Moon (Luna)",
+        "radius": 1737.4,
+        "orbitalPeriod": 27.32,
+        "distanceFromPlanet": 384400,
+        "discoveryYear": "Ancient",
+        "discoveredBy": "Known since prehistoric times",
+        "description": "Earth's only natural satellite, the fifth-largest moon in the solar system. The Moon stabilizes Earth's axial tilt and creates ocean tides through its gravitational pull.",
+        "mythology": "Called Luna in Latin, Selene in Greek, Chandra in Sanskrit. Worshipped across all ancient civilizations as a deity of time, cycles, and femininity."
+      }
+    ],
+    "minorMoons": []
+  },
+  "mythology": {
+    "roman": {
+      "namedAfter": "Terra or Tellus, the Roman goddess of the earth",
+      "greekEquivalent": "Gaia",
+      "origin": "The word 'Earth' comes from Old English 'eorþe' meaning ground or soil, not from Roman mythology",
+      "story": "Terra (or Tellus Mater) was the Roman goddess of the earth, fertility, and motherhood. She was the personification of the Earth itself and was honored in agricultural festivals. The Romans believed she was the source of all life and nourishment.",
+      "culturalSignificance": "Terra was invoked in oaths and treaties, as the earth was considered a witness to human agreements. She was celebrated during the Fordicidia festival in April, where pregnant cows were sacrificed to ensure fertility of crops and livestock.",
+      "symbolism": "Fertility, motherhood, agriculture, stability, nourishment, the foundation of life"
+    },
+    "greek": {
+      "name": "Gaia (Γαῖα)",
+      "origin": "In Greek mythology, Gaia was the primordial goddess who personified the Earth",
+      "story": "Gaia emerged from Chaos at the beginning of creation. She gave birth to Uranus (the sky), Pontus (the sea), and the Mountains. With Uranus, she mothered the Titans, Cyclopes, and Hecatoncheires. When Uranus imprisoned some of her children, Gaia helped her son Cronus overthrow him. She is considered the ancestral mother of all life.",
+      "culturalSignificance": "Gaia was worshipped as the supreme goddess in early Greek religion. She had oracles, most notably at Delphi before it became Apollo's shrine. The Gaia hypothesis in modern science (Earth as a self-regulating system) is named after her.",
+      "symbolism": "Primordial creation, motherhood, fertility, the earth, prophecy, all life"
+    },
+    "indian": {
+      "names": [
+        "Prithvi",
+        "Bhumi",
+        "Dharti",
+        "Vasundhara"
+      ],
+      "meaning": "Prithvi means 'the vast one'; Bhumi means 'earth' or 'ground'; Vasundhara means 'bearer of wealth'",
+      "origin": "In Hindu tradition, Earth is personified as Bhumi Devi or Prithvi, the goddess of the earth",
+      "birthStory": "According to Hindu mythology, Bhumi Devi is the consort of Varaha (the boar avatar of Vishnu). In one myth, she was rescued by Varaha when the demon Hiranyaksha dragged her to the bottom of the cosmic ocean. Vishnu took the form of a boar, defeated the demon, and lifted the Earth on his tusks.",
+      "characteristics": "Bhumi Devi is depicted as a beautiful goddess, sometimes shown with four arms holding a pomegranate, water vessel, and lotus. She is often portrayed being lifted by Varaha or sitting on a lotus.",
+      "role": "Bhumi Devi is the goddess of fertility, nourishment, and the earth. She is considered the mother of all living beings and provides sustenance to all life. She is one of the two wives of Vishnu (along with Lakshmi).",
+      "culturalSignificance": "Bhumi Devi is worshipped before construction, agriculture, and any activity involving the earth. The earth is considered sacred, and touching it with respect is a common practice. Environmental conservation is seen as honoring Bhumi Devi.",
+      "symbolism": "Motherhood, fertility, patience, forgiveness, nourishment, stability, abundance"
+    },
+    "chinese": {
+      "name": "地 (Dì)",
+      "meaning": "Earth or Ground",
+      "origin": "In Chinese cosmology, Earth is one of the fundamental elements and represents the center of the universe",
+      "element": "Earth (Tu) - one of the Five Elements (Wu Xing)",
+      "characteristics": "Earth represents stability, nourishment, grounding, and transformation. It is associated with the center direction, late summer, yellow color, and the spleen in traditional Chinese medicine.",
+      "culturalSignificance": "In Chinese philosophy, Earth is balanced between Heaven (Tian) and Humanity. The concept of 'Tian Di' (Heaven and Earth) represents the entire cosmos. Earth is seen as the nurturing, receptive force that complements Heaven's creative force. The Empress of Earth (Houtu) is a deity who governs the earth and the underworld.",
+      "symbolism": "Center, stability, nourishment, transformation, harvest, yellow color, late summer",
+      "philosophy": "In Feng Shui and Chinese medicine, Earth element represents balance, grounding, and the transition between seasons. It is associated with worry when imbalanced and thoughtfulness when balanced."
+    },
+    "egyptian": {
+      "name": "Geb",
+      "alternativeName": "Seb, Keb",
+      "origin": "In ancient Egyptian mythology, Geb was the god of the earth",
+      "characteristics": "Geb was depicted as a man lying beneath the sky goddess Nut, often with green skin (representing vegetation) or brown skin (representing soil). He was shown with a goose on his head, as his name was associated with the goose hieroglyph.",
+      "story": "Geb was the son of Shu (air) and Tefnut (moisture), and the brother and husband of Nut (sky). The god Shu separated Geb and Nut, creating space between earth and sky. Geb was the father of Osiris, Isis, Set, and Nephthys. His laughter was believed to cause earthquakes, and his tears formed the oceans.",
+      "culturalSignificance": "Geb was one of the most important deities in Egyptian cosmology. He was associated with fertility, vegetation, and the burial of the dead (as bodies return to the earth). Pharaohs claimed descent from Geb, calling themselves 'Heir of Geb.'",
+      "symbolism": "Earth, fertility, vegetation, the underworld, burial, earthquakes, stability"
+    },
+    "norse": {
+      "name": "Jörð (Jord)",
+      "alternativeNames": [
+        "Fjörgyn",
+        "Hlóðyn"
+      ],
+      "origin": "In Norse mythology, Jörð was the personification of the earth and the mother of Thor",
+      "characteristics": "Jörð was a giantess (jötunn) and goddess who personified the earth. She was the daughter of Nótt (Night) and Annar. Her name literally means 'earth' in Old Norse.",
+      "story": "Jörð was one of Odin's consorts and the mother of Thor, the thunder god. This made Thor a son of both sky (Odin) and earth (Jörð), symbolizing his role as a protector of both gods and humans. Jörð represented the fertile, life-giving aspect of the earth.",
+      "culturalSignificance": "In Norse cosmology, the earth was seen as a living entity. Jörð was invoked in oaths and blessings. The earth was considered sacred, and harming it unnecessarily was seen as disrespectful to the goddess.",
+      "symbolism": "Earth, fertility, motherhood, strength, grounding, the natural world",
+      "connection": "Thor's connection to his mother Jörð emphasized his role as a protector of Midgard (Earth) and its inhabitants"
+    }
+  },
+  "history": {
+    "formation": {
+      "age": "4.54 billion years",
+      "description": "Earth formed from the solar nebula about 4.54 billion years ago. Initially, it was a molten ball of rock that gradually cooled. The Moon formed about 4.5 billion years ago, likely from debris created when a Mars-sized object (called Theia) collided with the early Earth. This impact also tilted Earth's axis, giving us seasons."
+    },
+    "geologicalHistory": "Earth's history is divided into eons, eras, and periods. The first life appeared about 3.5-3.8 billion years ago as simple single-celled organisms. Oxygen began accumulating in the atmosphere about 2.4 billion years ago (Great Oxidation Event). Complex multicellular life emerged about 600 million years ago. Dinosaurs dominated from 230-66 million years ago until a massive asteroid impact caused their extinction. Modern humans (Homo sapiens) appeared only about 300,000 years ago."
+  },
+  "missions": [
+    {
+      "name": "Apollo Program",
+      "agency": "NASA",
+      "country": "United States",
+      "period": "1961-1972",
+      "status": "Completed",
+      "missionType": "Crewed lunar missions",
+      "description": "The Apollo program landed 12 humans on the Moon between 1969 and 1972, returning with lunar samples and scientific data.",
+      "majorAchievements": [
+        "Apollo 11: First humans on the Moon (Neil Armstrong, Buzz Aldrin) - July 20, 1969",
+        "Returned 382 kg of lunar rocks and soil",
+        "Conducted experiments on the Moon's surface",
+        "Proved humans can live and work in space",
+        "Deployed seismometers that detected moonquakes",
+        "Took iconic photos of Earth from space, including 'Earthrise' and 'Blue Marble'"
+      ]
+    },
+    {
+      "name": "International Space Station",
+      "agency": "NASA, Roscosmos, ESA, JAXA, CSA",
+      "country": "International collaboration",
+      "launchDate": "1998-11-20",
+      "status": "Active",
+      "missionType": "Crewed orbital laboratory",
+      "description": "The ISS is a habitable space station in low Earth orbit, continuously occupied since November 2000. It serves as a laboratory for scientific research and international cooperation.",
+      "majorAchievements": [
+        "Longest continuous human presence in space (20+ years)",
+        "Over 3,000 scientific investigations conducted",
+        "Tested technologies for future deep space exploration",
+        "Demonstrated international cooperation in space",
+        "Studied effects of long-term spaceflight on humans",
+        "Visible from Earth with the naked eye"
+      ]
+    },
+    {
+      "name": "Hubble Space Telescope",
+      "agency": "NASA, ESA",
+      "country": "United States, Europe",
+      "launchDate": "1990-04-24",
+      "status": "Active",
+      "missionType": "Space telescope",
+      "description": "Hubble orbits Earth and observes the universe in visible, ultraviolet, and near-infrared light, revolutionizing our understanding of the cosmos.",
+      "majorAchievements": [
+        "Determined the age of the universe (13.8 billion years)",
+        "Discovered dark energy through supernova observations",
+        "Captured the deepest images of the universe (Hubble Deep Field)",
+        "Observed the formation of stars and planetary systems",
+        "Studied galaxies billions of light-years away",
+        "Taken over 1.5 million observations"
+      ]
+    }
+  ],
+  "exploration": {
+    "earthObservation": {
+      "description": "Hundreds of satellites monitor Earth's climate, weather, oceans, land, and atmosphere",
+      "majorPrograms": [
+        "Landsat (since 1972) - Longest-running Earth observation program",
+        "Terra and Aqua - Climate and environmental monitoring",
+        "GOES - Geostationary weather satellites",
+        "Sentinel - European Earth observation constellation"
+      ]
+    },
+    "currentActiveMissions": [
+      "International Space Station",
+      "Hubble Space Telescope",
+      "James Webb Space Telescope (observing from L2 point)",
+      "Hundreds of Earth observation satellites"
+    ]
+  },
+  "comparisonToEarth": {
+    "size": "Reference planet - 12,742 km diameter",
+    "mass": "Reference planet - 5.97 × 10^24 kg",
+    "gravity": "Reference gravity - 9.8 m/s²",
+    "dayLength": "Reference day - 24 hours",
+    "yearLength": "Reference year - 365.25 days",
+    "temperature": "Reference temperature - 15°C average",
+    "atmosphere": "Reference atmosphere - 101.3 kPa at sea level",
+    "moons": "1 moon (Luna)"
+  },
+  "interestingFacts": {
+    "onlyKnownLife": "Earth is the only known planet with life. Scientists have discovered life in extreme environments from deep ocean vents to frozen Antarctic lakes, showing life's incredible adaptability.",
+    "waterWorld": "Earth is the only planet with liquid water on its surface. Water covers 71% of the planet, but 97% is saltwater and only 3% is freshwater.",
+    "magneticShield": "Earth's magnetic field protects us from harmful solar radiation. It's generated by the motion of molten iron in Earth's outer core.",
+    "plateTectonics": "Earth is the only planet with active plate tectonics, which recycles the crust and helps regulate climate over geological time.",
+    "perfectDistance": "Earth orbits in the 'Goldilocks zone' - not too hot, not too cold - allowing liquid water to exist.",
+    "ancientLife": "Life has existed on Earth for at least 3.5 billion years - about 77% of Earth's entire history.",
+    "oxygenRevolution": "The oxygen we breathe was created by ancient cyanobacteria through photosynthesis, fundamentally changing Earth's atmosphere.",
+    "moonConnection": "The Moon is slowly moving away from Earth at about 3.8 cm per year. Billions of years ago, it was much closer and days were shorter."
+  },
+  "metadata": {
+    "dataSource": "NASA Planetary Fact Sheet (scientific data), Grokipedia (mythology and educational content)",
+    "lastUpdated": "2026-01-21",
+    "version": "1.0",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "https://science.nasa.gov/earth/",
+      "https://www.nasa.gov/mission_pages/apollo/",
+      "https://www.nasa.gov/international-space-station/"
+    ]
+  }
+}

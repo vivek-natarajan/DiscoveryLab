@@ -24,4 +24,5 @@ rootProject.name = "Discovery Lab"
 include(":app")
 include(":core:ui")
 include(":content:periodic-table")
+include(":content:solar-system")
  

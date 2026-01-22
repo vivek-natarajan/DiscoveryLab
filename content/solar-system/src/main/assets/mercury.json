@@ -1,0 +1,355 @@
+{
+  "id": "mercury",
+  "name": "Mercury",
+  "alternativeNames": [
+    "The Swift Planet",
+    "The Messenger Planet"
+  ],
+  "order": 1,
+  "planetType": "terrestrial",
+  "descriptions": {
+    "short": "Mercury is the smallest planet and closest to the Sun. It's super hot during the day and freezing cold at night!",
+    "medium": "Mercury is the first planet from the Sun and the smallest planet in our solar system. It has no atmosphere to trap heat, so temperatures swing wildly from extremely hot to extremely cold. Despite being closest to the Sun, it's not the hottest planet.",
+    "long": "Mercury is a small, rocky world with a heavily cratered surface resembling Earth's Moon. It has virtually no atmosphere, causing extreme temperature variations between day and night. Mercury has a large iron core that generates a weak magnetic field. The planet moves quickly in its orbit (hence its name after the swift messenger god), completing one orbit in just 88 Earth days. However, its rotation is very slow - one Mercury day lasts 176 Earth days. Mercury has ice in permanently shadowed craters at its poles despite its proximity to the Sun."
+  },
+  "funFacts": [
+    "Mercury is the fastest planet, zooming around the Sun at 47 km/s!",
+    "One day on Mercury (sunrise to sunrise) lasts 176 Earth days",
+    "Mercury has ice at its poles hidden in permanently shadowed craters",
+    "Mercury is shrinking! Its core is cooling and the planet is getting smaller",
+    "Mercury has no moons or rings",
+    "You could see the Sun appear to move backwards in the sky on Mercury!"
+  ],
+  "physicalCharacteristics": {
+    "mass": {
+      "value": 0.33011,
+      "unit": "10^24 kg",
+      "earthComparison": 0.055
+    },
+    "volume": {
+      "value": 6.083,
+      "unit": "10^10 km³",
+      "earthComparison": 0.056
+    },
+    "radius": {
+      "equatorial": 2439.7,
+      "polar": 2439.7,
+      "mean": 2439.7,
+      "unit": "km"
+    },
+    "diameter": {
+      "value": 4879.4,
+      "unit": "km",
+      "earthComparison": 0.383
+    },
+    "density": {
+      "value": 5427,
+      "unit": "kg/m³"
+    },
+    "gravity": {
+      "surface": 3.7,
+      "unit": "m/s²",
+      "earthComparison": 0.38
+    },
+    "escapeVelocity": {
+      "value": 4.3,
+      "unit": "km/s"
+    },
+    "temperature": {
+      "mean": 167,
+      "unit": "°C",
+      "kelvin": 439.6,
+      "range": "-180°C to 430°C",
+      "dayMax": 430,
+      "nightMin": -180
+    }
+  },
+  "orbitalCharacteristics": {
+    "distanceFromSun": {
+      "semimajorAxis": 57.91,
+      "perihelion": 46,
+      "aphelion": 69.82,
+      "unit": "million km"
+    },
+    "orbitalPeriod": {
+      "value": 87.969,
+      "unit": "Earth days"
+    },
+    "orbitalVelocity": {
+      "mean": 47.36,
+      "max": 58.98,
+      "min": 38.86,
+      "unit": "km/s"
+    },
+    "orbitalEccentricity": 0.2056,
+    "orbitalInclination": {
+      "value": 7,
+      "unit": "degrees"
+    },
+    "rotationPeriod": {
+      "value": 1407.6,
+      "unit": "hours",
+      "days": 58.65
+    },
+    "lengthOfDay": {
+      "value": 4222.6,
+      "unit": "hours",
+      "days": 176
+    },
+    "axialTilt": {
+      "value": 0.034,
+      "unit": "degrees"
+    }
+  },
+  "atmosphere": {
+    "composition": [
+      {
+        "gas": "Oxygen",
+        "percentage": 42
+      },
+      {
+        "gas": "Sodium",
+        "percentage": 29
+      },
+      {
+        "gas": "Hydrogen",
+        "percentage": 22
+      },
+      {
+        "gas": "Helium",
+        "percentage": 6
+      },
+      {
+        "gas": "Potassium",
+        "percentage": 0.5
+      }
+    ],
+    "surfacePressure": {
+      "value": "< 0.000000001",
+      "unit": "kPa",
+      "description": "Essentially zero - Mercury has an exosphere, not a true atmosphere"
+    },
+    "description": "Mercury has virtually no atmosphere. What exists is called an exosphere - an extremely thin layer of atoms blown off the surface by solar wind and meteorite impacts. This exosphere is so thin it's essentially a vacuum. Without an atmosphere, Mercury can't retain heat, causing extreme temperature swings."
+  },
+  "surface": {
+    "features": [
+      {
+        "name": "Caloris Basin",
+        "type": "Impact Crater",
+        "description": "One of the largest impact basins in the solar system, about 1,550 km in diameter",
+        "significance": "Created by a massive asteroid impact early in Mercury's history"
+      },
+      {
+        "name": "Weird Terrain",
+        "type": "Geological Formation",
+        "description": "Chaotic, jumbled terrain on the opposite side of the planet from Caloris Basin",
+        "significance": "Likely formed when seismic waves from the Caloris impact converged on the opposite side"
+      },
+      {
+        "name": "Scarps (Cliffs)",
+        "type": "Tectonic Features",
+        "description": "Long, steep cliffs up to 3 km high and hundreds of km long",
+        "significance": "Evidence that Mercury is shrinking as its core cools"
+      },
+      {
+        "name": "Polar Ice",
+        "type": "Water Ice Deposits",
+        "description": "Water ice hidden in permanently shadowed craters at the poles",
+        "significance": "Despite Mercury's proximity to the Sun, these craters never see sunlight and are cold enough to trap ice"
+      }
+    ],
+    "color": "Dark gray, similar to Earth's Moon",
+    "terrain": "Heavily cratered with smooth plains, steep cliffs (scarps), and impact basins"
+  },
+  "moons": {
+    "total": 0,
+    "majorMoons": [],
+    "minorMoons": []
+  },
+  "mythology": {
+    "roman": {
+      "namedAfter": "Mercury (Mercurius), the Roman messenger god",
+      "greekEquivalent": "Hermes",
+      "origin": "Named after the swift messenger of the gods because the planet moves quickly across the sky",
+      "story": "Mercury was the Roman god of commerce, communication, travelers, and thieves. He was the messenger of the gods, known for his speed and cunning. Mercury wore winged sandals (talaria) and a winged hat (petasus), and carried a caduceus (staff with two snakes). He was the son of Jupiter and Maia, and was known for his wit, eloquence, and ability to move between the mortal and divine worlds.",
+      "culturalSignificance": "Mercury was important in Roman commerce and trade. Merchants would pray to him for success in business. He was also the guide of souls to the underworld. The planet was named Mercury because it moves fastest across the sky, matching the god's swift nature.",
+      "symbolism": "Speed, communication, commerce, travel, cunning, eloquence, transitions"
+    },
+    "indian": {
+      "names": [
+        "Budha",
+        "Soumya"
+      ],
+      "meaning": "Budha means 'awakened' or 'intelligent' in Sanskrit; Soumya means 'gentle' or 'pleasant'",
+      "origin": "In Hindu tradition, Mercury is personified as Budha, the deity of intelligence, communication, and commerce",
+      "birthStory": "According to Hindu mythology, Budha was born from the union of Chandra (the Moon god) and Tara (wife of Brihaspati/Jupiter). This illicit union caused a great conflict among the gods. Despite his controversial birth, Budha became known for his wisdom and intelligence.",
+      "characteristics": "Budha is depicted with a green complexion, riding a lion or seated on a lotus. He holds a sword, shield, and mace, and sometimes a book representing knowledge. He is youthful in appearance and wears yellow garments.",
+      "role": "Budha is one of the Navagraha (nine celestial deities) in Hindu astrology. He governs intelligence, communication, learning, wit, and analytical thinking.",
+      "astrologicalSignificance": "In Vedic astrology, Budha rules the zodiac signs Gemini (Mithuna) and Virgo (Kanya). He represents intellect, speech, writing, mathematics, commerce, and education. Mercury is considered a neutral planet that takes on the qualities of planets it associates with.",
+      "culturalSignificance": "Wednesday (Budhvar in Hindi) is dedicated to Budha. He is worshipped for intelligence, success in education and business, and eloquence. Green is his associated color, and green vegetables, green cloth, and emeralds are offered in worship.",
+      "symbolism": "Intelligence, communication, learning, wit, commerce, mathematics, writing, adaptability"
+    },
+    "chinese": {
+      "name": "水星 (Shuǐxīng)",
+      "meaning": "Water Star",
+      "origin": "In Chinese astronomy, Mercury is called Shuixing, meaning 'Water Star', associated with the Water element",
+      "element": "Water (Shui) - one of the Five Elements (Wu Xing)",
+      "characteristics": "Mercury represents the Water element in Chinese cosmology, associated with winter, cold, wisdom, and fluidity. It embodies yin energy - receptive, adaptive, and flowing.",
+      "astrologicalSignificance": "In Chinese astrology, Mercury governs intelligence, communication, commerce, and adaptability. It influences learning, wit, and mental agility. Mercury's movements are observed for their impact on trade and intellectual pursuits.",
+      "culturalSignificance": "Mercury is one of the Five Planets (Wu Xing) corresponding to the Five Elements. Ancient Chinese astronomers tracked Mercury's movements, though its proximity to the Sun made it challenging to observe.",
+      "symbolism": "Water, yin energy, winter, wisdom, intelligence, adaptability, commerce",
+      "direction": "North (in Five Elements cosmology)",
+      "color": "Black or dark blue"
+    },
+    "babylonian": {
+      "name": "Nabu (Nebo)",
+      "origin": "In ancient Babylonian astronomy, Mercury was associated with Nabu, the god of wisdom and writing",
+      "characteristics": "Nabu was the deity of wisdom, writing, scribes, and prophecy. He was depicted holding a clay tablet and stylus, symbolizing his role as the divine scribe who recorded the fates of humanity.",
+      "story": "Nabu was the son of Marduk, the chief Babylonian god. He was the patron of scribes and scholars, and his temple in Borsippa was a center of learning. Nabu recorded the deeds of gods and humans, and was believed to determine destinies during the New Year festival.",
+      "astrologicalSignificance": "Babylonian astronomers carefully tracked Mercury's movements despite the difficulty of observing it so close to the Sun. They associated Mercury with intelligence, writing, and communication.",
+      "culturalSignificance": "Nabu was highly revered in Mesopotamian culture, especially among scribes and scholars. His association with Mercury reflected the planet's swift, clever movements across the sky.",
+      "symbolism": "Wisdom, writing, scribes, prophecy, intelligence, learning, fate"
+    },
+    "egyptian": {
+      "name": "Thoth (Djehuty)",
+      "alternativeName": "Sebgu",
+      "origin": "Ancient Egyptians associated Mercury with Thoth, the god of wisdom, writing, and magic",
+      "characteristics": "Thoth was depicted as an ibis-headed man or as a baboon. He was the god of wisdom, writing, magic, science, and judgment. Thoth was the divine scribe who recorded the judgments of the dead.",
+      "story": "Thoth was self-created and served as the mediator and counselor of the gods. He invented writing, mathematics, and astronomy. In the judgment of the dead, Thoth recorded the results when the deceased's heart was weighed against the feather of Ma'at (truth).",
+      "astrologicalSignificance": "Egyptian astronomers observed Mercury as one of the five visible planets. Its association with Thoth reflected its connection to intelligence, communication, and swift movement.",
+      "culturalSignificance": "Thoth was one of the most important Egyptian deities, patron of scribes and scholars. His connection to Mercury emphasized the planet's association with knowledge and communication.",
+      "symbolism": "Wisdom, writing, magic, science, judgment, communication, mediation"
+    },
+    "norse": {
+      "name": "Odin's Star",
+      "namedAfter": "Odin (Óðinn), the chief Norse god",
+      "origin": "In Norse tradition, Wednesday (Odin's day) is named after Odin, connecting the day to Mercury just as the Roman 'Dies Mercurii' (Mercury's day) became Wednesday",
+      "characteristics": "Odin was the all-father, god of wisdom, poetry, war, death, and magic. He sacrificed his eye for wisdom and hung himself on Yggdrasil to gain knowledge of the runes. He was a wanderer and shapeshifter, traveling in disguise to gain knowledge.",
+      "story": "Odin ruled from Asgard and sought wisdom above all else. He had two ravens, Huginn (thought) and Muninn (memory), who flew across the worlds bringing him information. He was a complex deity associated with both wisdom and war, poetry and death.",
+      "culturalSignificance": "Wednesday is named after Odin in English and Germanic languages (Wednesday = Woden's day), paralleling the Roman naming after Mercury. This linguistic connection links Mercury to Odin across cultures.",
+      "symbolism": "Wisdom, knowledge, poetry, magic, war, death, wandering, communication",
+      "runes": "Associated with multiple runes, especially Ansuz (ᚨ) representing communication and divine wisdom"
+    }
+  },
+  "history": {
+    "formation": {
+      "age": "4.6 billion years",
+      "description": "Mercury formed about 4.6 billion years ago from the solar nebula. Scientists believe a massive impact may have stripped away much of Mercury's outer rocky layer, leaving behind a planet with an unusually large iron core relative to its size. This would explain why Mercury is so dense despite being so small."
+    },
+    "geologicalHistory": "Mercury's surface is heavily cratered, indicating it has been geologically inactive for billions of years. The planet experienced intense bombardment early in its history. As Mercury's core cooled and contracted, the planet shrank, creating long cliff-like scarps across its surface. Some volcanic activity occurred in the past, creating smooth plains between craters."
+  },
+  "missions": [
+    {
+      "name": "MESSENGER",
+      "fullName": "MErcury Surface, Space ENvironment, GEochemistry, and Ranging",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "2004-08-03",
+      "arrivalDate": "2011-03-18",
+      "endDate": "2015-04-30",
+      "status": "Completed",
+      "missionType": "Orbiter",
+      "primaryObjectives": [
+        "Map Mercury's entire surface",
+        "Study Mercury's magnetic field",
+        "Determine composition of surface and atmosphere",
+        "Study Mercury's core and interior"
+      ],
+      "description": "MESSENGER was the first spacecraft to orbit Mercury. It spent four years studying the planet, revolutionizing our understanding of this mysterious world.",
+      "majorAchievements": [
+        "First spacecraft to orbit Mercury",
+        "Mapped 100% of Mercury's surface",
+        "Discovered water ice in polar craters",
+        "Confirmed Mercury's large iron core",
+        "Revealed Mercury's magnetic field is offset from center",
+        "Found evidence of past volcanic activity",
+        "Discovered Mercury is shrinking as its core cools",
+        "Took over 270,000 images"
+      ]
+    },
+    {
+      "name": "Mariner 10",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "1973-11-03",
+      "flybys": [
+        "1974-03-29",
+        "1974-09-21",
+        "1975-03-16"
+      ],
+      "status": "Completed",
+      "missionType": "Flyby",
+      "description": "Mariner 10 was the first spacecraft to visit Mercury, making three flybys and mapping about 45% of the surface.",
+      "majorAchievements": [
+        "First spacecraft to visit Mercury",
+        "Discovered Mercury's magnetic field",
+        "Mapped 45% of Mercury's surface",
+        "Revealed Mercury's Moon-like cratered surface",
+        "First spacecraft to use gravity assist (from Venus)"
+      ]
+    },
+    {
+      "name": "BepiColombo",
+      "agency": "ESA/JAXA",
+      "country": "Europe/Japan",
+      "launchDate": "2018-10-20",
+      "expectedArrival": "2025-12",
+      "status": "En route",
+      "missionType": "Dual Orbiters",
+      "description": "BepiColombo is a joint European-Japanese mission consisting of two orbiters that will study Mercury's surface, interior, and environment.",
+      "primaryObjectives": [
+        "Study Mercury's interior structure and core",
+        "Map surface composition and geology",
+        "Study Mercury's magnetic field",
+        "Investigate the exosphere",
+        "Test Einstein's theory of general relativity"
+      ]
+    }
+  ],
+  "exploration": {
+    "firstFlyby": {
+      "mission": "Mariner 10",
+      "date": "1974-03-29",
+      "agency": "NASA"
+    },
+    "firstOrbit": {
+      "mission": "MESSENGER",
+      "date": "2011-03-18",
+      "agency": "NASA"
+    },
+    "totalMissions": 3,
+    "currentActiveMissions": [
+      "BepiColombo (en route)"
+    ]
+  },
+  "comparisonToEarth": {
+    "size": "About 38% the diameter of Earth",
+    "mass": "About 5.5% of Earth's mass",
+    "gravity": "38% of Earth's gravity",
+    "dayLength": "176 Earth days (sunrise to sunrise)",
+    "yearLength": "88 Earth days",
+    "temperature": "Extreme swings: -180°C to 430°C",
+    "atmosphere": "Virtually none (exosphere only)",
+    "moons": "None (Earth has 1)"
+  },
+  "interestingFacts": {
+    "fastestOrbit": "Mercury completes an orbit around the Sun faster than any other planet - just 88 days",
+    "slowRotation": "Mercury rotates very slowly - one rotation takes 59 Earth days",
+    "weirdDay": "Because of its slow rotation and fast orbit, one Mercury day (sunrise to sunrise) equals 176 Earth days - twice as long as its year!",
+    "shrinking": "Mercury is shrinking! As its core cools, the planet contracts, creating cliff-like scarps",
+    "iceAtPoles": "Despite being closest to the Sun, Mercury has water ice at its poles in permanently shadowed craters",
+    "largeCore": "Mercury's iron core makes up about 75% of the planet's diameter - the largest core relative to size in the solar system",
+    "noMoons": "Mercury and Venus are the only planets with no moons",
+    "sunMovesBackward": "Due to Mercury's orbital mechanics, the Sun can appear to move backward in the sky during certain times"
+  },
+  "metadata": {
+    "dataSource": "NASA Planetary Fact Sheet, NASA MESSENGER Mission, ESA BepiColombo",
+    "lastUpdated": "2026-01-16",
+    "version": "1.0",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+      "https://science.nasa.gov/mercury/",
+      "https://messenger.jhuapl.edu/"
+    ]
+  }
+}

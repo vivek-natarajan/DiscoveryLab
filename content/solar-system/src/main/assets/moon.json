@@ -1,0 +1,463 @@
+{
+  "id": "moon",
+  "name": "Moon",
+  "alternativeNames": [
+    "Luna",
+    "Selene",
+    "Chandra"
+  ],
+  "celestialType": "natural-satellite",
+  "parentPlanet": "Earth",
+  "descriptions": {
+    "short": "The Moon is Earth's only natural satellite. It lights up our night sky and causes ocean tides!",
+    "medium": "The Moon is Earth's only natural satellite, orbiting our planet at an average distance of 384,400 km. It's the fifth-largest moon in the solar system and the largest relative to its parent planet. The Moon formed about 4.5 billion years ago, likely from debris created when a Mars-sized object collided with Earth. The same side of the Moon always faces Earth due to tidal locking. The Moon has no atmosphere and its surface is covered with craters, mountains, and dark plains called maria (seas).",
+    "long": "The Moon is Earth's only natural satellite and the fifth-largest moon in the solar system. It formed approximately 4.5 billion years ago through the Giant Impact Hypothesis—a Mars-sized object called Theia collided with early Earth, and the debris coalesced to form the Moon. The Moon is tidally locked to Earth, meaning the same hemisphere always faces us. This synchronous rotation takes 27.3 days, the same time it takes to orbit Earth. The Moon has no atmosphere, so its surface is exposed to extreme temperature variations, from -173°C in shadows to 127°C in sunlight. Its surface features include impact craters, mountain ranges, rilles (ancient lava channels), and maria (dark basaltic plains formed by ancient volcanic eruptions). The Moon's gravitational pull creates ocean tides on Earth and has gradually slowed Earth's rotation over billions of years. The Moon is slowly moving away from Earth at about 3.8 cm per year. It's the only celestial body beyond Earth that humans have visited, with 12 astronauts walking on its surface between 1969 and 1972."
+  },
+  "funFacts": [
+    "The Moon is moving away from Earth at 3.8 cm per year!",
+    "The same side of the Moon always faces Earth—we never see the 'dark side'",
+    "The Moon causes ocean tides on Earth through its gravitational pull",
+    "12 humans have walked on the Moon (all Americans, 1969-1972)",
+    "The Moon has no atmosphere, so there's no wind or weather",
+    "Footprints on the Moon will last for millions of years because there's no wind",
+    "The Moon is the fifth-largest moon in the solar system",
+    "A day on the Moon (sunrise to sunrise) lasts 29.5 Earth days"
+  ],
+  "physicalCharacteristics": {
+    "mass": {
+      "value": 0.07346,
+      "unit": "10^24 kg",
+      "earthComparison": 0.0123
+    },
+    "volume": {
+      "value": 2.1968,
+      "unit": "10^10 km³",
+      "earthComparison": 0.0203
+    },
+    "radius": {
+      "equatorial": 1738.1,
+      "polar": 1736.0,
+      "mean": 1737.4,
+      "unit": "km"
+    },
+    "diameter": {
+      "value": 3474.8,
+      "unit": "km",
+      "earthComparison": 0.273
+    },
+    "density": {
+      "value": 3344,
+      "unit": "kg/m³"
+    },
+    "gravity": {
+      "surface": 1.62,
+      "unit": "m/s²",
+      "earthComparison": 0.166
+    },
+    "escapeVelocity": {
+      "value": 2.38,
+      "unit": "km/s"
+    },
+    "temperature": {
+      "mean": -23,
+      "unit": "°C",
+      "range": "-173°C to 127°C",
+      "description": "Extreme temperature variation due to lack of atmosphere"
+    }
+  },
+  "orbitalCharacteristics": {
+    "distanceFromEarth": {
+      "mean": 384400,
+      "perigee": 363300,
+      "apogee": 405500,
+      "unit": "km"
+    },
+    "orbitalPeriod": {
+      "sidereal": 27.32,
+      "synodic": 29.53,
+      "unit": "Earth days",
+      "description": "Sidereal period is relative to stars; synodic period is phase cycle (new moon to new moon)"
+    },
+    "orbitalVelocity": {
+      "mean": 1.022,
+      "unit": "km/s"
+    },
+    "orbitalEccentricity": 0.0549,
+    "orbitalInclination": {
+      "value": 5.145,
+      "unit": "degrees",
+      "description": "Inclination to Earth's equator varies from 18.3° to 28.6° due to precession"
+    },
+    "rotationPeriod": {
+      "value": 27.32,
+      "unit": "Earth days",
+      "description": "Same as orbital period—tidally locked"
+    },
+    "tidalLocking": {
+      "description": "The Moon is tidally locked to Earth, meaning the same hemisphere always faces Earth. This synchronous rotation occurred because Earth's gravity created tidal bulges on the Moon, which gradually slowed its rotation until it matched its orbital period.",
+      "consequence": "We always see the same side of the Moon from Earth. The 'far side' (not 'dark side') is never visible from Earth."
+    }
+  },
+  "atmosphere": {
+    "description": "The Moon has virtually no atmosphere—only an extremely thin exosphere of atoms kicked up by solar wind and micrometeorite impacts.",
+    "composition": [
+      {
+        "gas": "Helium",
+        "percentage": 25
+      },
+      {
+        "gas": "Neon",
+        "percentage": 25
+      },
+      {
+        "gas": "Hydrogen",
+        "percentage": 23
+      },
+      {
+        "gas": "Argon",
+        "percentage": 20
+      },
+      {
+        "gas": "Other gases",
+        "percentage": 7
+      }
+    ],
+    "surfacePressure": {
+      "value": 3e-10,
+      "unit": "kPa",
+      "description": "Essentially a vacuum"
+    },
+    "consequences": [
+      "No weather or wind",
+      "Extreme temperature variations",
+      "No sound transmission",
+      "Footprints and tracks last for millions of years",
+      "No protection from meteorites or radiation",
+      "Sky is always black, even during lunar day"
+    ]
+  },
+  "surface": {
+    "features": [
+      {
+        "name": "Mare Tranquillitatis (Sea of Tranquility)",
+        "type": "Mare (basaltic plain)",
+        "description": "A large dark plain formed by ancient volcanic lava flows",
+        "significance": "Landing site of Apollo 11—first human Moon landing (July 20, 1969)"
+      },
+      {
+        "name": "Tycho Crater",
+        "type": "Impact crater",
+        "description": "A prominent crater 85 km in diameter with bright rays extending across the Moon",
+        "significance": "One of the youngest large craters (108 million years old), visible to naked eye"
+      },
+      {
+        "name": "South Pole-Aitken Basin",
+        "type": "Impact basin",
+        "description": "The largest and deepest impact basin on the Moon, 2,500 km in diameter and 13 km deep",
+        "significance": "One of the largest impact craters in the solar system; may contain water ice"
+      },
+      {
+        "name": "Montes Apenninus (Apennine Mountains)",
+        "type": "Mountain range",
+        "description": "A mountain range formed by the impact that created Mare Imbrium",
+        "significance": "Contains peaks up to 5 km high; Apollo 15 landing site nearby"
+      },
+      {
+        "name": "Oceanus Procellarum (Ocean of Storms)",
+        "type": "Mare (basaltic plain)",
+        "description": "The largest dark plain on the Moon, about 2,500 km across",
+        "significance": "Apollo 12 landing site; may be a giant impact basin"
+      }
+    ],
+    "color": "Gray with dark and light regions",
+    "terrain": "Heavily cratered highlands, smooth dark maria (basaltic plains), mountain ranges, rilles",
+    "composition": "Rocky surface with regolith (loose rock and dust), primarily silicate minerals",
+    "regolith": {
+      "description": "The Moon's surface is covered with regolith—a layer of loose rock and dust created by billions of years of meteorite impacts",
+      "depth": "4-5 meters on maria, 10-15 meters on highlands",
+      "characteristics": "Fine, powdery, abrasive, electrically charged by solar wind"
+    }
+  },
+  "internalStructure": {
+    "crust": {
+      "thickness": "30-50 km (thicker on far side)",
+      "composition": "Anorthosite (highlands), basalt (maria)"
+    },
+    "mantle": {
+      "thickness": "About 1,350 km",
+      "composition": "Silicate rocks rich in iron and magnesium"
+    },
+    "core": {
+      "radius": "About 350 km",
+      "composition": "Likely iron with some sulfur and nickel",
+      "state": "Partially molten"
+    }
+  },
+  "formation": {
+    "age": "4.51 billion years",
+    "theory": "Giant Impact Hypothesis",
+    "description": "The leading theory for the Moon's formation is the Giant Impact Hypothesis. About 4.5 billion years ago, a Mars-sized object called Theia collided with the early Earth. The impact was so powerful that it vaporized Theia and ejected a huge amount of material from Earth's mantle into orbit. This debris gradually coalesced to form the Moon. Evidence includes: (1) Moon rocks have similar isotopic composition to Earth's mantle, (2) the Moon has a small iron core (most of Earth's iron stayed in Earth's core), (3) the Moon is depleted in volatile elements that would have been lost in the hot impact."
+  },
+  "phases": {
+    "description": "The Moon goes through phases as it orbits Earth, caused by the changing angle of sunlight hitting the Moon as seen from Earth.",
+    "cycle": "29.53 days (synodic month)",
+    "phases": [
+      {
+        "name": "New Moon",
+        "description": "Moon is between Earth and Sun; dark side faces Earth"
+      },
+      {
+        "name": "Waxing Crescent",
+        "description": "Thin crescent visible after sunset"
+      },
+      {
+        "name": "First Quarter",
+        "description": "Half of the Moon's disk is illuminated"
+      },
+      {
+        "name": "Waxing Gibbous",
+        "description": "More than half illuminated, growing"
+      },
+      {
+        "name": "Full Moon",
+        "description": "Entire disk illuminated; Earth is between Sun and Moon"
+      },
+      {
+        "name": "Waning Gibbous",
+        "description": "More than half illuminated, shrinking"
+      },
+      {
+        "name": "Last Quarter",
+        "description": "Half of the Moon's disk is illuminated"
+      },
+      {
+        "name": "Waning Crescent",
+        "description": "Thin crescent visible before sunrise"
+      }
+    ]
+  },
+  "eclipses": {
+    "solarEclipse": {
+      "description": "Occurs when the Moon passes between Earth and the Sun, blocking sunlight",
+      "types": [
+        "Total (Moon completely covers Sun)",
+        "Partial (Moon partially covers Sun)",
+        "Annular (Moon is too far to completely cover Sun, leaving a ring)"
+      ],
+      "frequency": "2-5 solar eclipses per year somewhere on Earth",
+      "rarity": "Total solar eclipses at any given location occur roughly every 375 years"
+    },
+    "lunarEclipse": {
+      "description": "Occurs when Earth passes between the Sun and Moon, casting Earth's shadow on the Moon",
+      "types": [
+        "Total (Moon passes completely through Earth's umbra)",
+        "Partial (Moon partially enters Earth's umbra)",
+        "Penumbral (Moon passes through Earth's penumbra only)"
+      ],
+      "bloodMoon": "During total lunar eclipses, the Moon appears reddish because Earth's atmosphere bends and filters sunlight, allowing only red wavelengths to reach the Moon",
+      "frequency": "2-4 lunar eclipses per year, visible from half of Earth"
+    }
+  },
+  "mythology": {
+    "roman": {
+      "name": "Luna",
+      "origin": "Luna was the Roman goddess of the Moon",
+      "greekEquivalent": "Selene",
+      "story": "Luna was the divine embodiment of the Moon, driving a chariot across the night sky. She was associated with the monthly cycle and was invoked in matters of time and calendar.",
+      "culturalSignificance": "Monday is named after the Moon (Luna's day in Latin became 'Monday'). Luna was worshipped in connection with Diana, the goddess of the hunt who was also associated with the Moon.",
+      "symbolism": "Night, cycles, time, femininity, reflection, change"
+    },
+    "greek": {
+      "name": "Selene",
+      "origin": "Selene was the Greek goddess who personified the Moon",
+      "characteristics": "Selene was depicted as a beautiful woman with a crescent moon crown, driving a chariot pulled by two horses across the night sky",
+      "story": "Selene was the daughter of the Titans Hyperion and Theia, and sister of Helios (Sun) and Eos (Dawn). She fell in love with the mortal shepherd Endymion and asked Zeus to grant him eternal sleep so he would remain forever young and beautiful. Selene visited him every night.",
+      "culturalSignificance": "Selene was worshipped alongside other lunar deities like Artemis and Hecate. The word 'selenology' (study of the Moon) comes from her name.",
+      "symbolism": "Night, beauty, love, cycles, eternal youth, femininity"
+    },
+    "indian": {
+      "names": [
+        "Chandra",
+        "Soma",
+        "Indu"
+      ],
+      "meaning": "Chandra means 'shining' or 'moon'; Soma means 'nectar' or 'elixir'",
+      "origin": "In Hindu tradition, Chandra is the moon god and one of the Navagraha (nine celestial deities)",
+      "characteristics": "Chandra is depicted as a fair, beautiful deity riding a chariot pulled by ten white horses or an antelope. He holds a club and a lotus, wearing a crown with a crescent moon.",
+      "birthStory": "Chandra was born from the churning of the cosmic ocean (Samudra Manthan). He is the son of the sage Atri and Anasuya. Chandra is married to the 27 daughters of Daksha, representing the 27 lunar mansions (nakshatras).",
+      "story": "Chandra showed favoritism to one of his wives, Rohini, angering Daksha who cursed him to wane and die. After Chandra's plea, the curse was modified so he would wax and wane periodically, explaining the Moon's phases. Chandra is also associated with Soma, the divine nectar of immortality.",
+      "role": "Chandra is one of the Navagraha and governs the mind, emotions, intuition, and fertility in Vedic astrology.",
+      "astrologicalSignificance": "Chandra rules the zodiac sign Cancer (Karka). He represents the mind, emotions, mother, nurturing, and intuition. Monday (Somvar in Hindi) is dedicated to Chandra.",
+      "culturalSignificance": "Chandra is worshipped for mental peace, emotional balance, and fertility. White is his associated color. Pearls are his gemstone. The Chandra Namaskar (Moon Salutation) yoga sequence honors the moon.",
+      "symbolism": "Mind, emotions, intuition, fertility, cycles, nurturing, femininity, nectar of immortality"
+    },
+    "chinese": {
+      "name": "月亮 (Yuèliàng) or 太阴 (Tàiyīn)",
+      "meaning": "Yuèliàng means 'moon'; Tàiyīn means 'Great Yin'",
+      "origin": "In Chinese cosmology, the Moon represents the ultimate yin principle",
+      "characteristics": "The Moon embodies yin energy—passive, dark, cool, feminine, and receptive. It complements the Sun's yang energy.",
+      "mythology": "Chang'e is the Chinese moon goddess. According to legend, she drank an elixir of immortality and floated to the Moon, where she lives in the Moon Palace with a jade rabbit who pounds medicine. The Mid-Autumn Festival celebrates Chang'e and the Moon.",
+      "culturalSignificance": "The Chinese calendar is lunisolar, based on Moon phases. Monday in Chinese is 星期一 (Xīngqīyī) meaning 'Week day one' or 月曜日 in traditional naming meaning 'Moon day'. The Moon is central to Chinese poetry, art, and philosophy as a symbol of reunion and longing.",
+      "symbolism": "Yin, femininity, passivity, coolness, night, reunion, longing, immortality"
+    },
+    "egyptian": {
+      "names": [
+        "Thoth",
+        "Khonsu",
+        "Iah"
+      ],
+      "origin": "Multiple Egyptian deities were associated with the Moon",
+      "thoth": {
+        "description": "Thoth was the god of wisdom, writing, and magic, associated with the Moon",
+        "characteristics": "Depicted as an ibis-headed man or a baboon",
+        "story": "Thoth was said to have gambled with the Moon god Khonsu and won enough moonlight to create five extra days, allowing Nut to give birth to her children. Thoth was the scribe of the gods and inventor of writing.",
+        "symbolism": "Wisdom, writing, magic, time, measurement"
+      },
+      "khonsu": {
+        "description": "Khonsu was the god of the Moon, associated with time and healing",
+        "characteristics": "Depicted as a young man with a sidelock of youth and a lunar disk and crescent on his head",
+        "story": "Khonsu was the son of Amun and Mut, part of the Theban Triad. His name means 'traveler,' referring to the Moon's journey across the sky. He was associated with healing and protection.",
+        "symbolism": "Moon, time, healing, protection, youth"
+      },
+      "culturalSignificance": "The Egyptian calendar was based on both solar and lunar cycles. The Moon was important for religious festivals and timekeeping.",
+      "symbolism": "Time, cycles, wisdom, healing, magic"
+    },
+    "norse": {
+      "name": "Máni",
+      "origin": "Máni was the Norse god who personified the Moon",
+      "characteristics": "Máni was depicted as a male deity who drove the moon chariot across the sky",
+      "story": "Máni and his sister Sól (Sun) were placed in the sky by the gods to drive the moon and sun chariots. Máni was constantly pursued by the wolf Hati, who sought to devour him. At Ragnarök (the end of the world), Hati will finally catch and swallow Máni, plunging the world into darkness.",
+      "culturalSignificance": "Monday in Germanic languages is named after the moon (e.g., German Montag, Dutch Maandag). The Norse saw the moon's journey as a chase, explaining lunar eclipses as the wolf catching up.",
+      "symbolism": "Night, cycles, time, pursued beauty, fate"
+    }
+  },
+  "missions": [
+    {
+      "name": "Apollo Program",
+      "agency": "NASA",
+      "country": "United States",
+      "period": "1969-1972",
+      "status": "Completed",
+      "missionType": "Crewed lunar landings",
+      "description": "The Apollo program landed 12 humans on the Moon across six missions.",
+      "majorAchievements": [
+        "Apollo 11 (July 20, 1969): First humans on the Moon—Neil Armstrong and Buzz Aldrin",
+        "Six successful landings (Apollo 11, 12, 14, 15, 16, 17)",
+        "12 astronauts walked on the Moon",
+        "Returned 382 kg of lunar rocks and soil",
+        "Deployed scientific instruments including seismometers",
+        "Conducted experiments and collected geological samples",
+        "Proved humans can live and work on another world"
+      ]
+    },
+    {
+      "name": "Luna Program",
+      "agency": "Soviet space program",
+      "country": "Soviet Union",
+      "period": "1959-1976",
+      "status": "Completed",
+      "missionType": "Robotic missions",
+      "description": "The Luna program achieved many firsts in lunar exploration.",
+      "majorAchievements": [
+        "Luna 2 (1959): First spacecraft to reach the Moon",
+        "Luna 3 (1959): First images of the Moon's far side",
+        "Luna 9 (1966): First soft landing on the Moon",
+        "Luna 16 (1970): First robotic sample return",
+        "Lunokhod 1 & 2: First robotic rovers on another world"
+      ]
+    },
+    {
+      "name": "Lunar Reconnaissance Orbiter (LRO)",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "2009-06-18",
+      "status": "Active",
+      "missionType": "Orbiter",
+      "description": "LRO maps the Moon in high resolution and searches for resources.",
+      "majorAchievements": [
+        "Mapped the entire Moon in unprecedented detail",
+        "Discovered evidence of water ice in permanently shadowed craters",
+        "Imaged Apollo landing sites",
+        "Measured lunar radiation environment",
+        "Identified potential landing sites for future missions"
+      ]
+    },
+    {
+      "name": "Chang'e Program",
+      "agency": "CNSA",
+      "country": "China",
+      "period": "2007-present",
+      "status": "Active",
+      "missionType": "Orbiters, landers, rovers, sample return",
+      "description": "China's lunar exploration program with multiple successful missions.",
+      "majorAchievements": [
+        "Chang'e 4 (2019): First landing on the Moon's far side",
+        "Chang'e 5 (2020): Returned lunar samples to Earth",
+        "Deployed rovers including Yutu and Yutu-2",
+        "Ongoing exploration of the lunar surface"
+      ]
+    }
+  ],
+  "exploration": {
+    "firstImpact": {
+      "mission": "Luna 2",
+      "date": "1959-09-13",
+      "agency": "Soviet Union"
+    },
+    "firstOrbit": {
+      "mission": "Luna 10",
+      "date": "1966-04-03",
+      "agency": "Soviet Union"
+    },
+    "firstLanding": {
+      "mission": "Luna 9",
+      "date": "1966-02-03",
+      "agency": "Soviet Union"
+    },
+    "firstHumans": {
+      "mission": "Apollo 11",
+      "date": "1969-07-20",
+      "astronauts": [
+        "Neil Armstrong",
+        "Buzz Aldrin"
+      ],
+      "agency": "NASA"
+    },
+    "totalHumans": "12 astronauts have walked on the Moon (all American, 1969-1972)",
+    "currentActiveMissions": [
+      "Lunar Reconnaissance Orbiter",
+      "Chang'e missions"
+    ],
+    "futureMissions": "NASA's Artemis program plans to return humans to the Moon by 2026, including the first woman and person of color"
+  },
+  "comparisonToEarth": {
+    "size": "About 27% of Earth's diameter",
+    "mass": "1.2% of Earth's mass",
+    "gravity": "16.6% of Earth's gravity",
+    "dayLength": "29.5 Earth days (sunrise to sunrise)",
+    "temperature": "-173°C to 127°C (vs Earth's -88°C to 58°C)",
+    "atmosphere": "Virtually none (vs Earth's thick atmosphere)",
+    "distance": "384,400 km from Earth on average"
+  },
+  "interestingFacts": {
+    "tidalLocking": "The Moon is tidally locked to Earth, so the same side always faces us. This happened because Earth's gravity created tidal bulges on the Moon that gradually slowed its rotation until it matched its orbital period.",
+    "movingAway": "The Moon is slowly moving away from Earth at about 3.8 cm per year. Billions of years ago, it was much closer, and days were shorter (Earth rotated faster).",
+    "noAtmosphere": "The Moon has virtually no atmosphere, so there's no wind, weather, or sound. Footprints left by Apollo astronauts will last for millions of years.",
+    "extremeTemperatures": "Without an atmosphere to regulate temperature, the Moon experiences extreme swings from -173°C in shadows to 127°C in sunlight.",
+    "largestRelative": "The Moon is the largest satellite relative to its planet in the solar system (except Pluto-Charon, which some consider a binary system).",
+    "perfectEclipses": "The Moon appears the same size as the Sun from Earth (about 0.5 degrees) due to a cosmic coincidence, making total solar eclipses possible. However, the Moon is moving away, so in the distant future, total solar eclipses will no longer occur.",
+    "moonquakes": "The Moon experiences moonquakes—seismic activity detected by Apollo seismometers. Some are caused by meteorite impacts, others by tidal stresses from Earth.",
+    "waterIce": "Despite appearing dry, the Moon has water ice in permanently shadowed craters at its poles, discovered by recent missions."
+  },
+  "metadata": {
+    "dataSource": "NASA Moon Fact Sheet (scientific data), Grokipedia (mythology and educational content)",
+    "lastUpdated": "2026-01-21",
+    "version": "1.0",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
+      "https://science.nasa.gov/moon/",
+      "https://www.nasa.gov/mission_pages/apollo/",
+      "https://lunar.gsfc.nasa.gov/"
+    ]
+  }
+}

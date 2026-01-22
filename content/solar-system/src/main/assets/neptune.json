@@ -1,0 +1,408 @@
+{
+  "id": "neptune",
+  "name": "Neptune",
+  "alternativeNames": [
+    "The Blue Planet",
+    "The Windy Planet"
+  ],
+  "order": 8,
+  "planetType": "ice-giant",
+  "descriptions": {
+    "short": "Neptune is a deep blue ice giant and the farthest planet from the Sun. It has the strongest winds in the solar system!",
+    "medium": "Neptune is the eighth and farthest planet from the Sun. It's an ice giant similar to Uranus, made of water, methane, and ammonia ices. Neptune is famous for its deep blue color and powerful winds reaching 2,100 km/h—the fastest in the solar system. It has 14 known moons, with Triton being the largest and most unusual.",
+    "long": "Neptune is an ice giant with a vivid deep blue color caused by methane in its atmosphere, which absorbs red light more efficiently than Uranus's atmosphere. The planet has the most dynamic and violent weather in the solar system, with winds reaching 2,100 km/h and massive storm systems including the Great Dark Spot (similar to Jupiter's Great Red Spot). Unlike Uranus, Neptune radiates more heat than it receives from the Sun, driving its active atmosphere. Neptune has 14 known moons, with Triton being the largest—a captured dwarf planet that orbits backward (retrograde) and has nitrogen geysers. Neptune was the first planet discovered through mathematical prediction rather than direct observation, found in 1846 based on irregularities in Uranus's orbit."
+  },
+  "funFacts": [
+    "Neptune has the strongest winds in the solar system at 2,100 km/h!",
+    "Neptune was discovered through math before it was seen with a telescope",
+    "A year on Neptune lasts 165 Earth years",
+    "Neptune's moon Triton orbits backward and has nitrogen geysers",
+    "Neptune is 30 times farther from the Sun than Earth",
+    "Neptune's deep blue color comes from methane in its atmosphere",
+    "Neptune has completed only one full orbit since its discovery in 1846",
+    "Neptune has a Great Dark Spot storm similar to Jupiter's Great Red Spot"
+  ],
+  "physicalCharacteristics": {
+    "mass": {
+      "value": 102.413,
+      "unit": "10^24 kg",
+      "earthComparison": 17.15
+    },
+    "volume": {
+      "value": 6254,
+      "unit": "10^10 km³",
+      "earthComparison": 57.7
+    },
+    "radius": {
+      "equatorial": 24764,
+      "polar": 24341,
+      "mean": 24622,
+      "unit": "km"
+    },
+    "diameter": {
+      "value": 49244,
+      "unit": "km",
+      "earthComparison": 3.88
+    },
+    "density": {
+      "value": 1638,
+      "unit": "kg/m³"
+    },
+    "gravity": {
+      "surface": 11.0,
+      "unit": "m/s²",
+      "earthComparison": 1.12
+    },
+    "escapeVelocity": {
+      "value": 23.5,
+      "unit": "km/s"
+    },
+    "temperature": {
+      "mean": -201,
+      "unit": "°C",
+      "kelvin": 46.6,
+      "description": "Cloud-top temperature; interior is much warmer"
+    }
+  },
+  "orbitalCharacteristics": {
+    "distanceFromSun": {
+      "semimajorAxis": 4495.06,
+      "perihelion": 4444.45,
+      "aphelion": 4545.67,
+      "unit": "million km"
+    },
+    "orbitalPeriod": {
+      "value": 60189,
+      "unit": "Earth days",
+      "years": 163.72
+    },
+    "orbitalVelocity": {
+      "mean": 5.43,
+      "max": 5.5,
+      "min": 5.37,
+      "unit": "km/s"
+    },
+    "orbitalEccentricity": 0.0113,
+    "orbitalInclination": {
+      "value": 1.769,
+      "unit": "degrees"
+    },
+    "rotationPeriod": {
+      "value": 16.11,
+      "unit": "hours",
+      "days": 0.671
+    },
+    "lengthOfDay": {
+      "value": 16.11,
+      "unit": "hours",
+      "days": 0.671
+    },
+    "axialTilt": {
+      "value": 28.32,
+      "unit": "degrees",
+      "description": "Similar to Earth's tilt, causing seasons"
+    }
+  },
+  "atmosphere": {
+    "composition": [
+      {
+        "gas": "Hydrogen",
+        "percentage": 80
+      },
+      {
+        "gas": "Helium",
+        "percentage": 19
+      },
+      {
+        "gas": "Methane",
+        "percentage": 1.5
+      },
+      {
+        "gas": "Other gases",
+        "percentage": 0.019
+      }
+    ],
+    "surfacePressure": {
+      "value": "> 1000",
+      "unit": "kPa",
+      "description": "No solid surface; pressure increases with depth"
+    },
+    "description": "Neptune's atmosphere is composed mainly of hydrogen and helium, with about 1.5% methane. The methane absorbs red light very efficiently, giving Neptune its striking deep blue color. The atmosphere is extremely dynamic with the fastest winds in the solar system, reaching 2,100 km/h. Neptune radiates 2.6 times more energy than it receives from the Sun, driving its violent weather."
+  },
+  "surface": {
+    "features": [
+      {
+        "name": "Great Dark Spot",
+        "type": "Anticyclonic Storm",
+        "description": "A massive storm system observed by Voyager 2 in 1989, similar to Jupiter's Great Red Spot",
+        "significance": "The storm had disappeared by the time Hubble observed Neptune in 1994, showing Neptune's dynamic atmosphere. New dark spots have appeared since."
+      },
+      {
+        "name": "Scooter",
+        "type": "White Cloud",
+        "description": "A bright white cloud that moves faster than the Great Dark Spot",
+        "significance": "Named for its rapid movement across Neptune's atmosphere"
+      },
+      {
+        "name": "Small Dark Spot",
+        "type": "Storm",
+        "description": "A smaller storm system observed by Voyager 2",
+        "significance": "Also disappeared, demonstrating Neptune's rapidly changing atmosphere"
+      }
+    ],
+    "color": "Deep vivid blue",
+    "terrain": "No solid surface—atmosphere transitions to icy mantle and rocky core",
+    "composition": "Hydrogen and helium atmosphere surrounding an icy mantle of water, methane, and ammonia, with a rocky core"
+  },
+  "moons": {
+    "total": 16,
+    "majorMoons": [
+      {
+        "name": "Triton",
+        "radius": 1353.4,
+        "orbitalPeriod": 5.88,
+        "distanceFromPlanet": 354759,
+        "discoveryYear": 1846,
+        "discoveredBy": "William Lassell",
+        "description": "The largest moon of Neptune and the only large moon with a retrograde orbit. Triton is likely a captured dwarf planet from the Kuiper Belt. It has nitrogen geysers and is slowly spiraling toward Neptune.",
+        "mythology": "Named after the Greek god Triton, son of Poseidon (Neptune)",
+        "mass": 2.14e+22,
+        "unit": "kg",
+        "features": "Nitrogen geysers, retrograde orbit, geologically active, icy surface"
+      },
+      {
+        "name": "Proteus",
+        "radius": 210,
+        "orbitalPeriod": 1.12,
+        "distanceFromPlanet": 117647,
+        "discoveryYear": 1989,
+        "discoveredBy": "Voyager 2",
+        "description": "The second-largest moon of Neptune, discovered by Voyager 2. It's one of the darkest objects in the solar system and irregularly shaped.",
+        "mythology": "Named after Proteus, a shape-shifting sea god in Greek mythology",
+        "features": "Dark surface, irregular shape, heavily cratered"
+      }
+    ],
+    "minorMoons": [
+      {
+        "name": "Nereid",
+        "radius": 170,
+        "orbitalPeriod": 360.13,
+        "distanceFromPlanet": 5513818,
+        "discoveryYear": 1949,
+        "discoveredBy": "Gerard Kuiper",
+        "mythology": "Named after the Nereids, sea nymphs in Greek mythology"
+      },
+      {
+        "name": "Larissa",
+        "radius": 97,
+        "orbitalPeriod": 0.55,
+        "distanceFromPlanet": 73548,
+        "discoveryYear": 1989,
+        "discoveredBy": "Voyager 2",
+        "mythology": "Named after a lover of Poseidon in Greek mythology"
+      },
+      {
+        "name": "Galatea",
+        "radius": 88,
+        "orbitalPeriod": 0.43,
+        "distanceFromPlanet": 61953,
+        "discoveryYear": 1989,
+        "discoveredBy": "Voyager 2",
+        "mythology": "Named after a sea nymph in Greek mythology"
+      },
+      {
+        "name": "Despina",
+        "radius": 75,
+        "orbitalPeriod": 0.33,
+        "distanceFromPlanet": 52526,
+        "discoveryYear": 1989,
+        "discoveredBy": "Voyager 2",
+        "mythology": "Named after a nymph, daughter of Poseidon"
+      },
+      {
+        "name": "Thalassa",
+        "radius": 41,
+        "orbitalPeriod": 0.31,
+        "distanceFromPlanet": 50074,
+        "discoveryYear": 1989,
+        "discoveredBy": "Voyager 2",
+        "mythology": "Named after a sea goddess in Greek mythology"
+      },
+      {
+        "name": "Naiad",
+        "radius": 33,
+        "orbitalPeriod": 0.29,
+        "distanceFromPlanet": 48227,
+        "discoveryYear": 1989,
+        "discoveredBy": "Voyager 2",
+        "mythology": "Named after the Naiads, water nymphs in Greek mythology"
+      },
+      {
+        "name": "Halimede",
+        "radius": 31,
+        "orbitalPeriod": 1879.08,
+        "distanceFromPlanet": 16611000,
+        "discoveryYear": 2002,
+        "discoveredBy": "Matthew Holman et al.",
+        "mythology": "Named after a sea nymph in Greek mythology"
+      },
+      {
+        "name": "Sao",
+        "radius": 22,
+        "orbitalPeriod": 2912.72,
+        "distanceFromPlanet": 22228000,
+        "discoveryYear": 2002,
+        "discoveredBy": "Matthew Holman et al.",
+        "mythology": "Named after a Nereid in Greek mythology"
+      },
+      {
+        "name": "Laomedeia",
+        "radius": 21,
+        "orbitalPeriod": 3171.33,
+        "distanceFromPlanet": 23571000,
+        "discoveryYear": 2002,
+        "discoveredBy": "Matthew Holman et al.",
+        "mythology": "Named after a Nereid in Greek mythology"
+      },
+      {
+        "name": "Psamathe",
+        "radius": 20,
+        "orbitalPeriod": 9074.3,
+        "distanceFromPlanet": 48096000,
+        "discoveryYear": 2003,
+        "discoveredBy": "Scott S. Sheppard et al.",
+        "mythology": "Named after a Nereid in Greek mythology"
+      },
+      {
+        "name": "Neso",
+        "radius": 30,
+        "orbitalPeriod": 9740.73,
+        "distanceFromPlanet": 49285000,
+        "discoveryYear": 2002,
+        "discoveredBy": "Matthew Holman et al.",
+        "mythology": "Named after a Nereid in Greek mythology"
+      },
+      {
+        "name": "Hippocamp",
+        "radius": 17,
+        "orbitalPeriod": 0.95,
+        "distanceFromPlanet": 105283,
+        "discoveryYear": 2013,
+        "discoveredBy": "Mark Showalter",
+        "mythology": "Named after the hippocampus, a sea creature in Greek mythology"
+      },
+      {
+        "name": "S/2004 N 1",
+        "radius": 8,
+        "orbitalPeriod": 0.94,
+        "distanceFromPlanet": 105300,
+        "discoveryYear": 2013,
+        "discoveredBy": "Mark Showalter",
+        "mythology": "Not yet officially named"
+      }
+    ]
+  },
+  "mythology": {
+    "roman": {
+      "namedAfter": "Neptune (Neptunus), the Roman god of the sea",
+      "greekEquivalent": "Poseidon",
+      "origin": "Named after the god of the sea due to its deep blue color",
+      "story": "Neptune was the Roman god of the sea, earthquakes, and horses. He was the brother of Jupiter (king of the gods) and Pluto (god of the underworld). Neptune wielded a trident and ruled over all waters. He was known for his tempestuous nature, causing storms and earthquakes when angered. Neptune was one of the most important Roman gods, especially for a maritime civilization.",
+      "culturalSignificance": "Neptune was honored with the festival Neptunalia in July. Sailors and fishermen made offerings to Neptune for safe voyages. The god was associated with horses because he was believed to have created them.",
+      "symbolism": "Sea, waters, storms, earthquakes, horses, power, unpredictability"
+    },
+    "indian": {
+      "names": [
+        "Varuna (modern)"
+      ],
+      "meaning": "Varuna means 'all-encompassing' in Sanskrit",
+      "origin": "In modern Indian astronomy, Neptune is also called Varuna, after the Vedic god of waters and cosmic order. Note that both Uranus and Neptune are sometimes called Varuna in different contexts.",
+      "characteristics": "Varuna is the Vedic god of the cosmic ocean, waters, and the celestial realm. He is the keeper of cosmic law (Rta) and divine justice.",
+      "story": "Varuna is one of the oldest and most important Vedic deities. He is the lord of the waters—both the cosmic ocean and earthly waters. Varuna is omniscient, with a thousand eyes that see all human actions. He punishes those who violate sacred law and maintains cosmic order.",
+      "culturalSignificance": "While Neptune is not part of traditional Navagraha (nine celestial deities), modern Indian astronomy adopted the name Varuna for this planet, connecting it to the ancient god of waters.",
+      "symbolism": "Waters, cosmic ocean, law, justice, omniscience, divine authority, cosmic order"
+    },
+    "chinese": {
+      "name": "海王星 (Hǎiwángxīng)",
+      "meaning": "Sea King Star",
+      "origin": "Named in modern times when Western astronomy was introduced to China",
+      "characteristics": "The Chinese name reflects Neptune's association with the sea and waters, similar to the Roman god Neptune.",
+      "culturalSignificance": "As a modern discovery (1846), Neptune was not part of traditional Chinese astronomy's Five Planets system. The name was created to fit Chinese cosmological concepts when Western astronomy was adopted.",
+      "symbolism": "Sea, ocean, waters, depth, mystery"
+    },
+    "note": "Neptune was discovered in 1846, long after ancient mythological traditions were established. Therefore, Babylonian, Egyptian, and Norse mythologies did not have associations with this planet. Modern names in various languages were created based on the Roman god Neptune or similar water/sea deities."
+  },
+  "history": {
+    "formation": {
+      "age": "4.6 billion years",
+      "description": "Neptune formed about 4.6 billion years ago in the outer solar system. It likely formed closer to the Sun and migrated outward to its current position. Neptune's internal heat source (radiating 2.6 times more energy than it receives) may come from gravitational compression or residual heat from its formation."
+    },
+    "discovery": {
+      "date": "1846-09-23",
+      "discoveredBy": "Johann Galle and Heinrich d'Arrest (observed), Urbain Le Verrier and John Couch Adams (predicted)",
+      "description": "Neptune was the first planet discovered through mathematical prediction. Astronomers noticed irregularities in Uranus's orbit and calculated where an unknown planet must be. Le Verrier in France and Adams in England independently predicted Neptune's position, and Galle found it within one degree of the predicted location."
+    }
+  },
+  "missions": [
+    {
+      "name": "Voyager 2",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "1977-08-20",
+      "flybyDate": "1989-08-25",
+      "status": "Completed Neptune phase, now in interstellar space",
+      "missionType": "Flyby",
+      "description": "Voyager 2 is the only spacecraft to have visited Neptune, making a close flyby in 1989.",
+      "majorAchievements": [
+        "Only spacecraft to visit Neptune",
+        "Discovered six new moons",
+        "Discovered four rings",
+        "Observed the Great Dark Spot storm system",
+        "Measured atmospheric composition and winds up to 2,100 km/h",
+        "Studied Triton in detail, discovering nitrogen geysers",
+        "Confirmed Neptune radiates more heat than it receives",
+        "Completed the 'Grand Tour' of all four giant planets"
+      ]
+    }
+  ],
+  "exploration": {
+    "firstFlyby": {
+      "mission": "Voyager 2",
+      "date": "1989-08-25",
+      "agency": "NASA"
+    },
+    "totalMissions": "1 spacecraft has visited Neptune",
+    "currentActiveMissions": [],
+    "futureMissions": "Several missions to Neptune have been proposed but none are currently approved"
+  },
+  "comparisonToEarth": {
+    "size": "About 3.9 times Earth's diameter",
+    "mass": "17 times Earth's mass",
+    "gravity": "1.12 times Earth's gravity",
+    "dayLength": "16 hours",
+    "yearLength": "165 Earth years",
+    "temperature": "-201°C at cloud tops",
+    "atmosphere": "Mostly hydrogen and helium with methane",
+    "moons": "14 known moons (Earth has 1)"
+  },
+  "interestingFacts": {
+    "fastestWinds": "Neptune has the fastest winds in the solar system, reaching 2,100 km/h—nine times faster than the strongest hurricanes on Earth.",
+    "mathematicalDiscovery": "Neptune was the first planet discovered through mathematical prediction rather than direct observation. Astronomers calculated where it should be based on irregularities in Uranus's orbit.",
+    "deepBlue": "Neptune has the most vivid blue color of any planet due to methane in its atmosphere, which absorbs red light very efficiently.",
+    "internalHeat": "Neptune radiates 2.6 times more energy than it receives from the Sun, making it warmer than Uranus despite being farther away. This internal heat drives its violent weather.",
+    "tritonBackward": "Neptune's largest moon, Triton, is the only large moon in the solar system with a retrograde (backward) orbit. It's likely a captured dwarf planet from the Kuiper Belt.",
+    "tritonGeysers": "Triton has nitrogen geysers that shoot material 8 km high, creating dark streaks on its icy surface.",
+    "onlyOneVisit": "Voyager 2 is the only spacecraft to have visited Neptune, making a flyby in 1989. No other missions have visited since.",
+    "oneOrbitSince": "Neptune completes one orbit around the Sun every 165 Earth years. It completed its first full orbit since discovery in 2011."
+  },
+  "metadata": {
+    "dataSource": "NASA Planetary Fact Sheet (scientific data), Grokipedia (mythology and educational content)",
+    "lastUpdated": "2026-01-21",
+    "version": "1.0",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html",
+      "https://science.nasa.gov/neptune/",
+      "https://solarsystem.nasa.gov/missions/voyager-2/"
+    ]
+  }
+}

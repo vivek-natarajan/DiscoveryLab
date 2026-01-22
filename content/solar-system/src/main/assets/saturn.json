@@ -1,0 +1,498 @@
+{
+  "id": "saturn",
+  "name": "Saturn",
+  "alternativeNames": [
+    "The Ringed Planet",
+    "The Jewel of the Solar System"
+  ],
+  "order": 6,
+  "planetType": "gas-giant",
+  "descriptions": {
+    "short": "Saturn is famous for its beautiful rings! It's the second-biggest planet and is made mostly of gas.",
+    "medium": "Saturn is the sixth planet from the Sun and the second-largest in the solar system. It's best known for its spectacular ring system made of ice and rock particles. Like Jupiter, Saturn is a gas giant with no solid surface. It has at least 146 moons, including Titan, which has a thick atmosphere and liquid methane lakes.",
+    "long": "Saturn is a gas giant composed primarily of hydrogen and helium, with a small rocky core. Its most distinctive feature is its extensive ring system, which spans up to 282,000 km but is only about 10 meters thick in most places. The rings are made of countless particles ranging from tiny grains to house-sized chunks, mostly water ice. Saturn has the lowest density of any planet—it would float in water if you could find an ocean large enough. The planet has at least 146 known moons, with Titan being larger than Mercury and the only moon with a substantial atmosphere. Saturn's atmosphere features bands and storms similar to Jupiter, though less prominent. The planet's rapid rotation (10.7 hours) causes it to bulge significantly at its equator."
+  },
+  "funFacts": [
+    "Saturn's rings are made of billions of pieces of ice and rock",
+    "Saturn is so light it would float in water!",
+    "Saturn has at least 146 moons—second most in the solar system",
+    "Saturn's moon Titan is the only moon with a thick atmosphere",
+    "You can see Saturn's rings with a small telescope from Earth",
+    "Saturn's rings are only about 10 meters thick despite being 282,000 km wide",
+    "A year on Saturn lasts 29 Earth years",
+    "Saturn has a hexagon-shaped storm at its north pole!"
+  ],
+  "physicalCharacteristics": {
+    "mass": {
+      "value": 568.34,
+      "unit": "10^24 kg",
+      "earthComparison": 95.16
+    },
+    "volume": {
+      "value": 82713,
+      "unit": "10^10 km³",
+      "earthComparison": 764
+    },
+    "radius": {
+      "equatorial": 60268,
+      "polar": 54364,
+      "mean": 58232,
+      "unit": "km"
+    },
+    "diameter": {
+      "value": 116464,
+      "unit": "km",
+      "earthComparison": 9.45
+    },
+    "density": {
+      "value": 687,
+      "unit": "kg/m³"
+    },
+    "gravity": {
+      "surface": 9.0,
+      "unit": "m/s²",
+      "earthComparison": 0.92
+    },
+    "escapeVelocity": {
+      "value": 35.5,
+      "unit": "km/s"
+    },
+    "temperature": {
+      "mean": -139,
+      "unit": "°C",
+      "kelvin": 81,
+      "description": "Cloud-top temperature"
+    }
+  },
+  "orbitalCharacteristics": {
+    "distanceFromSun": {
+      "semimajorAxis": 1433.53,
+      "perihelion": 1352.55,
+      "aphelion": 1514.5,
+      "unit": "million km"
+    },
+    "orbitalPeriod": {
+      "value": 10759.22,
+      "unit": "Earth days",
+      "years": 29.42
+    },
+    "orbitalVelocity": {
+      "mean": 9.68,
+      "max": 10.18,
+      "min": 9.09,
+      "unit": "km/s"
+    },
+    "orbitalEccentricity": 0.0565,
+    "orbitalInclination": {
+      "value": 2.485,
+      "unit": "degrees"
+    },
+    "rotationPeriod": {
+      "value": 10.656,
+      "unit": "hours",
+      "days": 0.444
+    },
+    "lengthOfDay": {
+      "value": 10.656,
+      "unit": "hours",
+      "days": 0.444
+    },
+    "axialTilt": {
+      "value": 26.73,
+      "unit": "degrees",
+      "description": "Similar to Earth's tilt, causing seasons"
+    }
+  },
+  "atmosphere": {
+    "composition": [
+      {
+        "gas": "Hydrogen",
+        "percentage": 96.3
+      },
+      {
+        "gas": "Helium",
+        "percentage": 3.25
+      },
+      {
+        "gas": "Methane",
+        "percentage": 0.45
+      },
+      {
+        "gas": "Ammonia",
+        "percentage": 0.0125
+      },
+      {
+        "gas": "Other gases",
+        "percentage": 0.0001
+      }
+    ],
+    "surfacePressure": {
+      "value": "> 1000",
+      "unit": "kPa",
+      "description": "No solid surface; pressure increases with depth"
+    },
+    "description": "Saturn's atmosphere is similar to Jupiter's, composed mainly of hydrogen and helium. The atmosphere features bands of clouds, though less distinct than Jupiter's. Saturn's pale yellow color comes from ammonia crystals in the upper atmosphere. The planet has powerful winds reaching 1,800 km/h at the equator—faster than Jupiter's winds."
+  },
+  "surface": {
+    "features": [
+      {
+        "name": "Hexagonal Storm",
+        "type": "Polar Vortex",
+        "description": "A persistent hexagon-shaped jet stream at Saturn's north pole, about 30,000 km across",
+        "significance": "Unique in the solar system; has persisted for decades with remarkably stable geometry"
+      },
+      {
+        "name": "Ring System",
+        "type": "Planetary Rings",
+        "description": "The most extensive and visible ring system in the solar system, spanning 282,000 km",
+        "significance": "Made of countless particles of water ice and rock, creating one of nature's most beautiful sights"
+      },
+      {
+        "name": "Great White Spots",
+        "type": "Periodic Storms",
+        "description": "Massive storms that appear roughly every 30 years (one Saturn year)",
+        "significance": "Can grow to encircle the entire planet"
+      }
+    ],
+    "color": "Pale yellow with subtle bands",
+    "terrain": "No solid surface—gas transitions to liquid hydrogen deep inside",
+    "composition": "Primarily hydrogen and helium gas, with a possible rocky core"
+  },
+  "rings": {
+    "description": "Saturn's rings are the most spectacular in the solar system, composed of countless particles ranging from micrometers to meters in size, mostly water ice with some rocky material.",
+    "mainRings": [
+      {
+        "name": "D Ring",
+        "distance": "66,900 - 74,510 km from center"
+      },
+      {
+        "name": "C Ring",
+        "distance": "74,658 - 92,000 km"
+      },
+      {
+        "name": "B Ring",
+        "distance": "92,000 - 117,580 km (brightest and most massive)"
+      },
+      {
+        "name": "Cassini Division",
+        "distance": "117,580 - 122,170 km (gap)"
+      },
+      {
+        "name": "A Ring",
+        "distance": "122,170 - 136,775 km"
+      },
+      {
+        "name": "F Ring",
+        "distance": "140,180 km (narrow, braided)"
+      },
+      {
+        "name": "E Ring",
+        "distance": "180,000 - 480,000 km (very diffuse)"
+      }
+    ],
+    "thickness": "About 10 meters thick on average, despite being hundreds of thousands of km wide",
+    "origin": "May be remnants of a destroyed moon or leftover material from Saturn's formation"
+  },
+  "moons": {
+    "total": 146,
+    "note": "Saturn has 146 known moons as of 2023, the most of any planet",
+    "majorMoons": [
+      {
+        "name": "Titan",
+        "radius": 2574.7,
+        "orbitalPeriod": 15.95,
+        "distanceFromPlanet": 1221870,
+        "discoveryYear": 1655,
+        "discoveredBy": "Christiaan Huygens",
+        "description": "The second-largest moon in the solar system and the only moon with a substantial atmosphere. Titan has liquid methane lakes and rivers on its surface, making it one of the most Earth-like worlds.",
+        "mythology": "Named after the Titans, the elder gods in Greek mythology",
+        "features": "Thick atmosphere, liquid methane lakes, organic chemistry, potential for life"
+      },
+      {
+        "name": "Enceladus",
+        "radius": 252.1,
+        "orbitalPeriod": 1.37,
+        "distanceFromPlanet": 237948,
+        "discoveryYear": 1789,
+        "discoveredBy": "William Herschel",
+        "description": "Enceladus has active ice geysers that shoot water vapor and ice particles from its south polar region into space. It has a subsurface ocean that may harbor life.",
+        "mythology": "Named after a giant in Greek mythology",
+        "features": "Ice geysers, subsurface ocean, smooth icy surface, potential for life"
+      },
+      {
+        "name": "Mimas",
+        "radius": 198.2,
+        "orbitalPeriod": 0.94,
+        "distanceFromPlanet": 185539,
+        "discoveryYear": 1789,
+        "discoveredBy": "William Herschel",
+        "description": "Mimas has a giant impact crater (Herschel) that makes it resemble the Death Star from Star Wars. The impact nearly destroyed the moon.",
+        "mythology": "Named after a giant in Greek mythology",
+        "features": "Giant Herschel crater, Death Star appearance, heavily cratered"
+      },
+      {
+        "name": "Rhea",
+        "radius": 763.8,
+        "orbitalPeriod": 4.52,
+        "distanceFromPlanet": 527108,
+        "discoveryYear": 1672,
+        "discoveredBy": "Giovanni Cassini",
+        "description": "Saturn's second-largest moon with a heavily cratered icy surface and possible tenuous ring system.",
+        "mythology": "Named after a Titaness, mother of the Olympian gods",
+        "features": "Second-largest Saturnian moon, heavily cratered, possible rings"
+      },
+      {
+        "name": "Iapetus",
+        "radius": 734.5,
+        "orbitalPeriod": 79.32,
+        "distanceFromPlanet": 3560820,
+        "discoveryYear": 1671,
+        "discoveredBy": "Giovanni Cassini",
+        "description": "Iapetus has a bizarre two-toned appearance with one hemisphere much darker than the other, and an equatorial ridge that makes it look like a walnut.",
+        "mythology": "Named after a Titan in Greek mythology",
+        "features": "Two-toned surface, equatorial ridge, walnut appearance"
+      }
+    ],
+    "minorMoons": [
+      {
+        "name": "Pan",
+        "radius": 14.1,
+        "orbitalPeriod": 0.58,
+        "distanceFromPlanet": 133584,
+        "discoveryYear": 1990
+      },
+      {
+        "name": "Daphnis",
+        "radius": 3.8,
+        "orbitalPeriod": 0.59,
+        "distanceFromPlanet": 136505,
+        "discoveryYear": 2005
+      },
+      {
+        "name": "Atlas",
+        "radius": 15.1,
+        "orbitalPeriod": 0.6,
+        "distanceFromPlanet": 137670,
+        "discoveryYear": 1980
+      },
+      {
+        "name": "Prometheus",
+        "radius": 43.1,
+        "orbitalPeriod": 0.61,
+        "distanceFromPlanet": 139380,
+        "discoveryYear": 1980
+      },
+      {
+        "name": "Pandora",
+        "radius": 40.7,
+        "orbitalPeriod": 0.63,
+        "distanceFromPlanet": 141720,
+        "discoveryYear": 1980
+      },
+      {
+        "name": "Epimetheus",
+        "radius": 58.1,
+        "orbitalPeriod": 0.69,
+        "distanceFromPlanet": 151422,
+        "discoveryYear": 1980
+      },
+      {
+        "name": "Janus",
+        "radius": 89.5,
+        "orbitalPeriod": 0.69,
+        "distanceFromPlanet": 151472,
+        "discoveryYear": 1966
+      },
+      {
+        "name": "Tethys",
+        "radius": 531.1,
+        "orbitalPeriod": 1.89,
+        "distanceFromPlanet": 294619,
+        "discoveryYear": 1684
+      },
+      {
+        "name": "Dione",
+        "radius": 561.4,
+        "orbitalPeriod": 2.74,
+        "distanceFromPlanet": 377396,
+        "discoveryYear": 1684
+      },
+      {
+        "name": "Hyperion",
+        "radius": 135,
+        "orbitalPeriod": 21.28,
+        "distanceFromPlanet": 1481009,
+        "discoveryYear": 1848
+      },
+      {
+        "name": "Phoebe",
+        "radius": 106.5,
+        "orbitalPeriod": 550.48,
+        "distanceFromPlanet": 12947780,
+        "discoveryYear": 1899
+      },
+      {
+        "name": "Note",
+        "description": "Saturn has 135 additional small moons discovered between 2000-2023, mostly irregular outer moons less than 10 km in diameter"
+      }
+    ]
+  },
+  "mythology": {
+    "roman": {
+      "namedAfter": "Saturn (Saturnus), the Roman god of agriculture and time",
+      "greekEquivalent": "Cronus (Kronos)",
+      "origin": "Named after the father of Jupiter, reflecting Saturn's position as the second-largest planet",
+      "story": "Saturn was the god of agriculture, wealth, and time in Roman mythology. He was the father of Jupiter, Neptune, and Pluto. According to myth, Saturn ruled during a Golden Age of peace and prosperity. However, he was overthrown by his son Jupiter and fled to Italy, where he taught agriculture to the people. The Roman festival Saturnalia, held in December, celebrated Saturn with feasting and gift-giving.",
+      "culturalSignificance": "Saturn was honored during Saturnalia, one of the most popular Roman festivals, marked by role reversals, gift-giving, and feasting. This festival influenced modern Christmas traditions. Saturday is named after Saturn.",
+      "symbolism": "Agriculture, wealth, time, the Golden Age, harvest, renewal"
+    },
+    "indian": {
+      "names": [
+        "Shani",
+        "Shanaischaraya"
+      ],
+      "meaning": "Shani means 'slow' in Sanskrit, referring to the planet's slow movement across the sky",
+      "origin": "In Hindu tradition, Saturn is personified as Shani, the deity of justice, karma, and discipline",
+      "birthStory": "Shani is the son of Surya (the Sun god) and Chhaya (shadow). According to mythology, when Shani opened his eyes as a baby, his gaze was so powerful that it scorched his father Surya. Shani is associated with the consequences of one's actions (karma).",
+      "characteristics": "Shani is depicted with a dark complexion, riding a crow or vulture, or seated on a chariot pulled by eight horses. He carries a sword, bow, and trident, symbolizing his role as the dispenser of justice.",
+      "role": "Shani is one of the Navagraha (nine celestial deities) and is considered the most powerful graha in terms of influence. He governs karma, justice, discipline, hard work, and the consequences of actions.",
+      "astrologicalSignificance": "In Vedic astrology, Shani rules the zodiac signs Capricorn (Makara) and Aquarius (Kumbha). He represents discipline, hard work, delays, obstacles, and karmic lessons. Saturn's transit (Sade Sati) is considered a challenging but transformative period lasting 7.5 years.",
+      "culturalSignificance": "Saturday (Shanivar in Hindi) is dedicated to Shani. He is worshipped to mitigate negative karmic effects and to seek justice and discipline. Black is his associated color, and black sesame, iron, and mustard oil are offered in worship. Shani temples are particularly popular in India.",
+      "symbolism": "Justice, karma, discipline, hard work, delays, obstacles, transformation, longevity"
+    },
+    "chinese": {
+      "name": "土星 (Tǔxīng)",
+      "meaning": "Earth Star",
+      "origin": "In Chinese astronomy, Saturn is called Tuxing, associated with the Earth element",
+      "element": "Earth (Tu) - one of the Five Elements (Wu Xing)",
+      "characteristics": "Saturn represents the Earth element in Chinese cosmology, associated with stability, transformation, and the center. It embodies yin energy - grounding, patient, and enduring.",
+      "astrologicalSignificance": "In Chinese astrology, Saturn governs discipline, structure, responsibility, and long-term planning. Its slow movement (29-year orbit) was associated with generational cycles and long-term changes.",
+      "culturalSignificance": "Saturn is one of the Five Planets (Wu Xing) corresponding to the Five Elements. Ancient Chinese astronomers called Saturn 'Zhen Xing' (Quelling Star) due to its slow, steady movement. The planet was observed for astrological predictions about agriculture and governance.",
+      "symbolism": "Earth, yin energy, stability, transformation, patience, endurance, harvest",
+      "direction": "Center (in Five Elements cosmology)",
+      "color": "Yellow or brown",
+      "alternativeNames": [
+        "Zhen Xing (Quelling Star)"
+      ]
+    },
+    "babylonian": {
+      "name": "Ninurta",
+      "alternativeName": "Ninib",
+      "origin": "In ancient Babylonian astronomy, Saturn was associated with Ninurta, a god of agriculture, war, and hunting",
+      "characteristics": "Ninurta was a warrior god and agricultural deity, associated with the plow and with military conquest. He was the son of Enlil, the chief god of the Sumerian pantheon.",
+      "story": "Ninurta was a heroic deity who defeated various monsters and demons threatening the cosmic order. He was also associated with the spring floods that brought fertility to the land. Ninurta's dual nature as both warrior and farmer reflected the cycle of destruction and renewal.",
+      "astrologicalSignificance": "Babylonian astronomers tracked Saturn's slow movement across the sky, taking about 29 years to complete its orbit. Saturn was associated with agriculture, boundaries, and long-term cycles.",
+      "culturalSignificance": "Ninurta was an important deity in Mesopotamian religion, especially in agricultural contexts. His association with Saturn reflected the planet's connection to time, cycles, and the harvest.",
+      "symbolism": "Agriculture, war, hunting, boundaries, time, cycles"
+    },
+    "egyptian": {
+      "name": "Horus the Bull",
+      "alternativeName": "Associated with Geb in some traditions",
+      "origin": "Egyptian associations with Saturn are less clearly documented, but the planet was observed and sometimes connected to Horus or Geb",
+      "characteristics": "Saturn's slow movement and association with time and agriculture may have connected it to earth deities or aspects of Horus.",
+      "astrologicalSignificance": "Egyptian astronomers observed Saturn as one of the five visible planets, though detailed mythological associations are less preserved than for other cultures.",
+      "culturalSignificance": "The Egyptians tracked planetary movements for religious and calendrical purposes.",
+      "symbolism": "Time, cycles, agriculture"
+    },
+    "norse": {
+      "name": "Associated with Loki or Njörðr",
+      "origin": "Norse associations with Saturn are less direct than with other planets. Saturday is named after Saturn in English but after Laugar (bath day) in Old Norse",
+      "characteristics": "Some modern interpretations associate Saturn with Loki (the trickster) due to Saturn's association with boundaries and limitations, or with Njörðr (god of the sea and wealth).",
+      "culturalSignificance": "Saturday in English comes from 'Saturn's Day,' though Old Norse had different day names. The connection between Norse deities and Saturn is less established than for other planets.",
+      "symbolism": "Boundaries, limitations, time, wealth (depending on interpretation)"
+    }
+  },
+  "history": {
+    "formation": {
+      "age": "4.6 billion years",
+      "description": "Saturn formed about 4.6 billion years ago in the outer solar system. Like Jupiter, it grew rapidly by accumulating gas from the solar nebula. Saturn's rings may be much younger than the planet itself—possibly only 100-200 million years old—formed from the breakup of a moon or captured comet."
+    },
+    "geologicalHistory": "As a gas giant, Saturn has no solid surface. Its atmosphere has been active for billions of years. The rings are dynamic, with particles constantly colliding and being replenished. Some scientists believe the rings may be disappearing, raining down onto Saturn over millions of years."
+  },
+  "missions": [
+    {
+      "name": "Cassini-Huygens",
+      "agency": "NASA, ESA, ASI",
+      "country": "United States, Europe, Italy",
+      "launchDate": "1997-10-15",
+      "arrivalDate": "2004-07-01",
+      "endDate": "2017-09-15",
+      "status": "Completed",
+      "missionType": "Orbiter and Lander",
+      "description": "Cassini orbited Saturn for 13 years, revolutionizing our understanding of the planet, its rings, and moons. The Huygens probe landed on Titan in 2005.",
+      "majorAchievements": [
+        "Orbited Saturn for 13 years, completing 294 orbits",
+        "Huygens probe landed on Titan—first landing in outer solar system",
+        "Discovered water geysers on Enceladus",
+        "Revealed complex ring dynamics and structure",
+        "Discovered new moons and ring features",
+        "Studied Titan's lakes and atmosphere in detail",
+        "Observed seasonal changes on Saturn",
+        "Ended mission with dramatic dive into Saturn's atmosphere"
+      ]
+    },
+    {
+      "name": "Voyager 1 & 2",
+      "agency": "NASA",
+      "country": "United States",
+      "flybys": [
+        "1980-11-12 (Voyager 1)",
+        "1981-08-25 (Voyager 2)"
+      ],
+      "status": "Completed Saturn phase",
+      "missionType": "Flyby",
+      "description": "The Voyager spacecraft made the first detailed observations of Saturn, its rings, and moons.",
+      "majorAchievements": [
+        "First close-up images of Saturn's rings",
+        "Discovered complex ring structure and gaps",
+        "Found new moons",
+        "Studied Titan's atmosphere",
+        "Revealed atmospheric dynamics"
+      ]
+    }
+  ],
+  "exploration": {
+    "firstFlyby": {
+      "mission": "Pioneer 11",
+      "date": "1979-09-01",
+      "agency": "NASA"
+    },
+    "firstOrbit": {
+      "mission": "Cassini",
+      "date": "2004-07-01",
+      "agency": "NASA/ESA"
+    },
+    "totalMissions": "4 spacecraft have visited Saturn",
+    "currentActiveMissions": []
+  },
+  "comparisonToEarth": {
+    "size": "About 9.5 times Earth's diameter",
+    "mass": "95 times Earth's mass",
+    "gravity": "0.92 times Earth's gravity (similar despite huge size)",
+    "dayLength": "10.7 hours",
+    "yearLength": "29.4 Earth years",
+    "temperature": "-139°C at cloud tops",
+    "atmosphere": "Mostly hydrogen and helium, no solid surface",
+    "moons": "At least 146 moons (Earth has 1)"
+  },
+  "interestingFacts": {
+    "lowestDensity": "Saturn has the lowest density of any planet—only 687 kg/m³. It would float in water if you could find an ocean large enough!",
+    "spectacularRings": "Saturn's rings are the most visible and extensive in the solar system, spanning 282,000 km but only about 10 meters thick. They're made mostly of water ice.",
+    "hexagonStorm": "Saturn has a bizarre hexagon-shaped jet stream at its north pole, about 30,000 km across. This unique geometric pattern has persisted for decades.",
+    "fastRotation": "Despite its enormous size, Saturn rotates in just 10.7 hours, causing it to bulge significantly at its equator.",
+    "titanMoon": "Saturn's moon Titan is the only moon in the solar system with a substantial atmosphere and has liquid methane lakes on its surface.",
+    "enceladusOcean": "Saturn's moon Enceladus has water geysers erupting from its south pole, evidence of a subsurface ocean that could harbor life.",
+    "disappearingRings": "Saturn's rings may be disappearing, raining down onto the planet. They could vanish in 100 million years.",
+    "manyMoons": "Saturn has at least 146 known moons, the second-most in the solar system after Jupiter."
+  },
+  "metadata": {
+    "dataSource": "NASA Planetary Fact Sheet (scientific data), Grokipedia (mythology and educational content)",
+    "lastUpdated": "2026-01-21",
+    "version": "1.0",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+      "https://science.nasa.gov/saturn/",
+      "https://solarsystem.nasa.gov/missions/cassini/"
+    ]
+  }
+}

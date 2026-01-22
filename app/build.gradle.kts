@@ -42,6 +42,7 @@ android {
 dependencies {
     implementation(project(":core:ui"))
     implementation(project(":content:periodic-table"))
+    implementation(project(":content:solar-system"))
 
     // Coil for image loading with custom User-Agent
     implementation(libs.coil.compose)

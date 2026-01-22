@@ -1,0 +1,518 @@
+{
+  "id": "uranus",
+  "name": "Uranus",
+  "alternativeNames": [
+    "The Ice Giant",
+    "The Sideways Planet"
+  ],
+  "order": 7,
+  "planetType": "ice-giant",
+  "descriptions": {
+    "short": "Uranus is a blue-green ice giant that spins on its side! It's very cold and far from the Sun.",
+    "medium": "Uranus is the seventh planet from the Sun and the third-largest in the solar system. It's an ice giant made of water, methane, and ammonia ices surrounding a rocky core. Uranus is unique because it rotates on its side—its axis is tilted 98 degrees. This gives it extreme seasons lasting 21 years each. Uranus has faint rings and at least 27 moons.",
+    "long": "Uranus is an ice giant with a pale blue-green color caused by methane in its atmosphere, which absorbs red light. Unlike gas giants Jupiter and Saturn, Uranus has more 'ices' (water, methane, ammonia) in its composition. The planet's most unusual feature is its extreme axial tilt of 98 degrees, meaning it essentially rolls around the Sun on its side. This may have been caused by a massive collision early in the solar system's history. Uranus has a faint ring system and at least 27 known moons, all named after characters from Shakespeare and Alexander Pope. The planet has the coldest planetary atmosphere in the solar system, reaching -224°C. Uranus was the first planet discovered with a telescope, found by William Herschel in 1781."
+  },
+  "funFacts": [
+    "Uranus spins on its side—its axis is tilted 98 degrees!",
+    "Uranus was the first planet discovered with a telescope in 1781",
+    "A year on Uranus lasts 84 Earth years",
+    "Uranus has the coldest atmosphere of any planet at -224°C",
+    "All of Uranus's moons are named after Shakespeare and Alexander Pope characters",
+    "Uranus's blue-green color comes from methane gas in its atmosphere",
+    "One season on Uranus lasts 21 Earth years!",
+    "Uranus has 13 known rings, much fainter than Saturn's"
+  ],
+  "physicalCharacteristics": {
+    "mass": {
+      "value": 86.813,
+      "unit": "10^24 kg",
+      "earthComparison": 14.54
+    },
+    "volume": {
+      "value": 6833,
+      "unit": "10^10 km³",
+      "earthComparison": 63.1
+    },
+    "radius": {
+      "equatorial": 25559,
+      "polar": 24973,
+      "mean": 25362,
+      "unit": "km"
+    },
+    "diameter": {
+      "value": 50724,
+      "unit": "km",
+      "earthComparison": 4.01
+    },
+    "density": {
+      "value": 1271,
+      "unit": "kg/m³"
+    },
+    "gravity": {
+      "surface": 8.7,
+      "unit": "m/s²",
+      "earthComparison": 0.89
+    },
+    "escapeVelocity": {
+      "value": 21.3,
+      "unit": "km/s"
+    },
+    "temperature": {
+      "mean": -197,
+      "unit": "°C",
+      "kelvin": 58.1,
+      "description": "Coldest planetary atmosphere in the solar system"
+    }
+  },
+  "orbitalCharacteristics": {
+    "distanceFromSun": {
+      "semimajorAxis": 2872.46,
+      "perihelion": 2741.3,
+      "aphelion": 3003.62,
+      "unit": "million km"
+    },
+    "orbitalPeriod": {
+      "value": 30685.4,
+      "unit": "Earth days",
+      "years": 83.75
+    },
+    "orbitalVelocity": {
+      "mean": 6.8,
+      "max": 7.11,
+      "min": 6.49,
+      "unit": "km/s"
+    },
+    "orbitalEccentricity": 0.0457,
+    "orbitalInclination": {
+      "value": 0.772,
+      "unit": "degrees"
+    },
+    "rotationPeriod": {
+      "value": 17.24,
+      "unit": "hours",
+      "days": -0.718,
+      "description": "Negative value indicates retrograde rotation"
+    },
+    "lengthOfDay": {
+      "value": 17.24,
+      "unit": "hours",
+      "days": 0.718
+    },
+    "axialTilt": {
+      "value": 97.77,
+      "unit": "degrees",
+      "description": "Extreme tilt means Uranus rotates on its side"
+    }
+  },
+  "atmosphere": {
+    "composition": [
+      {
+        "gas": "Hydrogen",
+        "percentage": 82.5
+      },
+      {
+        "gas": "Helium",
+        "percentage": 15.2
+      },
+      {
+        "gas": "Methane",
+        "percentage": 2.3
+      },
+      {
+        "gas": "Other gases",
+        "percentage": 0.009
+      }
+    ],
+    "surfacePressure": {
+      "value": "> 1000",
+      "unit": "kPa",
+      "description": "No solid surface; pressure increases with depth"
+    },
+    "description": "Uranus's atmosphere is composed mainly of hydrogen and helium, with about 2.3% methane. The methane absorbs red light, giving Uranus its distinctive blue-green color. The atmosphere is very cold and relatively featureless compared to Jupiter and Saturn, though recent observations have revealed more cloud activity than previously thought."
+  },
+  "surface": {
+    "features": [
+      {
+        "name": "Cloud Bands",
+        "type": "Atmospheric Feature",
+        "description": "Faint bands and occasional bright clouds in the atmosphere",
+        "significance": "Much less prominent than Jupiter or Saturn due to lower temperatures and less internal heat"
+      }
+    ],
+    "color": "Pale blue-green",
+    "terrain": "No solid surface—atmosphere transitions to icy mantle and rocky core",
+    "composition": "Hydrogen and helium atmosphere surrounding an icy mantle of water, methane, and ammonia, with a rocky core"
+  },
+  "moons": {
+    "total": 28,
+    "majorMoons": [
+      {
+        "name": "Miranda",
+        "radius": 235.8,
+        "orbitalPeriod": 1.41,
+        "distanceFromPlanet": 129390,
+        "discoveryYear": 1948,
+        "discoveredBy": "Gerard Kuiper",
+        "description": "Miranda has one of the most bizarre and varied surfaces in the solar system, with huge canyons, terraced layers, and a patchwork appearance suggesting it was shattered and reassembled.",
+        "mythology": "Named after Miranda from Shakespeare's 'The Tempest'",
+        "features": "Bizarre patchwork surface, huge canyons, terraced layers"
+      },
+      {
+        "name": "Ariel",
+        "radius": 578.9,
+        "orbitalPeriod": 2.52,
+        "distanceFromPlanet": 191020,
+        "discoveryYear": 1851,
+        "discoveredBy": "William Lassell",
+        "description": "Ariel has the brightest surface of Uranus's moons, with valleys, ridges, and evidence of past geological activity.",
+        "mythology": "Named after a spirit in Shakespeare's 'The Tempest' and Alexander Pope's 'The Rape of the Lock'",
+        "features": "Bright surface, valleys, ridges, past geological activity"
+      },
+      {
+        "name": "Umbriel",
+        "radius": 584.7,
+        "orbitalPeriod": 4.14,
+        "distanceFromPlanet": 266000,
+        "discoveryYear": 1851,
+        "discoveredBy": "William Lassell",
+        "description": "Umbriel is the darkest of Uranus's major moons, with an ancient, heavily cratered surface.",
+        "mythology": "Named after a character in Alexander Pope's 'The Rape of the Lock'",
+        "features": "Dark surface, heavily cratered, ancient"
+      },
+      {
+        "name": "Titania",
+        "radius": 788.9,
+        "orbitalPeriod": 8.71,
+        "distanceFromPlanet": 435910,
+        "discoveryYear": 1787,
+        "discoveredBy": "William Herschel",
+        "description": "The largest moon of Uranus, with a surface showing evidence of past geological activity including large canyons.",
+        "mythology": "Named after the queen of the fairies in Shakespeare's 'A Midsummer Night's Dream'",
+        "features": "Largest Uranian moon, large canyons, past geological activity"
+      },
+      {
+        "name": "Oberon",
+        "radius": 761.4,
+        "orbitalPeriod": 13.46,
+        "distanceFromPlanet": 583520,
+        "discoveryYear": 1787,
+        "discoveredBy": "William Herschel",
+        "description": "The second-largest and outermost major moon of Uranus, with a heavily cratered surface and possible ancient volcanic activity.",
+        "mythology": "Named after the king of the fairies in Shakespeare's 'A Midsummer Night's Dream'",
+        "features": "Second-largest, heavily cratered, possible ancient volcanism"
+      }
+    ],
+    "minorMoons": [
+      {
+        "name": "Cordelia",
+        "radius": 20,
+        "orbitalPeriod": 0.34,
+        "distanceFromPlanet": 49752,
+        "discoveryYear": 1986,
+        "discoveredBy": "Voyager 2",
+        "mythology": "From Shakespeare's 'King Lear'"
+      },
+      {
+        "name": "Ophelia",
+        "radius": 21,
+        "orbitalPeriod": 0.38,
+        "distanceFromPlanet": 53764,
+        "discoveryYear": 1986,
+        "discoveredBy": "Voyager 2",
+        "mythology": "From Shakespeare's 'Hamlet'"
+      },
+      {
+        "name": "Bianca",
+        "radius": 27,
+        "orbitalPeriod": 0.43,
+        "distanceFromPlanet": 59166,
+        "discoveryYear": 1986,
+        "discoveredBy": "Voyager 2",
+        "mythology": "From Shakespeare's 'The Taming of the Shrew'"
+      },
+      {
+        "name": "Cressida",
+        "radius": 41,
+        "orbitalPeriod": 0.46,
+        "distanceFromPlanet": 61767,
+        "discoveryYear": 1986,
+        "discoveredBy": "Voyager 2",
+        "mythology": "From Shakespeare's 'Troilus and Cressida'"
+      },
+      {
+        "name": "Desdemona",
+        "radius": 32,
+        "orbitalPeriod": 0.47,
+        "distanceFromPlanet": 62659,
+        "discoveryYear": 1986,
+        "discoveredBy": "Voyager 2",
+        "mythology": "From Shakespeare's 'Othello'"
+      },
+      {
+        "name": "Juliet",
+        "radius": 47,
+        "orbitalPeriod": 0.49,
+        "distanceFromPlanet": 64358,
+        "discoveryYear": 1986,
+        "discoveredBy": "Voyager 2",
+        "mythology": "From Shakespeare's 'Romeo and Juliet'"
+      },
+      {
+        "name": "Portia",
+        "radius": 68,
+        "orbitalPeriod": 0.51,
+        "distanceFromPlanet": 66097,
+        "discoveryYear": 1986,
+        "discoveredBy": "Voyager 2",
+        "mythology": "From Shakespeare's 'The Merchant of Venice'"
+      },
+      {
+        "name": "Rosalind",
+        "radius": 36,
+        "orbitalPeriod": 0.56,
+        "distanceFromPlanet": 69927,
+        "discoveryYear": 1986,
+        "discoveredBy": "Voyager 2",
+        "mythology": "From Shakespeare's 'As You Like It'"
+      },
+      {
+        "name": "Cupid",
+        "radius": 9,
+        "orbitalPeriod": 0.62,
+        "distanceFromPlanet": 74800,
+        "discoveryYear": 2003,
+        "discoveredBy": "Mark Showalter and Jack Lissauer",
+        "mythology": "From Shakespeare's 'Timon of Athens'"
+      },
+      {
+        "name": "Belinda",
+        "radius": 45,
+        "orbitalPeriod": 0.62,
+        "distanceFromPlanet": 75256,
+        "discoveryYear": 1986,
+        "discoveredBy": "Voyager 2",
+        "mythology": "From Alexander Pope's 'The Rape of the Lock'"
+      },
+      {
+        "name": "Perdita",
+        "radius": 15,
+        "orbitalPeriod": 0.64,
+        "distanceFromPlanet": 76417,
+        "discoveryYear": 1986,
+        "discoveredBy": "Voyager 2",
+        "mythology": "From Shakespeare's 'The Winter's Tale'"
+      },
+      {
+        "name": "Puck",
+        "radius": 81,
+        "orbitalPeriod": 0.76,
+        "distanceFromPlanet": 86004,
+        "discoveryYear": 1985,
+        "discoveredBy": "Voyager 2",
+        "mythology": "From Shakespeare's 'A Midsummer Night's Dream'"
+      },
+      {
+        "name": "Mab",
+        "radius": 12,
+        "orbitalPeriod": 0.92,
+        "distanceFromPlanet": 97736,
+        "discoveryYear": 2003,
+        "discoveredBy": "Mark Showalter and Jack Lissauer",
+        "mythology": "From Shakespeare's 'Romeo and Juliet'"
+      },
+      {
+        "name": "Francisco",
+        "radius": 11,
+        "orbitalPeriod": 266.56,
+        "distanceFromPlanet": 4276000,
+        "discoveryYear": 2001,
+        "discoveredBy": "Matthew Holman et al.",
+        "mythology": "From Shakespeare's 'The Tempest'"
+      },
+      {
+        "name": "Caliban",
+        "radius": 36,
+        "orbitalPeriod": 579.73,
+        "distanceFromPlanet": 7231000,
+        "discoveryYear": 1997,
+        "discoveredBy": "Brett Gladman et al.",
+        "mythology": "From Shakespeare's 'The Tempest'"
+      },
+      {
+        "name": "Stephano",
+        "radius": 16,
+        "orbitalPeriod": 677.36,
+        "distanceFromPlanet": 8004000,
+        "discoveryYear": 1999,
+        "discoveredBy": "Brett Gladman et al.",
+        "mythology": "From Shakespeare's 'The Tempest'"
+      },
+      {
+        "name": "Trinculo",
+        "radius": 9,
+        "orbitalPeriod": 749.24,
+        "distanceFromPlanet": 8504000,
+        "discoveryYear": 2001,
+        "discoveredBy": "Matthew Holman et al.",
+        "mythology": "From Shakespeare's 'The Tempest'"
+      },
+      {
+        "name": "Sycorax",
+        "radius": 75,
+        "orbitalPeriod": 1288.3,
+        "distanceFromPlanet": 12179000,
+        "discoveryYear": 1997,
+        "discoveredBy": "Philip Nicholson et al.",
+        "mythology": "From Shakespeare's 'The Tempest'"
+      },
+      {
+        "name": "Margaret",
+        "radius": 10,
+        "orbitalPeriod": 1687.01,
+        "distanceFromPlanet": 14345000,
+        "discoveryYear": 2003,
+        "discoveredBy": "Scott S. Sheppard and David Jewitt",
+        "mythology": "From Shakespeare's 'Much Ado About Nothing'"
+      },
+      {
+        "name": "Prospero",
+        "radius": 25,
+        "orbitalPeriod": 1978.29,
+        "distanceFromPlanet": 16256000,
+        "discoveryYear": 1999,
+        "discoveredBy": "Matthew Holman et al.",
+        "mythology": "From Shakespeare's 'The Tempest'"
+      },
+      {
+        "name": "Setebos",
+        "radius": 24,
+        "orbitalPeriod": 2225.21,
+        "distanceFromPlanet": 17418000,
+        "discoveryYear": 1999,
+        "discoveredBy": "John Kavelaars et al.",
+        "mythology": "From Shakespeare's 'The Tempest'"
+      },
+      {
+        "name": "Ferdinand",
+        "radius": 10,
+        "orbitalPeriod": 2887.21,
+        "distanceFromPlanet": 20901000,
+        "discoveryYear": 2001,
+        "discoveredBy": "Matthew Holman et al.",
+        "mythology": "From Shakespeare's 'The Tempest'"
+      },
+      {
+        "name": "Perdita",
+        "radius": 13,
+        "orbitalPeriod": 0.64,
+        "distanceFromPlanet": 76417,
+        "discoveryYear": 1999,
+        "discoveredBy": "Erich Karkoschka",
+        "mythology": "From Shakespeare's 'The Winter's Tale'"
+      }
+    ]
+  },
+  "mythology": {
+    "roman": {
+      "namedAfter": "Uranus, the Latinized form of the Greek god Ouranos",
+      "greekEquivalent": "Ouranos (Uranus is the Greek name)",
+      "origin": "Named after the primordial Greek god of the sky, breaking the pattern of using Roman god names",
+      "story": "Uranus (Ouranos) was the primordial god of the sky in Greek mythology. He was born from Gaia (Earth) and became her husband. Together they produced the Titans, Cyclopes, and Hecatoncheires. Uranus imprisoned some of his children in Tartarus, angering Gaia. She convinced their son Cronus (Saturn) to castrate Uranus with a sickle, overthrowing him. From Uranus's blood and severed genitals came the Furies, Giants, and Aphrodite.",
+      "culturalSignificance": "Uranus represents the first generation of gods in Greek mythology—the primordial deities who embodied fundamental aspects of the cosmos. His overthrow by Cronus began the succession of divine rulers.",
+      "symbolism": "Sky, heavens, primordial creation, cosmic order, masculine principle"
+    },
+    "indian": {
+      "names": [
+        "Varuna (modern)",
+        "Prajapati (traditional)"
+      ],
+      "meaning": "Varuna means 'all-encompassing sky' in Sanskrit",
+      "origin": "In modern Indian astronomy, Uranus is called Varuna after the Vedic god of the sky and cosmic order. Traditionally, only five planets (visible to naked eye) were recognized in Vedic astrology.",
+      "characteristics": "Varuna is one of the oldest Vedic deities, originally the supreme god of the cosmic order (Rta), sky, and waters. He is the keeper of cosmic law and divine justice.",
+      "story": "Varuna is one of the Adityas (solar deities) and was originally the supreme deity in early Vedic religion before being supplanted by Indra. Varuna is the guardian of the cosmic order and punisher of those who violate sacred law. He is all-seeing, with a thousand eyes, and knows all secrets.",
+      "culturalSignificance": "While Uranus is not part of traditional Navagraha (nine celestial deities), modern Indian astronomy adopted the name Varuna for this planet, connecting it to the ancient sky god.",
+      "symbolism": "Sky, cosmic order, law, justice, waters, omniscience, divine authority"
+    },
+    "chinese": {
+      "name": "天王星 (Tiānwángxīng)",
+      "meaning": "Sky King Star",
+      "origin": "Named in modern times when Western astronomy was introduced to China",
+      "characteristics": "The Chinese name reflects Uranus's association with the sky and heavens, similar to the Greek Ouranos.",
+      "culturalSignificance": "As a modern discovery (1781), Uranus was not part of traditional Chinese astronomy's Five Planets system. The name was created to fit Chinese cosmological concepts when Western astronomy was adopted.",
+      "symbolism": "Sky, heavens, celestial authority"
+    },
+    "note": "Uranus was discovered in 1781, long after ancient mythological traditions were established. Therefore, Babylonian, Egyptian, and Norse mythologies did not have associations with this planet. Modern names in various languages were created based on the Greek god Ouranos or similar sky deities."
+  },
+  "history": {
+    "formation": {
+      "age": "4.6 billion years",
+      "description": "Uranus formed about 4.6 billion years ago in the outer solar system. Its unusual axial tilt suggests it was struck by a massive object (possibly Earth-sized) early in its history, knocking it onto its side. This collision may have also affected its internal heat flow, making Uranus colder than Neptune despite being closer to the Sun."
+    },
+    "discovery": {
+      "date": "1781-03-13",
+      "discoveredBy": "William Herschel",
+      "description": "Uranus was the first planet discovered with a telescope. Herschel initially thought it was a comet, but later observations confirmed it was a new planet. This discovery doubled the known size of the solar system."
+    }
+  },
+  "missions": [
+    {
+      "name": "Voyager 2",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "1977-08-20",
+      "flybyDate": "1986-01-24",
+      "status": "Completed Uranus phase, now in interstellar space",
+      "missionType": "Flyby",
+      "description": "Voyager 2 is the only spacecraft to have visited Uranus, making a close flyby in 1986.",
+      "majorAchievements": [
+        "Only spacecraft to visit Uranus",
+        "Discovered 10 new moons",
+        "Discovered two new rings",
+        "Studied the planet's magnetic field (found to be tilted 60 degrees from rotation axis)",
+        "Measured atmospheric composition and temperature",
+        "Captured first close-up images of Uranus and its moons",
+        "Revealed Miranda's bizarre fractured surface"
+      ]
+    }
+  ],
+  "exploration": {
+    "firstFlyby": {
+      "mission": "Voyager 2",
+      "date": "1986-01-24",
+      "agency": "NASA"
+    },
+    "totalMissions": "1 spacecraft has visited Uranus",
+    "currentActiveMissions": [],
+    "futureMissions": "Several missions to Uranus have been proposed but none are currently approved"
+  },
+  "comparisonToEarth": {
+    "size": "About 4 times Earth's diameter",
+    "mass": "14.5 times Earth's mass",
+    "gravity": "0.89 times Earth's gravity",
+    "dayLength": "17.2 hours",
+    "yearLength": "84 Earth years",
+    "temperature": "-197°C (coldest planetary atmosphere)",
+    "atmosphere": "Mostly hydrogen and helium with methane",
+    "moons": "27 known moons (Earth has 1)"
+  },
+  "interestingFacts": {
+    "sidewaysPlanet": "Uranus rotates on its side with an axial tilt of 98 degrees, likely caused by a massive collision early in solar system history. This means its poles experience 42 years of continuous sunlight followed by 42 years of darkness.",
+    "firstTelescopeDiscovery": "Uranus was the first planet discovered with a telescope by William Herschel in 1781, doubling the known size of the solar system.",
+    "coldestAtmosphere": "Despite not being the farthest planet from the Sun, Uranus has the coldest planetary atmosphere, reaching -224°C. This is because it has very little internal heat.",
+    "shakespeareanMoons": "All of Uranus's 27 moons are named after characters from works by William Shakespeare and Alexander Pope, breaking from the tradition of using Greek and Roman mythology.",
+    "faintRings": "Uranus has 13 known rings, discovered in 1977. They are much darker and fainter than Saturn's rings, made of dark particles.",
+    "tiltedMagneticField": "Uranus's magnetic field is tilted 60 degrees from its rotation axis and offset from the planet's center, creating a very unusual magnetosphere.",
+    "onlyOneVisit": "Voyager 2 is the only spacecraft to have visited Uranus, making a flyby in 1986. No other missions have visited since.",
+    "extremeSeasons": "Due to its extreme tilt, each season on Uranus lasts about 21 Earth years, with one pole facing the Sun continuously while the other is in darkness."
+  },
+  "metadata": {
+    "dataSource": "NASA Planetary Fact Sheet (scientific data), Grokipedia (mythology and educational content)",
+    "lastUpdated": "2026-01-21",
+    "version": "1.0",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html",
+      "https://science.nasa.gov/uranus/",
+      "https://solarsystem.nasa.gov/missions/voyager-2/"
+    ]
+  }
+}

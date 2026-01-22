@@ -2,7 +2,35 @@
 
 This file captures the current state of the codebase to enable efficient navigation and reduce redundant exploration. Update this file whenever significant changes are made.
 
-**Last Updated:** 2026-01-08
+**Last Updated:** 2026-01-21
+
+---
+
+## Project Purpose
+
+**DiscoveryLab is a prototyping playground** for building interactive "book-like" content modules that are later migrated to the main production codebase.
+
+### Content Type: "Books"
+In the main codebase, "books" is one of several content types. Each book is an interactive, self-contained educational module (like the periodic table). This playground allows rapid iteration before migration.
+
+### Migration Workflow
+```
+[Prototype in DiscoveryLab] → [Test & Iterate] → [Migrate to Main Codebase]
+```
+
+### Content Modules Status
+
+| Module | Status | Migration Date | Notes |
+|--------|--------|----------------|-------|
+| Periodic Table | ✅ Migrated | 2026-01 | Template for future modules |
+| Solar System | 🔨 In Progress | - | Core set complete (Sun + 8 planets + Moon) |
+
+### Guidelines for New Content Modules
+1. Create under `:content:module-name/`
+2. Use `discovery.content` convention plugin
+3. Store data in `assets/*.json` (easy migration)
+4. Depend only on `:core:ui` for theming
+5. Follow patterns established in periodic-table module
 
 ---
 
@@ -12,7 +40,8 @@ This file captures the current state of the codebase to enable efficient navigat
 DiscoveryLab/
 ├── app/                          # Shell application
 ├── core/ui/                      # Shared design system
-├── content/periodic-table/       # Interactive periodic table module
+├── content/periodic-table/       # Interactive periodic table module (MIGRATED)
+├── content/solar-system/         # Solar system explorer module (IN PROGRESS)
 └── build-logic/convention/       # Build configuration
 ```
 
@@ -263,7 +292,152 @@ color.copy(alpha = 0.15f)
 
 ---
 
+---
+
+## Content: Solar System Module
+
+**Path:** `content/solar-system/src/main/java/com/example/discoverylab/content/solarsystem/`
+
+### File Structure
+
+```
+solarsystem/
+├── SolarSystemScreen.kt          # Main entry point with orbital view + detail panel
+├── data/
+│   ├── CelestialBody.kt          # Main data model + supporting types
+│   ├── CelestialBodyJsonParser.kt # kotlinx.serialization parser
+│   ├── CelestialBodyRepository.kt # Singleton with lazy loading
+│   └── OrbitalPosition.kt        # Logarithmic positioning for orbital view
+├── ui/
+│   ├── OrbitalView.kt            # Corner-origin orbital visualization
+│   ├── CelestialBodyDetailPanel.kt # Scrollable detail panel
+│   ├── WeightCalculator.kt       # "What would you weigh on X?"
+│   ├── ComparisonEngine.kt       # Side-by-side body comparison
+│   └── components/
+│       ├── CelestialBodyCard.kt  # Tappable circular planet card
+│       └── BodyColors.kt         # Type-based color mapping
+└── assets/
+    └── celestial_bodies.json     # 10 bodies (Sun + 8 planets + Moon)
+```
+
+### Key Data Model (CelestialBody.kt)
+
+```kotlin
+data class CelestialBody(
+    val id: String,                    // e.g., "earth", "sun"
+    val name: String,
+    val type: CelestialBodyType,       // STAR, PLANET, MOON, etc.
+    val parentId: String?,             // null for Sun, "sun" for planets
+    val orderFromSun: Int,
+    val shortDescription: String,
+    val mediumDescription: String,
+    val longDescription: String,
+    val funFacts: List<String>,
+    val physical: PhysicalCharacteristics,
+    val orbital: OrbitalCharacteristics?,
+    val atmosphere: AtmosphereInfo?,
+    val surface: SurfaceInfo?,
+    val mythology: MythologyInfo?,
+    val missions: List<SpaceMission>,
+    val comparisonToEarth: EarthComparison?,
+    val moonCount: Int,
+    val hasRings: Boolean
+)
+
+enum class CelestialBodyType { STAR, PLANET, DWARF_PLANET, MOON, ASTEROID, COMET }
+```
+
+### Interactive Features
+
+**1. Corner-Origin Orbital View**
+- Sun positioned in bottom-left corner
+- Planets on 45° arcs using logarithmic distance scale
+- Tappable planet cards with selection state
+
+**2. Detail Panel (340dp)**
+- Progressive descriptions (short/medium/long)
+- Physical properties, orbital data, atmosphere
+- Mythology and space missions
+- Navigation between bodies
+
+**3. Weight Calculator**
+- Input Earth weight → calculate weight on any body
+- Visual comparison bars
+- Uses `body.gravityRatio` (surfaceGravity / 9.81)
+
+**4. Comparison Engine**
+- Side-by-side comparison of any two bodies
+- Highlights larger values in comparisons
+- Covers all physical and orbital properties
+
+### Color Scheme
+
+```kotlin
+object BodyColors {
+    val star = Color(0xFFFFB300)        // Amber/Gold
+    val planet = Color(0xFF42A5F5)      // Blue
+    val moon = Color(0xFF78909C)        // Blue-gray
+    val spaceBackground = Color(0xFF0D1B2A)
+}
+
+// Individual planet colors
+object PlanetColors {
+    val mercury = Color(0xFF9E9E9E)
+    val venus = Color(0xFFFFCC80)
+    val earth = Color(0xFF4FC3F7)
+    val mars = Color(0xFFE57373)
+    val jupiter = Color(0xFFFFB74D)
+    val saturn = Color(0xFFFFE082)
+    val uranus = Color(0xFF80DEEA)
+    val neptune = Color(0xFF5C6BC0)
+}
+```
+
+### Logarithmic Distance Scale
+
+The orbital view uses logarithmic scaling to compress the vast distance range:
+- Mercury: 58M km → ~10% of view
+- Neptune: 4,500M km → ~86% of view
+- Formula: `normalized = (log10(distance/10M) - 0.5) / 2.5`
+
+---
+
 ## Recent Changes Log
+
+### 2026-01-21: Solar System Module (v12)
+**Files Created:**
+- `content/solar-system/` - New module with full structure
+- `CelestialBody.kt` - Data model with 6 body types
+- `CelestialBodyRepository.kt` - Singleton repository
+- `SolarSystemScreen.kt` - Main screen with landscape lock
+- `OrbitalView.kt` - Corner-origin orbital visualization
+- `CelestialBodyDetailPanel.kt` - Comprehensive detail panel
+- `WeightCalculator.kt` - Interactive weight calculator
+- `ComparisonEngine.kt` - Side-by-side comparison
+- `celestial_bodies.json` - 10 bodies with full data
+
+**Architecture:**
+- Follows periodic-table module patterns
+- Corner-origin orbital layout (Sun in bottom-left)
+- Logarithmic distance scale for planet positioning
+- Three interactive features: Detail Panel, Weight Calculator, Comparison Engine
+
+**Data:**
+- Core set: Sun + Mercury, Venus, Earth, Moon, Mars, Jupiter, Saturn, Uranus, Neptune
+- Comprehensive properties: physical, orbital, atmosphere, surface, mythology, missions
+- Ready for user's full data to be added
+
+### 2026-01-16: Documentation Update - Playground Purpose (v11)
+**Files Modified:**
+- `CLAUDE.md` - Added "Project Purpose" section explaining playground/migration workflow
+- `CODEBASE_CONTEXT.md` - Added project purpose, content type explanation, migration status table
+
+**Documentation Changes:**
+- Clarified that DiscoveryLab is a **prototyping playground** for "book-like" content
+- Added migration workflow: Prototype → Test → Migrate to main codebase
+- Documented that Periodic Table has been **successfully migrated**
+- Added guidelines for building new content modules with migration in mind
+- Content modules in main codebase are called "books" (one of several content types)
 
 ### 2026-01-09: UI Cleanup + Enhanced Detail Panel (v10)
 **Files Modified:**

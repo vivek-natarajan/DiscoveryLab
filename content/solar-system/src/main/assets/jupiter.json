@@ -1,0 +1,475 @@
+{
+  "id": "jupiter",
+  "name": "Jupiter",
+  "alternativeNames": [
+    "The Gas Giant",
+    "The King of Planets"
+  ],
+  "order": 5,
+  "planetType": "gas-giant",
+  "descriptions": {
+    "short": "Jupiter is the biggest planet in our solar system! It's so large that all the other planets could fit inside it.",
+    "medium": "Jupiter is the fifth planet from the Sun and the largest in the solar system. It's a gas giant made mostly of hydrogen and helium, with no solid surface. Jupiter has a famous Great Red Spot—a giant storm bigger than Earth that has been raging for centuries. It has at least 95 moons and faint rings.",
+    "long": "Jupiter is a massive gas giant with more than twice the mass of all other planets combined. Its atmosphere features colorful bands of clouds and powerful storms, including the Great Red Spot—a hurricane-like storm larger than Earth that has persisted for at least 400 years. Jupiter rotates faster than any other planet, completing one rotation in just under 10 hours, which creates its distinctive banded appearance. The planet has a powerful magnetic field, intense radiation belts, and at least 95 known moons, including the four large Galilean moons discovered by Galileo in 1610. Jupiter acts as a cosmic vacuum cleaner, protecting inner planets by capturing or deflecting asteroids and comets with its immense gravity."
+  },
+  "funFacts": [
+    "Jupiter is so big that 1,300 Earths could fit inside it!",
+    "The Great Red Spot is a storm that has been raging for over 400 years",
+    "Jupiter has the shortest day of all planets—only 10 hours!",
+    "Jupiter has at least 95 moons—more than any other planet",
+    "Jupiter's moon Ganymede is the largest moon in the solar system, even bigger than Mercury",
+    "Jupiter has faint rings made of dust from its moons",
+    "Jupiter's magnetic field is 20,000 times stronger than Earth's",
+    "You could see Jupiter's four largest moons with binoculars from Earth!"
+  ],
+  "physicalCharacteristics": {
+    "mass": {
+      "value": 1898.19,
+      "unit": "10^24 kg",
+      "earthComparison": 317.8
+    },
+    "volume": {
+      "value": 143128,
+      "unit": "10^10 km³",
+      "earthComparison": 1321
+    },
+    "radius": {
+      "equatorial": 71492,
+      "polar": 66854,
+      "mean": 69911,
+      "unit": "km"
+    },
+    "diameter": {
+      "value": 139822,
+      "unit": "km",
+      "earthComparison": 11.21
+    },
+    "density": {
+      "value": 1326,
+      "unit": "kg/m³"
+    },
+    "gravity": {
+      "surface": 23.1,
+      "unit": "m/s²",
+      "earthComparison": 2.36
+    },
+    "escapeVelocity": {
+      "value": 59.5,
+      "unit": "km/s"
+    },
+    "temperature": {
+      "mean": -108,
+      "unit": "°C",
+      "kelvin": 109.9,
+      "description": "Cloud-top temperature; interior is much hotter"
+    }
+  },
+  "orbitalCharacteristics": {
+    "distanceFromSun": {
+      "semimajorAxis": 778.57,
+      "perihelion": 740.52,
+      "aphelion": 816.62,
+      "unit": "million km"
+    },
+    "orbitalPeriod": {
+      "value": 4332.589,
+      "unit": "Earth days",
+      "years": 11.86
+    },
+    "orbitalVelocity": {
+      "mean": 13.06,
+      "max": 13.72,
+      "min": 12.44,
+      "unit": "km/s"
+    },
+    "orbitalEccentricity": 0.0489,
+    "orbitalInclination": {
+      "value": 1.304,
+      "unit": "degrees"
+    },
+    "rotationPeriod": {
+      "value": 9.925,
+      "unit": "hours",
+      "days": 0.41354
+    },
+    "lengthOfDay": {
+      "value": 9.9259,
+      "unit": "hours",
+      "days": 0.41358
+    },
+    "axialTilt": {
+      "value": 3.13,
+      "unit": "degrees",
+      "description": "Very small tilt means almost no seasons"
+    }
+  },
+  "atmosphere": {
+    "composition": [
+      {
+        "gas": "Hydrogen",
+        "percentage": 90
+      },
+      {
+        "gas": "Helium",
+        "percentage": 10
+      },
+      {
+        "gas": "Methane",
+        "percentage": 0.3
+      },
+      {
+        "gas": "Ammonia",
+        "percentage": 0.026
+      },
+      {
+        "gas": "Other gases",
+        "percentage": 0.003
+      }
+    ],
+    "surfacePressure": {
+      "value": "> 1000",
+      "unit": "kPa",
+      "description": "No solid surface; pressure increases with depth into the atmosphere"
+    },
+    "description": "Jupiter's atmosphere is composed primarily of hydrogen and helium, similar to the Sun. The atmosphere features distinct bands of clouds at different latitudes, created by strong east-west winds. These bands are colored by trace chemicals including ammonia ice, ammonium hydrosulfide, and water. The atmosphere transitions gradually from gas to liquid hydrogen deep inside the planet, with no clear boundary or solid surface.",
+    "storms": "Jupiter's atmosphere hosts powerful storms, including the Great Red Spot (a massive anticyclonic storm), white ovals, and lightning strikes thousands of times more powerful than Earth's."
+  },
+  "surface": {
+    "features": [
+      {
+        "name": "Great Red Spot",
+        "type": "Anticyclonic Storm",
+        "description": "A massive storm larger than Earth, with winds up to 432 km/h",
+        "significance": "Has been continuously observed for over 400 years, making it the longest-lived storm known"
+      },
+      {
+        "name": "Cloud Bands",
+        "type": "Atmospheric Feature",
+        "description": "Alternating light zones and dark belts parallel to the equator",
+        "significance": "Created by strong winds and different atmospheric chemistry at various altitudes"
+      },
+      {
+        "name": "White Ovals",
+        "type": "Storms",
+        "description": "Large white storm systems that can last for decades",
+        "significance": "Some have merged to form larger storms over time"
+      },
+      {
+        "name": "Lightning",
+        "type": "Electrical Phenomena",
+        "description": "Lightning strikes thousands of times more powerful than Earth's",
+        "significance": "Detected by multiple spacecraft, showing active atmospheric dynamics"
+      }
+    ],
+    "color": "Bands of white, brown, orange, and red",
+    "terrain": "No solid surface—gas transitions to liquid hydrogen deep inside",
+    "composition": "Primarily hydrogen and helium gas, with a possible rocky core"
+  },
+  "moons": {
+    "total": 95,
+    "note": "Jupiter has 95 known moons as of 2023, with more being discovered regularly",
+    "majorMoons": [
+      {
+        "name": "Io",
+        "radius": 1821.6,
+        "orbitalPeriod": 1.77,
+        "distanceFromPlanet": 421700,
+        "discoveryYear": 1610,
+        "discoveredBy": "Galileo Galilei",
+        "description": "The most volcanically active body in the solar system, with over 400 active volcanoes. Io's surface is constantly being resurfaced by sulfur and silicate lava.",
+        "mythology": "Named after a priestess of Hera who was one of Zeus's lovers",
+        "features": "Most volcanically active, sulfur surface, no impact craters, tidal heating"
+      },
+      {
+        "name": "Europa",
+        "radius": 1560.8,
+        "orbitalPeriod": 3.55,
+        "distanceFromPlanet": 671034,
+        "discoveryYear": 1610,
+        "discoveredBy": "Galileo Galilei",
+        "description": "Europa has a smooth icy surface covering a global subsurface ocean that may contain twice as much water as Earth's oceans. It's one of the best candidates for finding extraterrestrial life.",
+        "mythology": "Named after a Phoenician princess who was abducted by Zeus",
+        "features": "Subsurface ocean, smooth icy surface, potential for life, minimal craters"
+      },
+      {
+        "name": "Ganymede",
+        "radius": 2634.1,
+        "orbitalPeriod": 7.15,
+        "distanceFromPlanet": 1070412,
+        "discoveryYear": 1610,
+        "discoveredBy": "Galileo Galilei",
+        "description": "The largest moon in the solar system, even larger than Mercury. Ganymede is the only moon with its own magnetic field and likely has a subsurface ocean.",
+        "mythology": "Named after a Trojan prince who was Zeus's cupbearer",
+        "features": "Largest moon in solar system, own magnetic field, subsurface ocean, icy surface"
+      },
+      {
+        "name": "Callisto",
+        "radius": 2410.3,
+        "orbitalPeriod": 16.69,
+        "distanceFromPlanet": 1882709,
+        "discoveryYear": 1610,
+        "discoveredBy": "Galileo Galilei",
+        "description": "The most heavily cratered object in the solar system, with an ancient surface dating back 4 billion years. Callisto may have a subsurface ocean.",
+        "mythology": "Named after a nymph who was one of Zeus's lovers",
+        "features": "Most heavily cratered, ancient surface, possible subsurface ocean"
+      }
+    ],
+    "minorMoons": [
+      {
+        "name": "Metis",
+        "radius": 21.5,
+        "orbitalPeriod": 0.29,
+        "distanceFromPlanet": 128000,
+        "discoveryYear": 1979
+      },
+      {
+        "name": "Adrastea",
+        "radius": 8.2,
+        "orbitalPeriod": 0.3,
+        "distanceFromPlanet": 129000,
+        "discoveryYear": 1979
+      },
+      {
+        "name": "Amalthea",
+        "radius": 83.5,
+        "orbitalPeriod": 0.5,
+        "distanceFromPlanet": 181366,
+        "discoveryYear": 1892
+      },
+      {
+        "name": "Thebe",
+        "radius": 49.3,
+        "orbitalPeriod": 0.67,
+        "distanceFromPlanet": 221889,
+        "discoveryYear": 1979
+      },
+      {
+        "name": "Themisto",
+        "radius": 4,
+        "orbitalPeriod": 130.02,
+        "distanceFromPlanet": 7393216,
+        "discoveryYear": 1975
+      },
+      {
+        "name": "Leda",
+        "radius": 10,
+        "orbitalPeriod": 240.92,
+        "distanceFromPlanet": 11187781,
+        "discoveryYear": 1974
+      },
+      {
+        "name": "Himalia",
+        "radius": 85,
+        "orbitalPeriod": 250.56,
+        "distanceFromPlanet": 11451971,
+        "discoveryYear": 1904
+      },
+      {
+        "name": "Lysithea",
+        "radius": 18,
+        "orbitalPeriod": 259.2,
+        "distanceFromPlanet": 11740560,
+        "discoveryYear": 1938
+      },
+      {
+        "name": "Elara",
+        "radius": 43,
+        "orbitalPeriod": 259.64,
+        "distanceFromPlanet": 11778034,
+        "discoveryYear": 1905
+      },
+      {
+        "name": "Carpo",
+        "radius": 1.5,
+        "orbitalPeriod": 456.3,
+        "distanceFromPlanet": 17144873,
+        "discoveryYear": 2003
+      },
+      {
+        "name": "Note",
+        "description": "Jupiter has 85 additional small irregular moons discovered between 2000-2023, mostly less than 5 km in diameter"
+      }
+    ]
+  },
+  "mythology": {
+    "roman": {
+      "namedAfter": "Jupiter (Iuppiter), king of the Roman gods",
+      "greekEquivalent": "Zeus",
+      "origin": "Named after the supreme deity because it's the largest and most prominent planet",
+      "story": "Jupiter was the king of the gods, ruler of the sky and thunder. He was the son of Saturn (whom he overthrew) and brother-husband of Juno. Jupiter wielded thunderbolts as weapons and was known for his many affairs with goddesses and mortal women. He was the protector of Rome and the source of all authority. Romans believed Jupiter controlled weather, justice, and the fate of battles.",
+      "culturalSignificance": "Jupiter was the most important god in Roman religion. The largest temple in Rome was dedicated to Jupiter Optimus Maximus (Jupiter Best and Greatest). Generals would offer sacrifices to Jupiter before military campaigns, and his approval was sought for all major state decisions.",
+      "symbolism": "Supreme authority, sky, thunder, justice, protection, kingship"
+    },
+    "indian": {
+      "names": [
+        "Brihaspati",
+        "Guru"
+      ],
+      "meaning": "Brihaspati means 'lord of prayer' or 'lord of sacred speech'; Guru means 'teacher' or 'heavy'",
+      "origin": "In Hindu tradition, Jupiter is personified as Brihaspati, the guru of the gods and master of wisdom",
+      "birthStory": "Brihaspati is the son of the sage Angiras and is considered one of the Saptarishis (seven great sages). He became the preceptor of the Devas (gods) and is renowned for his wisdom, knowledge, and eloquence.",
+      "characteristics": "Brihaspati is depicted with a golden complexion, riding an elephant or chariot pulled by eight horses. He holds a staff, beads, and a water pot, symbolizing his role as a teacher and priest.",
+      "role": "Brihaspati is one of the Navagraha (nine celestial deities) and serves as the guru of the gods. He governs wisdom, knowledge, teaching, spirituality, and prosperity.",
+      "astrologicalSignificance": "In Vedic astrology, Brihaspati rules the zodiac signs Sagittarius (Dhanu) and Pisces (Meena). He represents wisdom, knowledge, teaching, religion, philosophy, and expansion. Jupiter is considered the most benefic planet, bringing good fortune and prosperity.",
+      "culturalSignificance": "Thursday (Guruvar or Brihaspativar in Hindi) is dedicated to Brihaspati. He is worshipped for wisdom, education, prosperity, and spiritual growth. Yellow is his associated color, and yellow flowers, turmeric, and gram dal are offered in worship.",
+      "symbolism": "Wisdom, knowledge, teaching, spirituality, prosperity, expansion, optimism, justice"
+    },
+    "chinese": {
+      "name": "木星 (Mùxīng)",
+      "meaning": "Wood Star",
+      "origin": "In Chinese astronomy, Jupiter is called Muxing, associated with the Wood element",
+      "element": "Wood (Mu) - one of the Five Elements (Wu Xing)",
+      "characteristics": "Jupiter represents the Wood element in Chinese cosmology, associated with spring, growth, expansion, and renewal. It embodies yang energy - creative, expansive, and upward-moving.",
+      "astrologicalSignificance": "In Chinese astrology, Jupiter governs growth, expansion, wisdom, and good fortune. Its 12-year orbital period forms the basis of the Chinese zodiac cycle. Jupiter's position was used to determine auspicious times for important events.",
+      "culturalSignificance": "Jupiter is one of the Five Planets (Wu Xing) corresponding to the Five Elements. Ancient Chinese astronomers called Jupiter 'Sui Xing' (Year Star) because its 12-year orbit roughly corresponds to the 12-year zodiac cycle. The planet was carefully observed for astrological predictions.",
+      "symbolism": "Wood, yang energy, spring, growth, expansion, wisdom, benevolence",
+      "direction": "East (in Five Elements cosmology)",
+      "color": "Green or blue",
+      "alternativeNames": [
+        "Sui Xing (Year Star)",
+        "Tai Sui (Grand Duke Jupiter)"
+      ]
+    },
+    "babylonian": {
+      "name": "Marduk",
+      "origin": "In ancient Babylonian astronomy, Jupiter was associated with Marduk, the chief god of Babylon",
+      "characteristics": "Marduk was the patron deity of Babylon and became the king of the gods in Babylonian mythology. He was a god of wisdom, magic, justice, and agriculture.",
+      "story": "Marduk rose to supremacy by defeating Tiamat, the primordial goddess of chaos, in an epic battle. From Tiamat's body, he created the heavens and the earth. As reward, the other gods made him their king and built Babylon as his earthly seat. Marduk was associated with the planet Jupiter, the largest and brightest of the wandering stars.",
+      "astrologicalSignificance": "Babylonian astronomers tracked Jupiter's movements with great precision. They associated Jupiter with kingship, justice, and divine authority. Jupiter's position was considered in royal decisions and predictions about the fate of kingdoms.",
+      "culturalSignificance": "Marduk was the supreme deity of Babylon, and his temple (Esagila) was one of the most important religious centers in Mesopotamia. The Babylonian creation epic, Enuma Elish, celebrates Marduk's victory over chaos and his establishment of cosmic order.",
+      "symbolism": "Kingship, wisdom, justice, creation, order, divine authority"
+    },
+    "egyptian": {
+      "name": "Horus (as a celestial deity)",
+      "alternativeName": "Amun-Ra (in some traditions)",
+      "origin": "Ancient Egyptians associated Jupiter with Horus or sometimes with Amun-Ra, though Egyptian planetary associations are less clearly documented than other cultures",
+      "characteristics": "Jupiter was seen as a manifestation of divine kingship and solar power. The planet's brightness and prominence in the sky connected it to supreme deities.",
+      "astrologicalSignificance": "Egyptian astronomers observed Jupiter as one of the five visible planets. While Egyptian planetary mythology is less detailed than Babylonian or Greek traditions, Jupiter's prominence would have associated it with major deities.",
+      "culturalSignificance": "The Egyptians tracked planetary movements for religious and calendrical purposes. Jupiter's cycles were noted by priests and astronomers.",
+      "symbolism": "Kingship, divine power, solar energy"
+    },
+    "norse": {
+      "name": "Thor's Star",
+      "namedAfter": "Thor (Þórr), the Norse god of thunder",
+      "origin": "In Norse tradition, Thursday (Thor's day) is named after Thor, connecting the day to Jupiter just as the Roman 'Dies Iovis' (Jupiter's day) became Thursday",
+      "characteristics": "Thor was the god of thunder, lightning, storms, strength, and protection. He was the son of Odin and Jörð (Earth), wielding the mighty hammer Mjölnir. Thor was the protector of both gods and humans, defending Asgard and Midgard from giants and monsters.",
+      "story": "Thor was one of the most popular Norse gods, known for his strength, courage, and straightforward nature. He traveled across the sky in a chariot pulled by two goats, creating thunder with his hammer Mjölnir. Thor's adventures included battles with giants, the Midgard Serpent, and other threats to the cosmic order.",
+      "culturalSignificance": "Thursday is named after Thor in English and Germanic languages (Thursday = Thor's day), paralleling the Roman naming after Jupiter. This linguistic connection links Jupiter to Thor across cultures. Thor was especially popular among common people and warriors.",
+      "symbolism": "Thunder, strength, protection, courage, fertility, sacred oaths",
+      "weapon": "Mjölnir - the hammer that always returns to Thor's hand"
+    }
+  },
+  "history": {
+    "formation": {
+      "age": "4.6 billion years",
+      "description": "Jupiter formed about 4.6 billion years ago in the outer solar system where temperatures were cold enough for volatile compounds to condense. As the first planet to form, Jupiter grew rapidly by accumulating gas from the solar nebula. Its massive gravity prevented the formation of a planet in the asteroid belt between Mars and Jupiter. Jupiter may have migrated inward early in solar system history before settling into its current orbit."
+    },
+    "geologicalHistory": "As a gas giant, Jupiter has no solid surface or geological history like rocky planets. However, its atmosphere has been active for billions of years, with storms like the Great Red Spot persisting for centuries. Jupiter's interior is believed to have a small rocky core surrounded by metallic hydrogen under extreme pressure."
+  },
+  "missions": [
+    {
+      "name": "Juno",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "2011-08-05",
+      "arrivalDate": "2016-07-04",
+      "status": "Active",
+      "missionType": "Orbiter",
+      "description": "Juno is studying Jupiter's composition, gravity field, magnetic field, and polar magnetosphere to understand the planet's formation and evolution.",
+      "majorAchievements": [
+        "First spacecraft to orbit Jupiter's poles",
+        "Discovered Jupiter's core is larger and more diffuse than expected",
+        "Revealed complex atmospheric dynamics and massive cyclones at the poles",
+        "Measured Jupiter's powerful magnetic field in detail",
+        "Captured stunning close-up images of Jupiter's clouds and storms",
+        "Detected lightning at Jupiter's poles"
+      ]
+    },
+    {
+      "name": "Galileo",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "1989-10-18",
+      "arrivalDate": "1995-12-07",
+      "endDate": "2003-09-21",
+      "status": "Completed",
+      "missionType": "Orbiter and Atmospheric Probe",
+      "description": "Galileo orbited Jupiter for 8 years, studying the planet and its moons in unprecedented detail.",
+      "majorAchievements": [
+        "First spacecraft to orbit Jupiter",
+        "Dropped a probe into Jupiter's atmosphere",
+        "Discovered evidence of subsurface oceans on Europa, Ganymede, and Callisto",
+        "Observed volcanic activity on Io",
+        "Discovered Jupiter's ring system has a halo",
+        "Witnessed Comet Shoemaker-Levy 9 impact Jupiter in 1994"
+      ]
+    },
+    {
+      "name": "Voyager 1 & 2",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "1977",
+      "flybys": [
+        "1979-03-05 (Voyager 1)",
+        "1979-07-09 (Voyager 2)"
+      ],
+      "status": "Completed Jupiter phase, now in interstellar space",
+      "missionType": "Flyby",
+      "description": "The Voyager spacecraft made the first detailed observations of Jupiter and its moons during flybys in 1979.",
+      "majorAchievements": [
+        "Discovered Jupiter's rings",
+        "Found active volcanoes on Io (first discovered beyond Earth)",
+        "Revealed complex atmospheric dynamics",
+        "Discovered new moons",
+        "Captured first detailed images of the Galilean moons"
+      ]
+    }
+  ],
+  "exploration": {
+    "firstFlyby": {
+      "mission": "Pioneer 10",
+      "date": "1973-12-04",
+      "agency": "NASA"
+    },
+    "firstOrbit": {
+      "mission": "Galileo",
+      "date": "1995-12-07",
+      "agency": "NASA"
+    },
+    "totalMissions": "9 spacecraft have visited Jupiter",
+    "currentActiveMissions": [
+      "Juno"
+    ]
+  },
+  "comparisonToEarth": {
+    "size": "About 11 times Earth's diameter",
+    "mass": "318 times Earth's mass",
+    "gravity": "2.4 times Earth's gravity",
+    "dayLength": "10 hours (shortest day of any planet)",
+    "yearLength": "11.86 Earth years",
+    "temperature": "-108°C at cloud tops",
+    "atmosphere": "Mostly hydrogen and helium, no solid surface",
+    "moons": "At least 95 moons (Earth has 1)"
+  },
+  "interestingFacts": {
+    "largestPlanet": "Jupiter is the largest planet in the solar system with more mass than all other planets combined (2.5 times).",
+    "fastestRotation": "Despite its enormous size, Jupiter rotates faster than any other planet, completing one rotation in less than 10 hours. This rapid rotation causes the planet to bulge at its equator.",
+    "ancientStorm": "The Great Red Spot has been continuously observed for over 400 years, though it may be much older. However, it's been shrinking in recent decades.",
+    "protector": "Jupiter's massive gravity acts as a cosmic shield, deflecting or capturing asteroids and comets that might otherwise hit Earth.",
+    "failedStar": "Jupiter is sometimes called a 'failed star' because it's made of the same elements as the Sun. However, it would need to be about 80 times more massive to ignite nuclear fusion.",
+    "strongestMagnetosphere": "Jupiter has the strongest magnetic field of any planet, creating a magnetosphere so large it would appear larger than the full Moon if visible from Earth.",
+    "galileanMoons": "Jupiter's four largest moons (Io, Europa, Ganymede, Callisto) were discovered by Galileo in 1610 and provided evidence that not everything orbits Earth.",
+    "manyMoons": "Jupiter has at least 95 known moons, with more being discovered regularly. Many are small captured asteroids."
+  },
+  "metadata": {
+    "dataSource": "NASA Planetary Fact Sheet (scientific data), Grokipedia (mythology and educational content)",
+    "lastUpdated": "2026-01-21",
+    "version": "1.0",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+      "https://science.nasa.gov/jupiter/",
+      "https://www.nasa.gov/mission_pages/juno/",
+      "https://solarsystem.nasa.gov/missions/galileo/"
+    ]
+  }
+}

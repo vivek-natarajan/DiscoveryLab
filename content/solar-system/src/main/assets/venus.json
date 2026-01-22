@@ -1,0 +1,357 @@
+{
+  "id": "venus",
+  "name": "Venus",
+  "alternativeNames": [
+    "The Morning Star",
+    "The Evening Star",
+    "Earth's Twin"
+  ],
+  "order": 2,
+  "planetType": "terrestrial",
+  "descriptions": {
+    "short": "Venus is the hottest planet and the brightest object in our night sky after the Moon. It spins backwards!",
+    "medium": "Venus is the second planet from the Sun and is similar in size to Earth, earning it the nickname 'Earth's twin.' However, Venus is a hellish world with crushing atmospheric pressure, sulfuric acid clouds, and surface temperatures hot enough to melt lead. It's the brightest planet in our sky and rotates backwards compared to most planets.",
+    "long": "Venus is a rocky planet with a thick, toxic atmosphere composed mainly of carbon dioxide with clouds of sulfuric acid. The extreme greenhouse effect makes Venus the hottest planet in the solar system, even hotter than Mercury. Venus rotates very slowly and in the opposite direction to most planets - the Sun rises in the west and sets in the east. One day on Venus is longer than one Venus year. The surface pressure is 92 times that of Earth, equivalent to being 900 meters underwater. Despite being called Earth's twin due to similar size, Venus is radically different in almost every other way."
+  },
+  "funFacts": [
+    "Venus is the hottest planet, with surface temperatures around 465°C (hot enough to melt lead!)",
+    "Venus rotates backwards - the Sun rises in the west!",
+    "One day on Venus (243 Earth days) is longer than one Venus year (225 Earth days)",
+    "Venus is the brightest natural object in the night sky after the Moon",
+    "It rains sulfuric acid on Venus, but it evaporates before reaching the ground",
+    "Venus has no moons"
+  ],
+  "physicalCharacteristics": {
+    "mass": {
+      "value": 4.8675,
+      "unit": "10^24 kg",
+      "earthComparison": 0.815
+    },
+    "volume": {
+      "value": 92.843,
+      "unit": "10^10 km³",
+      "earthComparison": 0.857
+    },
+    "radius": {
+      "equatorial": 6051.8,
+      "polar": 6051.8,
+      "mean": 6051.8,
+      "unit": "km"
+    },
+    "diameter": {
+      "value": 12103.6,
+      "unit": "km",
+      "earthComparison": 0.949
+    },
+    "density": {
+      "value": 5243,
+      "unit": "kg/m³"
+    },
+    "gravity": {
+      "surface": 8.87,
+      "unit": "m/s²",
+      "earthComparison": 0.91
+    },
+    "escapeVelocity": {
+      "value": 10.36,
+      "unit": "km/s"
+    },
+    "temperature": {
+      "mean": 464,
+      "unit": "°C",
+      "kelvin": 226.6,
+      "description": "Hottest planet in the solar system due to extreme greenhouse effect"
+    }
+  },
+  "orbitalCharacteristics": {
+    "distanceFromSun": {
+      "semimajorAxis": 108.21,
+      "perihelion": 107.48,
+      "aphelion": 108.94,
+      "unit": "million km"
+    },
+    "orbitalPeriod": {
+      "value": 224.701,
+      "unit": "Earth days"
+    },
+    "orbitalVelocity": {
+      "mean": 35.02,
+      "max": 35.26,
+      "min": 34.79,
+      "unit": "km/s"
+    },
+    "orbitalEccentricity": 0.0067,
+    "orbitalInclination": {
+      "value": 3.39,
+      "unit": "degrees"
+    },
+    "rotationPeriod": {
+      "value": 5832.6,
+      "unit": "hours",
+      "days": 243,
+      "direction": "Retrograde (backwards)"
+    },
+    "lengthOfDay": {
+      "value": 2802,
+      "unit": "hours",
+      "days": 117
+    },
+    "axialTilt": {
+      "value": 177.36,
+      "unit": "degrees",
+      "description": "Essentially upside down"
+    }
+  },
+  "atmosphere": {
+    "composition": [
+      {
+        "gas": "Carbon Dioxide",
+        "percentage": 96.5
+      },
+      {
+        "gas": "Nitrogen",
+        "percentage": 3.5
+      },
+      {
+        "gas": "Sulfur Dioxide",
+        "percentage": 0.015
+      },
+      {
+        "gas": "Other gases",
+        "percentage": 0.01
+      }
+    ],
+    "surfacePressure": {
+      "value": 9200,
+      "unit": "kPa",
+      "earthComparison": 92,
+      "description": "92 times Earth's pressure - equivalent to being 900 meters underwater"
+    },
+    "description": "Venus has an extremely thick atmosphere composed mainly of carbon dioxide with clouds of sulfuric acid. The atmosphere creates a runaway greenhouse effect, trapping heat and making Venus the hottest planet. The thick clouds reflect sunlight, making Venus very bright but also hiding the surface from view. Atmospheric pressure at the surface is crushing - 92 times that of Earth.",
+    "clouds": "Thick clouds of sulfuric acid at 50-70 km altitude. It rains sulfuric acid, but the rain evaporates before reaching the surface due to extreme heat.",
+    "greenhouseEffect": "The extreme greenhouse effect raises surface temperature by about 500°C above what it would be without an atmosphere"
+  },
+  "surface": {
+    "features": [
+      {
+        "name": "Maxwell Montes",
+        "type": "Mountain Range",
+        "description": "The highest mountain on Venus, reaching 11 km above average surface elevation",
+        "significance": "Higher than Mount Everest on Earth"
+      },
+      {
+        "name": "Ishtar Terra",
+        "type": "Highland Region",
+        "description": "One of two continent-sized highland regions, about the size of Australia",
+        "significance": "Contains Maxwell Montes and several large volcanic features"
+      },
+      {
+        "name": "Aphrodite Terra",
+        "type": "Highland Region",
+        "description": "The larger of Venus's two main highland regions, roughly the size of South America",
+        "significance": "Contains extensive volcanic and tectonic features"
+      },
+      {
+        "name": "Maat Mons",
+        "type": "Volcano",
+        "description": "The highest volcano on Venus at 8 km high",
+        "significance": "May still be active - recent studies suggest recent volcanic activity"
+      }
+    ],
+    "color": "Reddish-orange surface under yellow-white clouds",
+    "terrain": "Volcanic plains, highland regions, impact craters, and possible active volcanoes",
+    "volcanism": "Venus has more volcanoes than any other planet - over 1,600 major volcanoes and possibly millions of smaller ones. Some may still be active."
+  },
+  "moons": {
+    "total": 0,
+    "majorMoons": [],
+    "minorMoons": []
+  },
+  "mythology": {
+    "roman": {
+      "namedAfter": "Venus, the Roman goddess of love and beauty",
+      "greekEquivalent": "Aphrodite",
+      "origin": "Named after the goddess of love and beauty because it's the most beautiful and brightest planet in the sky",
+      "story": "Venus was the Roman goddess of love, beauty, desire, sex, and fertility. According to myth, she was born from sea foam and was married to Vulcan (the god of fire), but had affairs with Mars (god of war) and others. She was the mother of Cupid (Amor) and Aeneas, the legendary founder of Rome. Venus was one of the most important Roman deities, and Julius Caesar claimed descent from her.",
+      "culturalSignificance": "Venus was central to Roman religion and politics. Julius Caesar built a temple to Venus Genetrix (Venus the Mother) claiming her as his ancestor. The planet was named Venus because of its beauty and brightness in the sky. Venus is associated with the month of April and Friday (Veneris dies in Latin).",
+      "symbolism": "Love, beauty, desire, fertility, prosperity, victory, sexuality"
+    },
+    "indian": {
+      "names": [
+        "Shukra",
+        "Bhargava"
+      ],
+      "meaning": "Shukra means 'bright' or 'clear' in Sanskrit, referring to the planet's brilliance",
+      "origin": "In Hindu tradition, Venus is personified as Shukra, the guru (teacher) of the Asuras (demons) and a master of all knowledge",
+      "birthStory": "According to Hindu mythology, Shukra is the son of the sage Bhrigu and Ushana. He performed intense penance to Lord Shiva and obtained the Sanjeevani Vidya (knowledge of resurrection), which he used to revive the Asuras killed in battles with the Devas (gods).",
+      "characteristics": "Shukra is depicted with a white complexion, riding a white horse or silver chariot. He holds a staff, beads, and a lotus. He is portrayed as a learned brahmin with great wisdom and knowledge of the arts.",
+      "role": "Shukra is one of the Navagraha (nine celestial deities) and serves as the guru of the Asuras. He governs love, beauty, luxury, arts, creativity, and material pleasures.",
+      "astrologicalSignificance": "In Vedic astrology, Shukra rules the zodiac signs Taurus (Vrishabha) and Libra (Tula). He represents love, beauty, arts, luxury, wealth, marriage, and sensual pleasures. Venus is considered a benefic planet that brings prosperity and happiness.",
+      "culturalSignificance": "Friday (Shukravar in Hindi) is dedicated to Shukra. He is worshipped for success in love, marriage, arts, and material prosperity. White is his associated color, and white flowers, rice, and diamonds are offered in worship.",
+      "symbolism": "Love, beauty, arts, luxury, wealth, marriage, creativity, sensuality, knowledge"
+    },
+    "chinese": {
+      "name": "金星 (Jīnxīng)",
+      "meaning": "Metal Star",
+      "origin": "In Chinese astronomy, Venus is called Jinxing, associated with the Metal element",
+      "element": "Metal (Jin) - one of the Five Elements (Wu Xing)",
+      "characteristics": "Venus represents the Metal element in Chinese cosmology, associated with autumn, harvest, strength, and determination. It embodies yin energy - receptive and feminine.",
+      "astrologicalSignificance": "In Chinese astrology, Venus governs love, beauty, harmony, and relationships. It influences arts, aesthetics, and social connections. Venus is considered a benefic influence associated with peace and prosperity.",
+      "culturalSignificance": "Venus is one of the Five Planets (Wu Xing) corresponding to the Five Elements. Ancient Chinese astronomers called Venus 'Taibai' (Great White) due to its brightness. It was carefully observed as both the Morning Star and Evening Star.",
+      "symbolism": "Metal, yin energy, autumn, beauty, harmony, relationships, arts",
+      "direction": "West (in Five Elements cosmology)",
+      "color": "White or silver",
+      "alternativeNames": [
+        "Taibai (Great White)",
+        "Changgeng (Evening Star)",
+        "Qiming (Morning Star)"
+      ]
+    },
+    "babylonian": {
+      "name": "Ishtar (Inanna)",
+      "origin": "In ancient Babylonian astronomy, Venus was associated with Ishtar, the goddess of love, war, and fertility",
+      "characteristics": "Ishtar was one of the most important Mesopotamian deities, representing both love/sexuality and war/combat. She was depicted as a powerful, complex goddess who could be both nurturing and destructive.",
+      "story": "Ishtar descended to the underworld to visit her sister Ereshkigal, passing through seven gates and removing a piece of clothing at each. While she was in the underworld, fertility ceased on Earth. Her return brought back life and growth. This myth was connected to Venus's disappearance and reappearance in the sky.",
+      "astrologicalSignificance": "Babylonian astronomers were among the first to recognize that the Morning Star and Evening Star were the same object - Venus. They tracked Venus's movements with great precision, associating its cycles with Ishtar's descent and return from the underworld.",
+      "culturalSignificance": "Ishtar was one of the most widely worshipped deities in Mesopotamia. The association of Venus with both love and war (like Ishtar) influenced later Greek and Roman traditions. The planet's cycles were used to create some of the earliest astronomical calendars.",
+      "symbolism": "Love, war, fertility, sexuality, power, death and rebirth",
+      "otherNames": [
+        "Inanna (Sumerian name)"
+      ]
+    },
+    "egyptian": {
+      "name": "Tioumoutiri",
+      "alternativeNames": [
+        "Bennu (Morning Star)",
+        "Ouaiti (Evening Star)"
+      ],
+      "origin": "Ancient Egyptians recognized Venus as both the Morning Star and Evening Star, giving it different names for each appearance",
+      "characteristics": "Venus was associated with several Egyptian deities depending on its appearance. As the Morning Star, it was sometimes linked to Horus or the Bennu bird (phoenix). As the Evening Star, it had different associations.",
+      "astrologicalSignificance": "Egyptian astronomers observed Venus carefully, noting its cycles and appearances. The planet's regular pattern of appearing as Morning Star and Evening Star was incorporated into Egyptian astronomical knowledge.",
+      "culturalSignificance": "While Venus was not as central to Egyptian mythology as it was in Mesopotamian cultures, it was still observed and recorded by Egyptian astronomers and priests.",
+      "symbolism": "Rebirth, cycles, duality (morning/evening)"
+    },
+    "norse": {
+      "name": "Frigg's Star",
+      "namedAfter": "Frigg (Frigga), the Norse goddess of love, marriage, and wisdom",
+      "origin": "In Norse tradition, Friday (Frigg's day) is named after Frigg, connecting the day to Venus just as the Roman 'Dies Veneris' (Venus's day) became Friday",
+      "characteristics": "Frigg was Odin's wife and queen of the Aesir. She was the goddess of marriage, motherhood, domestic arts, and foresight. She knew all fates but spoke no prophecies. She was associated with love, fertility, and the household.",
+      "story": "Frigg was a powerful goddess who sat beside Odin on his throne and could see all that happened in the nine worlds. She was the mother of Baldr, whose death she tried to prevent. She was known for her wisdom, foresight, and protective nature toward her family.",
+      "culturalSignificance": "Friday is named after Frigg in English and Germanic languages (Friday = Frigg's day), paralleling the Roman naming after Venus. This linguistic connection links Venus to Frigg across cultures.",
+      "symbolism": "Love, marriage, motherhood, wisdom, foresight, domestic arts, fertility",
+      "note": "Some traditions associate Friday with Freyja instead of Frigg, as both goddesses have overlapping domains"
+    }
+  },
+  "history": {
+    "formation": {
+      "age": "4.6 billion years",
+      "description": "Venus formed about 4.6 billion years ago from the solar nebula. Scientists believe Venus may have once been more Earth-like, possibly with liquid water oceans. However, a runaway greenhouse effect transformed it into the hellish world we see today. The exact timing and cause of this transformation is still debated."
+    },
+    "geologicalHistory": "Venus's surface is relatively young, about 300-600 million years old, suggesting global resurfacing events. The planet shows evidence of extensive volcanic activity and may still have active volcanoes. Venus has no plate tectonics like Earth, but shows signs of volcanic and tectonic activity. The thick atmosphere has preserved the surface from meteorite impacts."
+  },
+  "missions": [
+    {
+      "name": "Magellan",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "1989-05-04",
+      "arrivalDate": "1990-08-10",
+      "endDate": "1994-10-12",
+      "status": "Completed",
+      "missionType": "Orbiter",
+      "description": "Magellan used radar to map Venus's surface through its thick clouds, revealing the planet's geology in unprecedented detail.",
+      "majorAchievements": [
+        "Mapped 98% of Venus's surface using radar",
+        "Discovered evidence of volcanic activity",
+        "Revealed Venus's complex geological features",
+        "Found no evidence of plate tectonics",
+        "Provided detailed topographic maps"
+      ]
+    },
+    {
+      "name": "Venera Program",
+      "agency": "Soviet Union",
+      "country": "USSR",
+      "period": "1961-1984",
+      "status": "Completed",
+      "missionType": "Multiple landers and orbiters",
+      "description": "The Soviet Venera program sent numerous spacecraft to Venus, achieving many firsts including the first successful landing on another planet.",
+      "majorAchievements": [
+        "Venera 7: First successful landing on another planet (1970)",
+        "Venera 9: First images from Venus's surface (1975)",
+        "Venera 13: Transmitted data for 127 minutes on surface (1982)",
+        "Measured surface temperature and pressure",
+        "Analyzed soil composition",
+        "Proved Venus's extreme conditions"
+      ]
+    },
+    {
+      "name": "Akatsuki",
+      "agency": "JAXA",
+      "country": "Japan",
+      "launchDate": "2010-05-21",
+      "arrivalDate": "2015-12-07",
+      "status": "Active",
+      "missionType": "Orbiter",
+      "description": "Akatsuki studies Venus's atmosphere and weather patterns, including the mysterious super-rotation of the atmosphere.",
+      "majorAchievements": [
+        "Studying Venus's atmospheric super-rotation",
+        "Observing lightning and volcanic activity",
+        "Mapping cloud patterns and atmospheric dynamics",
+        "Investigating the greenhouse effect"
+      ]
+    }
+  ],
+  "exploration": {
+    "firstFlyby": {
+      "mission": "Mariner 2",
+      "date": "1962-12-14",
+      "agency": "NASA"
+    },
+    "firstLanding": {
+      "mission": "Venera 7",
+      "date": "1970-12-15",
+      "agency": "Soviet Union"
+    },
+    "firstOrbit": {
+      "mission": "Venera 9",
+      "date": "1975-10-22",
+      "agency": "Soviet Union"
+    },
+    "totalMissions": "Over 40 missions attempted",
+    "currentActiveMissions": [
+      "Akatsuki (JAXA)"
+    ]
+  },
+  "comparisonToEarth": {
+    "size": "About 95% the diameter of Earth (very similar)",
+    "mass": "About 82% of Earth's mass",
+    "gravity": "91% of Earth's gravity (very similar)",
+    "dayLength": "243 Earth days (very slow, backwards rotation)",
+    "yearLength": "225 Earth days",
+    "temperature": "464°C average (vs Earth's 15°C)",
+    "atmosphere": "92 times thicker than Earth's, toxic CO2",
+    "moons": "None (Earth has 1)"
+  },
+  "interestingFacts": {
+    "hottestPlanet": "Venus is hotter than Mercury despite being farther from the Sun, due to its extreme greenhouse effect",
+    "backwardsRotation": "Venus rotates backwards (retrograde) - the Sun rises in the west and sets in the east",
+    "slowRotation": "Venus rotates so slowly that one day is longer than one year",
+    "brightestPlanet": "Venus is the brightest natural object in the night sky after the Moon",
+    "morningAndEveningStar": "Ancient civilizations thought Venus was two different objects - the Morning Star and Evening Star",
+    "acidRain": "It rains sulfuric acid on Venus, but the rain evaporates before reaching the ground",
+    "crushingPressure": "The atmospheric pressure on Venus would crush most spacecraft",
+    "noMoons": "Venus and Mercury are the only planets without moons",
+    "earthsTwin": "Venus is called Earth's twin due to similar size, but is radically different in almost every other way"
+  },
+  "metadata": {
+    "dataSource": "NASA Planetary Fact Sheet, NASA Magellan Mission, JAXA Akatsuki",
+    "lastUpdated": "2026-01-16",
+    "version": "1.0",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+      "https://science.nasa.gov/venus/",
+      "https://www.isas.jaxa.jp/en/missions/spacecraft/current/akatsuki.html"
+    ]
+  }
+}

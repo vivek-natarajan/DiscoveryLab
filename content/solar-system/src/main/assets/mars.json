@@ -1,0 +1,476 @@
+{
+  "id": "mars",
+  "name": "Mars",
+  "alternativeNames": [
+    "The Red Planet"
+  ],
+  "order": 4,
+  "planetType": "terrestrial",
+  "descriptions": {
+    "short": "Mars is called the Red Planet because of the rusty iron in its soil. It's cold and dusty!",
+    "medium": "Mars is the fourth planet from the Sun and the second smallest planet in our solar system. It has two small moons and is known for its red color caused by iron oxide (rust) on its surface.",
+    "long": "Mars is a cold desert world with a thin atmosphere composed primarily of carbon dioxide. It has the largest volcano in the solar system (Olympus Mons) and a massive canyon system (Valles Marineris). Evidence suggests Mars once had liquid water on its surface and may have been warmer and wetter in the past. Today, water exists as ice at the poles and possibly as liquid brine beneath the surface. Mars experiences seasons due to its axial tilt, and massive dust storms can envelope the entire planet."
+  },
+  "funFacts": [
+    "A day on Mars is almost the same as a day on Earth - just 37 minutes longer!",
+    "Mars has the largest volcano in the solar system - Olympus Mons, which is 21 km high",
+    "Mars has two small moons named after the sons of the Roman god of war",
+    "Pieces of Mars have fallen to Earth as meteorites",
+    "Mars has seasons like Earth because of its tilted axis",
+    "The red color comes from iron oxide (rust) in the Martian soil"
+  ],
+  "physicalCharacteristics": {
+    "mass": {
+      "value": 0.64171,
+      "unit": "10^24 kg",
+      "earthComparison": 0.107
+    },
+    "volume": {
+      "value": 16.318,
+      "unit": "10^10 km³",
+      "earthComparison": 0.151
+    },
+    "radius": {
+      "equatorial": 3396.2,
+      "polar": 3376.2,
+      "mean": 3389.5,
+      "unit": "km"
+    },
+    "diameter": {
+      "value": 6779,
+      "unit": "km",
+      "earthComparison": 0.532
+    },
+    "density": {
+      "value": 3933,
+      "unit": "kg/m³"
+    },
+    "gravity": {
+      "surface": 3.71,
+      "unit": "m/s²",
+      "earthComparison": 0.38
+    },
+    "escapeVelocity": {
+      "value": 5.03,
+      "unit": "km/s"
+    },
+    "temperature": {
+      "mean": -63,
+      "unit": "°C",
+      "kelvin": 210,
+      "range": "-140°C to 20°C"
+    }
+  },
+  "orbitalCharacteristics": {
+    "distanceFromSun": {
+      "semimajorAxis": 227.92,
+      "perihelion": 206.62,
+      "aphelion": 249.23,
+      "unit": "million km"
+    },
+    "orbitalPeriod": {
+      "value": 686.98,
+      "unit": "Earth days",
+      "marsYears": 1.88
+    },
+    "orbitalVelocity": {
+      "mean": 24.07,
+      "max": 26.5,
+      "min": 21.97,
+      "unit": "km/s"
+    },
+    "orbitalEccentricity": 0.0935,
+    "orbitalInclination": {
+      "value": 1.85,
+      "unit": "degrees"
+    },
+    "rotationPeriod": {
+      "value": 24.6229,
+      "unit": "hours"
+    },
+    "lengthOfDay": {
+      "value": 24.6597,
+      "unit": "hours",
+      "sol": "1 sol (Martian day)"
+    },
+    "axialTilt": {
+      "value": 25.19,
+      "unit": "degrees"
+    }
+  },
+  "atmosphere": {
+    "composition": [
+      {
+        "gas": "Carbon Dioxide",
+        "percentage": 95.32
+      },
+      {
+        "gas": "Nitrogen",
+        "percentage": 2.7
+      },
+      {
+        "gas": "Argon",
+        "percentage": 1.6
+      },
+      {
+        "gas": "Oxygen",
+        "percentage": 0.13
+      },
+      {
+        "gas": "Carbon Monoxide",
+        "percentage": 0.08
+      },
+      {
+        "gas": "Water Vapor",
+        "percentage": 0.03
+      }
+    ],
+    "surfacePressure": {
+      "value": 0.636,
+      "unit": "kPa",
+      "earthComparison": 0.006
+    },
+    "description": "Mars has a thin atmosphere, about 100 times thinner than Earth's. It's not thick enough to retain heat or protect the surface from radiation. The thin atmosphere causes extreme temperature variations between day and night."
+  },
+  "surface": {
+    "features": [
+      {
+        "name": "Olympus Mons",
+        "type": "Volcano",
+        "description": "The largest volcano in the solar system, standing 21 km high and 600 km wide",
+        "significance": "Nearly three times the height of Mount Everest"
+      },
+      {
+        "name": "Valles Marineris",
+        "type": "Canyon System",
+        "description": "A massive canyon system stretching over 4,000 km long, 200 km wide, and up to 7 km deep",
+        "significance": "Would span the entire United States from coast to coast"
+      },
+      {
+        "name": "Polar Ice Caps",
+        "type": "Ice Deposits",
+        "description": "Permanent ice caps made of water ice and frozen carbon dioxide",
+        "significance": "Contain enough water ice to cover the planet in 35 meters of water if melted"
+      },
+      {
+        "name": "Jezero Crater",
+        "type": "Ancient Lake Bed",
+        "description": "A 45 km wide crater that once contained a lake and river delta",
+        "significance": "Current location of NASA's Perseverance rover, searching for signs of ancient life"
+      }
+    ],
+    "color": "Reddish-orange due to iron oxide (rust)",
+    "terrain": "Rocky desert with canyons, volcanoes, dry lake beds, and impact craters"
+  },
+  "moons": {
+    "total": 2,
+    "majorMoons": [
+      {
+        "name": "Phobos",
+        "radius": 11.267,
+        "orbitalPeriod": 0.32,
+        "distanceFromPlanet": 9376,
+        "discoveryYear": 1877,
+        "discoveredBy": "Asaph Hall",
+        "description": "The larger and inner moon of Mars, Phobos is slowly spiraling toward Mars and will either crash into the planet or break apart into a ring in about 50 million years. It's heavily cratered and irregularly shaped.",
+        "mythology": "Named after Phobos (fear), son of Ares (Mars) in Greek mythology",
+        "features": "Spiraling toward Mars, heavily cratered, irregular shape, Stickney crater"
+      },
+      {
+        "name": "Deimos",
+        "radius": 6.2,
+        "orbitalPeriod": 1.26,
+        "distanceFromPlanet": 23463,
+        "discoveryYear": 1877,
+        "discoveredBy": "Asaph Hall",
+        "description": "The smaller and outer moon of Mars, Deimos has a smoother surface than Phobos, covered in fine regolith. It's slowly moving away from Mars.",
+        "mythology": "Named after Deimos (terror), son of Ares (Mars) in Greek mythology",
+        "features": "Moving away from Mars, smoother surface, small and irregular"
+      }
+    ],
+    "minorMoons": []
+  },
+  "mythology": {
+    "roman": {
+      "namedAfter": "Mars, the Roman god of war",
+      "greekEquivalent": "Ares",
+      "origin": "The planet's blood-red color reminded ancient Romans of battlefields, making it a fitting tribute to their war god",
+      "story": "Mars was the Roman god of war, representing combat, violence, and military power. He was one of the most important gods in Roman religion and was considered the father of Romulus and Remus, the legendary founders of Rome. Unlike his Greek counterpart Ares, who was often portrayed negatively, Mars was highly respected and seen as a guardian of Rome.",
+      "culturalSignificance": "Mars was second only to Jupiter in importance in Roman religion. The month of March (Martius) is named after him, as it was traditionally the beginning of the military campaign season. Warriors would pray to Mars before battle, and he was honored with festivals and games.",
+      "symbolism": "War, military power, agriculture (in early Roman religion), masculinity, courage"
+    },
+    "indian": {
+      "names": [
+        "Mangala",
+        "Mangal",
+        "Angaraka",
+        "Kuja"
+      ],
+      "meaning": "Mangala means 'auspicious' in Sanskrit; Angaraka means 'burning coal' or 'red one'; Kuja means 'born from Earth'",
+      "origin": "In Hindu tradition, Mars is personified as Mangala, a deity associated with strength, courage, and martial energy",
+      "birthStory": "According to Hindu mythology, Mangala was born from the sweat or blood of Lord Shiva when it fell upon the Earth. Another tradition states he is the son of Bhudevi (Mother Earth), hence the name Kuja (born from Earth).",
+      "characteristics": "Mangala is depicted as a warrior deity with red complexion, riding a ram or chariot pulled by eight red horses. He carries weapons including a trident, mace, and spear, symbolizing his martial nature.",
+      "role": "Mangala is one of the Navagraha (nine celestial deities) in Hindu astrology and is considered the commander of celestial armies. He governs courage, strength, vitality, aggression, and determination.",
+      "astrologicalSignificance": "In Vedic astrology, Mangala rules the zodiac signs Aries (Mesha) and Scorpio (Vrishchika). He represents energy, action, ambition, passion, and physical strength. Mars is considered both a benefic and malefic planet depending on its placement.",
+      "culturalSignificance": "Tuesday (Mangalvar in Hindi) is dedicated to Mangala. Devotees worship him for courage, success in endeavors, protection from enemies, and to mitigate negative astrological effects. Red is his associated color, and red lentils, red flowers, and jaggery are offered in worship.",
+      "symbolism": "Courage, strength, determination, martial prowess, energy, passion, aggression, discipline, real estate and property (in astrology)"
+    },
+    "chinese": {
+      "name": "火星 (Huǒxīng)",
+      "meaning": "Fire Star",
+      "origin": "In Chinese astronomy and astrology, Mars is called Huoxing, literally meaning 'Fire Star', due to its red color",
+      "element": "Fire (Huo) - one of the Five Elements (Wu Xing)",
+      "characteristics": "Mars represents the Fire element in Chinese cosmology, associated with summer, heat, growth, and transformation. It embodies yang energy - active, dynamic, and expansive.",
+      "astrologicalSignificance": "In Chinese astrology, Mars governs passion, aggression, conflict, and rapid change. It influences military affairs, accidents, fires, and sudden events. Mars transits are watched carefully for their impact on warfare and social unrest.",
+      "culturalSignificance": "Mars is one of the Five Planets (Wu Xing) that correspond to the Five Elements. Ancient Chinese astronomers carefully tracked Mars' movements, believing its position and brightness could predict wars, droughts, and political upheaval.",
+      "symbolism": "Fire, yang energy, summer, passion, conflict, transformation, military matters",
+      "direction": "South (in Five Elements cosmology)",
+      "color": "Red"
+    },
+    "babylonian": {
+      "name": "Nergal",
+      "origin": "In ancient Babylonian and Mesopotamian astronomy, Mars was associated with Nergal, a major deity of the underworld",
+      "characteristics": "Nergal was a complex deity representing war, plague, death, and the scorching heat of the sun. He was depicted as a fierce warrior and was both feared and respected.",
+      "story": "Nergal was the husband of Ereshkigal, queen of the underworld. According to myth, he descended to the underworld and became its co-ruler. He commanded demons and was invoked in times of war and pestilence.",
+      "astrologicalSignificance": "The Babylonians were among the first to systematically observe and record Mars' movements. They associated Mars with warfare, destruction, and disease. Mars' retrograde motion was considered particularly ominous.",
+      "culturalSignificance": "Babylonian astronomers tracked Mars with great precision, creating detailed astronomical diaries. Their observations of Mars influenced later Greek and Roman astronomy. The association of Mars with war and calamity originated in Mesopotamian tradition.",
+      "symbolism": "War, plague, death, underworld, destruction, scorching heat",
+      "otherNames": [
+        "Nirgal",
+        "Erra"
+      ]
+    },
+    "egyptian": {
+      "name": "Har Decher (Horus the Red)",
+      "alternativeName": "Horus of the Horizon",
+      "origin": "Ancient Egyptians associated Mars with Horus in his red aspect, or sometimes with Set, the god of chaos and the desert",
+      "characteristics": "Mars was called 'Horus the Red' or 'The Red Horus' due to its distinctive color. Some traditions associated it with Set, the god of storms, disorder, and violence, because of its reddish hue and erratic motion.",
+      "dualAssociation": "The planet's association varied between Horus (representing order and kingship) and Set (representing chaos and the desert). This duality reflected Mars' unpredictable movements and its blood-red color.",
+      "astrologicalSignificance": "Egyptian astronomers observed Mars as part of their celestial observations, though their records are less detailed than Babylonian ones. Mars was considered a powerful celestial force that could influence earthly events.",
+      "culturalSignificance": "Mars' retrograde motion and varying brightness were noted by Egyptian priests and astronomers. The planet's red color connected it to the red desert lands ruled by Set, as well as to blood and warfare.",
+      "symbolism": "War, chaos, desert, blood, royal power (as Horus), disorder (as Set)"
+    },
+    "norse": {
+      "name": "Tyr's Star",
+      "namedAfter": "Tyr (Týr), the Norse god of war, law, and justice",
+      "origin": "In Norse and Germanic traditions, Tuesday (Tyr's day) is named after Tyr, connecting the day to Mars just as the Roman 'Dies Martis' (Mars' day) became Tuesday in Romance languages",
+      "characteristics": "Tyr was a one-handed god who sacrificed his hand to bind the wolf Fenrir. He represented courage, honor, justice, and self-sacrifice in warfare. Unlike the Roman Mars, Tyr embodied lawful warfare and oaths.",
+      "story": "Tyr was one of the oldest Germanic gods, associated with the sky and war. His most famous myth involves binding Fenrir: to restrain the monstrous wolf, Tyr placed his hand in Fenrir's mouth as a pledge of good faith. When the gods bound Fenrir with magical chains, the wolf bit off Tyr's hand. This sacrifice made Tyr a symbol of courage and honor.",
+      "culturalSignificance": "Tuesday is named after Tyr in English and Germanic languages (Tuesday = Tyr's day), paralleling the Roman naming of the day after Mars (Mardi in French, Martes in Spanish). This linguistic connection links Mars to Tyr across cultures.",
+      "symbolism": "War, justice, law, courage, honor, oaths, self-sacrifice, victory in battle",
+      "rune": "Tiwaz (ᛏ) - the rune associated with Tyr, representing justice and sacrifice"
+    }
+  },
+  "history": {
+    "formation": {
+      "age": "4.6 billion years",
+      "description": "Mars formed about 4.6 billion years ago from the solar nebula. It's smaller than Earth because it formed in a region with less material available. Early Mars likely had a thicker atmosphere and liquid water on its surface, but lost most of its atmosphere over billions of years due to its weak magnetic field and low gravity."
+    },
+    "geologicalHistory": "Noachian Period (4.1 to 3.7 billion years ago): Heavy bombardment by asteroids, formation of large impact basins, possible presence of liquid water and a thicker atmosphere Hesperian Period (3.7 to 3.0 billion years ago): Widespread volcanic activity, formation of large lava plains, gradual loss of atmosphere Amazonian Period (3.0 billion years ago to present): Cold, dry conditions similar to today, occasional volcanic activity, ongoing atmospheric loss",
+    "waterHistory": "Evidence suggests Mars once had rivers, lakes, and possibly oceans. Ancient riverbeds, deltas, and minerals that form in water have been discovered. Most of this water was lost to space or frozen underground. Today, water exists as ice at the poles and possibly as liquid brine beneath the surface."
+  },
+  "missions": [
+    {
+      "name": "Perseverance",
+      "fullName": "Mars 2020 Perseverance Rover",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "2020-07-30",
+      "landingDate": "2021-02-18",
+      "landingSite": "Jezero Crater",
+      "status": "Active",
+      "missionType": "Rover",
+      "primaryObjectives": [
+        "Search for signs of ancient microbial life",
+        "Collect rock and soil samples for potential return to Earth",
+        "Test oxygen production from Martian atmosphere (MOXIE experiment)",
+        "Study Mars geology and climate"
+      ],
+      "description": "Perseverance is NASA's most advanced Mars rover, equipped with 7 scientific instruments and 23 cameras. It's exploring Jezero Crater, which scientists believe was once filled with water and may contain signs of ancient life.",
+      "majorAchievements": [
+        "Successfully landed in Jezero Crater on February 18, 2021",
+        "Deployed Ingenuity helicopter, the first aircraft to fly on another planet",
+        "Ingenuity completed over 70 flights, far exceeding its original 5-flight mission",
+        "Collected over 20 rock and soil samples sealed in tubes for future return to Earth",
+        "Produced oxygen from Mars atmosphere using MOXIE experiment",
+        "Discovered evidence of ancient river delta and lake in Jezero Crater",
+        "Found organic molecules in ancient rocks",
+        "Recorded sounds of Mars, including wind and rover operations"
+      ],
+      "instruments": [
+        "Mastcam-Z: Stereoscopic camera system",
+        "SuperCam: Laser and camera for analyzing rocks",
+        "PIXL: X-ray fluorescence spectrometer",
+        "SHERLOC: UV spectrometer for detecting organic compounds",
+        "MOXIE: Oxygen production experiment",
+        "MEDA: Weather station",
+        "RIMFAX: Ground-penetrating radar"
+      ],
+      "companion": {
+        "name": "Ingenuity",
+        "type": "Helicopter",
+        "description": "A 1.8 kg autonomous helicopter that demonstrated powered flight is possible in Mars' thin atmosphere"
+      }
+    },
+    {
+      "name": "Curiosity",
+      "fullName": "Mars Science Laboratory Curiosity Rover",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "2011-11-26",
+      "landingDate": "2012-08-06",
+      "landingSite": "Gale Crater",
+      "status": "Active",
+      "missionType": "Rover",
+      "primaryObjectives": [
+        "Determine if Mars ever had conditions suitable for microbial life",
+        "Study Mars climate and geology",
+        "Prepare for human exploration"
+      ],
+      "description": "Curiosity is a car-sized rover exploring Gale Crater and Mount Sharp. It's been operating for over 11 years, far exceeding its original 2-year mission.",
+      "majorAchievements": [
+        "Successfully landed using innovative 'sky crane' system on August 6, 2012",
+        "Confirmed Mars once had conditions suitable for microbial life",
+        "Discovered organic molecules in 3.5 billion-year-old rocks",
+        "Detected methane in the atmosphere, which varies seasonally",
+        "Studied radiation levels to help plan human missions",
+        "Climbed Mount Sharp, studying different geological layers",
+        "Traveled over 30 km on Mars surface",
+        "Still operating after 11+ years, far exceeding design life"
+      ],
+      "instruments": [
+        "ChemCam: Laser and spectrometer",
+        "Mastcam: High-resolution cameras",
+        "SAM: Sample Analysis at Mars (detects organic compounds)",
+        "CheMin: X-ray diffraction instrument",
+        "MAHLI: Hand lens camera",
+        "RAD: Radiation detector"
+      ]
+    },
+    {
+      "name": "InSight",
+      "fullName": "Interior Exploration using Seismic Investigations, Geodesy and Heat Transport",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "2018-05-05",
+      "landingDate": "2018-11-26",
+      "landingSite": "Elysium Planitia",
+      "status": "Completed (2022-12-15)",
+      "missionType": "Lander",
+      "primaryObjectives": [
+        "Study Mars interior structure",
+        "Detect marsquakes",
+        "Measure heat flow from interior",
+        "Study Mars formation and evolution"
+      ],
+      "description": "InSight was the first mission dedicated to studying Mars' deep interior. It operated for 4 years before dust accumulation on its solar panels ended the mission.",
+      "majorAchievements": [
+        "Detected over 1,300 marsquakes",
+        "Determined Mars has a liquid core",
+        "Measured the thickness of Mars crust",
+        "Studied Mars magnetic field",
+        "Recorded sounds of Martian wind and marsquakes",
+        "Provided data on Mars interior structure and composition"
+      ]
+    },
+    {
+      "name": "Mars Reconnaissance Orbiter",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "2005-08-12",
+      "arrivalDate": "2006-03-10",
+      "status": "Active",
+      "missionType": "Orbiter",
+      "description": "MRO has been studying Mars from orbit for over 17 years, providing high-resolution images and data about Mars surface and atmosphere.",
+      "majorAchievements": [
+        "Discovered evidence of flowing liquid water on present-day Mars",
+        "Mapped Mars surface in unprecedented detail",
+        "Served as communication relay for Mars rovers",
+        "Studied Mars climate and seasonal changes",
+        "Transmitted over 400 terabits of data"
+      ]
+    }
+  ],
+  "exploration": {
+    "firstFlyby": {
+      "mission": "Mariner 4",
+      "date": "1965-07-15",
+      "agency": "NASA"
+    },
+    "firstOrbit": {
+      "mission": "Mariner 9",
+      "date": "1971-11-14",
+      "agency": "NASA"
+    },
+    "firstLanding": {
+      "mission": "Viking 1",
+      "date": "1976-07-20",
+      "agency": "NASA"
+    },
+    "totalMissions": "Over 50 missions attempted (many failed)",
+    "successRate": "Approximately 50%",
+    "currentActiveMissions": [
+      "Perseverance Rover (NASA)",
+      "Curiosity Rover (NASA)",
+      "Mars Reconnaissance Orbiter (NASA)",
+      "MAVEN (NASA)",
+      "Mars Odyssey (NASA)",
+      "Mars Express (ESA)",
+      "Tianwen-1 (CNSA)",
+      "Hope (UAE)"
+    ]
+  },
+  "futureExploration": {
+    "marsSampleReturn": {
+      "description": "Joint NASA-ESA mission to return samples collected by Perseverance to Earth",
+      "targetDate": "Early 2030s",
+      "significance": "Would be the first samples returned from Mars"
+    },
+    "humanMission": {
+      "description": "NASA's Artemis program aims to send humans to Mars",
+      "targetDate": "2030s-2040s",
+      "challenges": [
+        "Radiation exposure during long journey",
+        "Life support for 2-3 year mission",
+        "Landing and takeoff systems",
+        "In-situ resource utilization (producing fuel and oxygen on Mars)"
+      ]
+    }
+  },
+  "habitability": {
+    "pastHabitability": "Mars likely had conditions suitable for life 3-4 billion years ago, with liquid water, a thicker atmosphere, and warmer temperatures",
+    "currentConditions": "Harsh environment with thin atmosphere, extreme cold, high radiation, and no liquid water on surface",
+    "potentialForLife": "Possible subsurface habitats where liquid water may exist as brine, protected from radiation",
+    "biosignatures": "Perseverance and Curiosity have found organic molecules, but no definitive evidence of past or present life"
+  },
+  "comparisonToEarth": {
+    "size": "About half the diameter of Earth",
+    "mass": "About 11% of Earth's mass",
+    "gravity": "38% of Earth's gravity (you'd weigh much less)",
+    "dayLength": "Very similar to Earth (24.6 hours)",
+    "yearLength": "Nearly twice as long as Earth (687 days)",
+    "temperature": "Much colder (average -63°C vs Earth's 15°C)",
+    "atmosphere": "100 times thinner than Earth's",
+    "water": "No liquid water on surface (Earth has abundant liquid water)"
+  },
+  "interestingFacts": {
+    "sunsets": "Sunsets on Mars appear blue due to dust in the atmosphere scattering light differently than on Earth",
+    "seasons": "Mars has seasons like Earth, but they last twice as long",
+    "dustStorms": "Mars can have dust storms that cover the entire planet and last for months",
+    "tallestMountain": "Olympus Mons is the tallest mountain in the solar system",
+    "longestCanyon": "Valles Marineris would stretch across the entire United States",
+    "meteorites": "We have over 200 Martian meteorites on Earth that were blasted off Mars by asteroid impacts",
+    "namesake": "Mars is the only planet named after a god of war rather than a supreme deity"
+  },
+  "metadata": {
+    "dataSource": "NASA Planetary Fact Sheet, NASA Mars Exploration Program, ESA Mars Express",
+    "lastUpdated": "2026-01-16",
+    "version": "1.0",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+      "https://science.nasa.gov/mars/",
+      "https://mars.nasa.gov/",
+      "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express"
+    ]
+  }
+}

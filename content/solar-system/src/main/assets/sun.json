@@ -1,0 +1,375 @@
+{
+  "id": "sun",
+  "name": "Sun",
+  "alternativeNames": [
+    "Sol",
+    "Helios",
+    "Surya"
+  ],
+  "celestialType": "star",
+  "spectralClass": "G2V",
+  "descriptions": {
+    "short": "The Sun is our star! It gives us light and heat and is the center of our solar system.",
+    "medium": "The Sun is a medium-sized star at the center of our solar system. It's a giant ball of hot glowing gas, mostly hydrogen and helium. The Sun provides all the light and heat that makes life on Earth possible. It's so big that over a million Earths could fit inside it!",
+    "long": "The Sun is a G-type main-sequence star (G2V) that formed about 4.6 billion years ago from a collapsing cloud of gas and dust. It contains 99.86% of the solar system's total mass and generates energy through nuclear fusion in its core, where hydrogen atoms combine to form helium, releasing enormous amounts of energy. This energy takes thousands of years to travel from the core to the surface, then reaches Earth in just 8 minutes as light and heat. The Sun has a layered structure: core, radiative zone, convective zone, photosphere (visible surface), chromosphere, and corona (outer atmosphere). It rotates differentially, with the equator rotating faster than the poles. The Sun goes through an 11-year cycle of activity, with periods of more and fewer sunspots, solar flares, and coronal mass ejections. In about 5 billion years, the Sun will expand into a red giant, engulfing the inner planets, before eventually becoming a white dwarf."
+  },
+  "funFacts": [
+    "The Sun is so big that 1.3 million Earths could fit inside it!",
+    "The Sun is 4.6 billion years old—about halfway through its life",
+    "Light from the Sun takes 8 minutes and 20 seconds to reach Earth",
+    "The Sun's core is 15 million degrees Celsius!",
+    "The Sun loses 4 million tons of mass every second through nuclear fusion",
+    "The Sun is 99.86% of all the mass in the solar system",
+    "The Sun's surface has dark spots called sunspots that are cooler regions",
+    "The Sun will eventually become a red giant and swallow Earth!"
+  ],
+  "physicalCharacteristics": {
+    "mass": {
+      "value": 1.989,
+      "unit": "10^30 kg",
+      "earthComparison": 333000
+    },
+    "volume": {
+      "value": 1.412,
+      "unit": "10^18 km³",
+      "earthComparison": 1300000
+    },
+    "radius": {
+      "value": 696000,
+      "unit": "km",
+      "earthComparison": 109
+    },
+    "diameter": {
+      "value": 1392000,
+      "unit": "km",
+      "earthComparison": 109
+    },
+    "density": {
+      "value": 1408,
+      "unit": "kg/m³",
+      "description": "Average density; core is much denser"
+    },
+    "surfaceGravity": {
+      "value": 274,
+      "unit": "m/s²",
+      "earthComparison": 28
+    },
+    "escapeVelocity": {
+      "value": 617.7,
+      "unit": "km/s"
+    },
+    "luminosity": {
+      "value": 3.828,
+      "unit": "10^26 watts"
+    }
+  },
+  "temperature": {
+    "core": {
+      "value": 15000000,
+      "unit": "°C",
+      "description": "Where nuclear fusion occurs"
+    },
+    "radiativeZone": {
+      "value": 7000000,
+      "unit": "°C",
+      "description": "Energy travels outward through radiation"
+    },
+    "convectiveZone": {
+      "value": 2000000,
+      "unit": "°C",
+      "description": "Energy moves through convection currents"
+    },
+    "photosphere": {
+      "value": 5500,
+      "unit": "°C",
+      "description": "Visible surface of the Sun"
+    },
+    "chromosphere": {
+      "value": 20000,
+      "unit": "°C",
+      "description": "Layer above photosphere, visible during eclipses"
+    },
+    "corona": {
+      "value": 1000000,
+      "unit": "°C",
+      "description": "Outer atmosphere, paradoxically hotter than surface"
+    }
+  },
+  "structure": {
+    "core": {
+      "description": "The innermost region where nuclear fusion converts hydrogen to helium, generating the Sun's energy",
+      "radius": "About 25% of Sun's radius",
+      "temperature": "15 million °C",
+      "pressure": "250 billion times Earth's atmospheric pressure"
+    },
+    "radiativeZone": {
+      "description": "Energy from the core moves outward through radiation, taking thousands of years to traverse this zone",
+      "extent": "From 25% to 70% of Sun's radius",
+      "temperature": "7 million °C to 2 million °C"
+    },
+    "convectiveZone": {
+      "description": "Hot plasma rises, cools, and sinks in convection currents, creating the Sun's granulated appearance",
+      "extent": "Outer 30% of Sun's radius",
+      "temperature": "2 million °C to 5,500 °C"
+    },
+    "photosphere": {
+      "description": "The visible surface of the Sun, where light escapes into space",
+      "thickness": "About 500 km",
+      "temperature": "5,500 °C",
+      "features": "Sunspots, granulation"
+    },
+    "chromosphere": {
+      "description": "A thin layer above the photosphere, visible as a reddish glow during solar eclipses",
+      "thickness": "About 2,000 km",
+      "temperature": "4,000 °C to 20,000 °C",
+      "features": "Spicules, prominences"
+    },
+    "corona": {
+      "description": "The Sun's outer atmosphere, extending millions of kilometers into space",
+      "extent": "Millions of kilometers",
+      "temperature": "1-2 million °C",
+      "features": "Coronal holes, coronal mass ejections"
+    }
+  },
+  "composition": {
+    "hydrogen": 73.46,
+    "helium": 24.85,
+    "oxygen": 0.77,
+    "carbon": 0.29,
+    "iron": 0.16,
+    "neon": 0.12,
+    "nitrogen": 0.09,
+    "silicon": 0.07,
+    "magnesium": 0.05,
+    "sulfur": 0.04,
+    "unit": "percentage by mass"
+  },
+  "rotation": {
+    "equatorial": {
+      "value": 25.4,
+      "unit": "Earth days",
+      "description": "Rotation period at the equator"
+    },
+    "polar": {
+      "value": 36,
+      "unit": "Earth days",
+      "description": "Rotation period at the poles"
+    },
+    "type": "Differential rotation - equator rotates faster than poles"
+  },
+  "solarActivity": {
+    "solarCycle": {
+      "period": "Approximately 11 years",
+      "description": "The Sun goes through cycles of high and low activity, marked by the number of sunspots, solar flares, and coronal mass ejections"
+    },
+    "sunspots": {
+      "description": "Dark spots on the Sun's surface that are cooler than surrounding areas (about 3,500°C vs 5,500°C)",
+      "cause": "Caused by intense magnetic activity that inhibits convection",
+      "size": "Can be larger than Earth",
+      "cycle": "Number varies with the 11-year solar cycle"
+    },
+    "solarFlares": {
+      "description": "Sudden bursts of energy and radiation from the Sun's surface",
+      "cause": "Caused by magnetic energy release",
+      "impact": "Can disrupt radio communications and satellite operations on Earth"
+    },
+    "coronalMassEjections": {
+      "description": "Massive bursts of solar wind and magnetic fields rising above the corona or being released into space",
+      "impact": "Can cause geomagnetic storms, auroras, and damage to power grids and satellites"
+    },
+    "solarWind": {
+      "description": "A stream of charged particles (plasma) flowing outward from the Sun",
+      "speed": "300-800 km/s",
+      "extent": "Creates the heliosphere, extending beyond Pluto"
+    }
+  },
+  "lifespan": {
+    "currentAge": "4.6 billion years",
+    "mainSequenceLifetime": "About 10 billion years total",
+    "remainingLife": "About 5 billion years",
+    "futureEvolution": {
+      "description": "In about 5 billion years, the Sun will exhaust its hydrogen fuel and begin fusing helium. It will expand into a red giant, growing 250 times its current size and engulfing Mercury, Venus, and possibly Earth. After shedding its outer layers as a planetary nebula, the Sun will become a white dwarf—a dense, Earth-sized remnant that will slowly cool over trillions of years.",
+      "stages": [
+        {
+          "stage": "Current: Main Sequence",
+          "timeframe": "Now (4.6 billion years old)",
+          "description": "Fusing hydrogen into helium in the core"
+        },
+        {
+          "stage": "Red Giant Phase",
+          "timeframe": "In 5 billion years",
+          "description": "Will expand 250x, engulfing inner planets"
+        },
+        {
+          "stage": "Planetary Nebula",
+          "timeframe": "After red giant phase",
+          "description": "Will shed outer layers into space"
+        },
+        {
+          "stage": "White Dwarf",
+          "timeframe": "Final stage",
+          "description": "Dense Earth-sized core slowly cooling"
+        }
+      ]
+    }
+  },
+  "mythology": {
+    "roman": {
+      "name": "Sol",
+      "origin": "Sol was the Roman personification of the Sun",
+      "greekEquivalent": "Helios",
+      "story": "Sol was the Roman sun god who drove a chariot across the sky each day, bringing light to the world. In later Roman religion, Sol Invictus (Unconquered Sun) became an important imperial cult deity.",
+      "culturalSignificance": "Sunday is named after Sol. The winter solstice festival of Sol Invictus influenced Christmas traditions.",
+      "symbolism": "Light, life, power, constancy, divine authority"
+    },
+    "greek": {
+      "name": "Helios",
+      "origin": "Helios was the Greek personification of the Sun",
+      "story": "Helios was a Titan who drove a golden chariot pulled by four horses across the sky each day, from east to west. He was the son of the Titans Hyperion and Theia, and brother of Selene (Moon) and Eos (Dawn). Helios was all-seeing, witnessing everything that happened on Earth during the day.",
+      "culturalSignificance": "The Colossus of Rhodes, one of the Seven Wonders of the Ancient World, was a statue of Helios. Helios was worshipped particularly on the island of Rhodes.",
+      "symbolism": "Light, sight, truth, constancy, daily cycle"
+    },
+    "indian": {
+      "names": [
+        "Surya",
+        "Aditya",
+        "Ravi",
+        "Bhaskara"
+      ],
+      "meaning": "Surya means 'sun'; Aditya means 'son of Aditi'; Ravi means 'radiant'; Bhaskara means 'light-maker'",
+      "origin": "In Hindu tradition, Surya is the sun god and one of the most important Vedic deities",
+      "characteristics": "Surya is depicted riding a chariot pulled by seven horses (representing the seven colors of light or days of the week), driven by Aruna (the dawn). He is shown with a golden body, radiating light.",
+      "story": "Surya is the son of the sage Kashyapa and Aditi. He is married to Sanjna (consciousness) and Chhaya (shadow). Surya is the father of many important figures including Yama (god of death), Yami (goddess of the Yamuna river), the Ashvins (divine physicians), and Karna (hero of the Mahabharata).",
+      "role": "Surya is one of the Navagraha (nine celestial deities) and represents the soul (Atman) in Vedic astrology. He governs vitality, health, authority, and self-realization.",
+      "culturalSignificance": "Surya is worshipped daily by millions of Hindus. The Gayatri Mantra, one of the most sacred Vedic mantras, is addressed to Savitar (an aspect of Surya). Sunday (Ravivar in Hindi) is dedicated to Surya. The Surya Namaskar (Sun Salutation) yoga sequence honors the sun. Major temples like Konark Sun Temple are dedicated to Surya.",
+      "symbolism": "Life, light, health, vitality, consciousness, authority, time, truth"
+    },
+    "chinese": {
+      "name": "太阳 (Tàiyáng)",
+      "meaning": "Great Yang",
+      "origin": "In Chinese cosmology, the Sun represents the ultimate yang principle",
+      "characteristics": "The Sun embodies yang energy—active, bright, hot, masculine, and creative. It is the source of all light and life.",
+      "mythology": "In Chinese mythology, there were originally ten suns (sons of the Emperor of Heaven) that took turns crossing the sky. One day, all ten appeared at once, scorching the earth. The archer Hou Yi shot down nine of them, leaving only one sun.",
+      "culturalSignificance": "The Sun is central to Chinese philosophy, representing yang in the yin-yang duality. Sunday in Chinese is 星期日 (Xīngqīrì) meaning 'Sun day' or 日曜日 in traditional naming.",
+      "symbolism": "Yang, light, heat, life, masculine principle, emperor, authority, day"
+    },
+    "egyptian": {
+      "name": "Ra (Re)",
+      "alternativeNames": [
+        "Atum-Ra",
+        "Amun-Ra",
+        "Khepri (morning)",
+        "Ra (noon)",
+        "Atum (evening)"
+      ],
+      "origin": "Ra was the ancient Egyptian sun god and one of the most important deities",
+      "characteristics": "Ra was depicted with a falcon head crowned with a sun disk. He represented the sun at its zenith.",
+      "story": "Ra was believed to travel across the sky in a solar barque (boat) during the day, and through the underworld (Duat) at night, battling the serpent Apophis to be reborn each morning. Ra was considered the creator god who brought order from chaos. Pharaohs claimed to be sons of Ra, legitimizing their divine right to rule.",
+      "culturalSignificance": "Ra was the central deity of ancient Egyptian religion, especially during the New Kingdom. The city of Heliopolis was the center of Ra worship. Many pharaohs incorporated Ra into their names (e.g., Ramesses means 'Ra has fashioned him').",
+      "symbolism": "Creation, kingship, order, rebirth, divine authority, life, light"
+    },
+    "norse": {
+      "name": "Sól (Sunna)",
+      "origin": "Sól was the Norse goddess who personified the Sun",
+      "characteristics": "Sól was depicted as a goddess who drove the sun chariot across the sky",
+      "story": "Sól drove a chariot pulled by two horses, Arvak and Alsvid, across the sky each day. She was constantly pursued by the wolf Sköll, who sought to devour her. At Ragnarök (the end of the world), Sköll will finally catch and swallow Sól, but she will give birth to a daughter who will take her place in the new world.",
+      "culturalSignificance": "Sunday in Germanic languages is named after the sun (e.g., German Sonntag, Dutch Zondag). The Norse saw the sun's daily journey as a chase, explaining solar eclipses as the wolf catching up.",
+      "symbolism": "Light, warmth, life, daily cycle, pursued beauty, renewal"
+    },
+    "aztec": {
+      "name": "Tonatiuh",
+      "origin": "Tonatiuh was the Aztec sun god of the fifth and current sun",
+      "characteristics": "Tonatiuh was depicted as a fierce warrior with a sun disk, often shown with a tongue of flint",
+      "story": "According to Aztec mythology, there have been five suns (five ages of the world). Tonatiuh is the fifth sun, created when a god sacrificed himself by jumping into a fire. The Aztecs believed the sun needed to be nourished with human blood and hearts to continue its journey across the sky.",
+      "culturalSignificance": "The Aztec calendar stone (Sun Stone) features Tonatiuh at its center. Human sacrifice was performed to ensure the sun would rise each day. Warriors who died in battle were believed to accompany the sun on its journey.",
+      "symbolism": "Life, sacrifice, warfare, cosmic order, time, the fifth age"
+    }
+  },
+  "observationFromEarth": {
+    "apparentMagnitude": -26.74,
+    "angularDiameter": "31.6 to 32.7 arcminutes",
+    "distanceFromEarth": {
+      "mean": 149.6,
+      "unit": "million km (1 AU)",
+      "lightTime": "8 minutes 20 seconds"
+    },
+    "safetyWarning": "Never look directly at the Sun without proper solar filters. Permanent eye damage can occur in seconds."
+  },
+  "missions": [
+    {
+      "name": "Parker Solar Probe",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "2018-08-12",
+      "status": "Active",
+      "missionType": "Solar probe",
+      "description": "Parker Solar Probe is studying the Sun's outer corona by flying closer to the Sun than any previous spacecraft.",
+      "majorAchievements": [
+        "Closest approach to the Sun: 6.1 million km (within the corona)",
+        "Fastest human-made object: 700,000 km/h",
+        "Studying solar wind origins and acceleration",
+        "Measuring magnetic fields and plasma in the corona",
+        "First spacecraft to 'touch' the Sun by entering its atmosphere"
+      ]
+    },
+    {
+      "name": "Solar Dynamics Observatory (SDO)",
+      "agency": "NASA",
+      "country": "United States",
+      "launchDate": "2010-02-11",
+      "status": "Active",
+      "missionType": "Solar observatory",
+      "description": "SDO observes the Sun continuously in multiple wavelengths to understand solar activity and its effects on Earth.",
+      "majorAchievements": [
+        "Provides near-continuous high-resolution images of the Sun",
+        "Studies solar flares, coronal mass ejections, and sunspots",
+        "Helps predict space weather",
+        "Has captured over 425 million images of the Sun"
+      ]
+    },
+    {
+      "name": "SOHO (Solar and Heliospheric Observatory)",
+      "agency": "ESA, NASA",
+      "country": "Europe, United States",
+      "launchDate": "1995-12-02",
+      "status": "Active (extended mission)",
+      "missionType": "Solar observatory",
+      "description": "SOHO studies the Sun's interior, atmosphere, and solar wind from the L1 Lagrange point.",
+      "majorAchievements": [
+        "Discovered over 4,000 comets",
+        "Revolutionized understanding of the Sun's interior through helioseismology",
+        "Monitors solar activity and space weather",
+        "Longest-running solar mission (28+ years)"
+      ]
+    }
+  ],
+  "comparisonToEarth": {
+    "size": "109 times Earth's diameter",
+    "mass": "333,000 times Earth's mass",
+    "gravity": "28 times Earth's gravity",
+    "temperature": "5,500°C at surface (vs 15°C average on Earth)",
+    "composition": "Mostly hydrogen and helium (vs rocky Earth)",
+    "energy": "Produces energy equivalent to 100 billion nuclear bombs per second"
+  },
+  "interestingFacts": {
+    "massiveDominance": "The Sun contains 99.86% of all the mass in the solar system. All the planets, moons, asteroids, and comets combined make up only 0.14%.",
+    "ancientLight": "Light takes 8 minutes 20 seconds to travel from the Sun to Earth, but the energy was generated in the core thousands to millions of years earlier.",
+    "perfectFusion": "The Sun converts 4 million tons of matter into energy every second through nuclear fusion, yet it has enough fuel to continue for another 5 billion years.",
+    "differentialRotation": "The Sun doesn't rotate as a solid body—its equator rotates faster (25 days) than its poles (36 days), creating complex magnetic fields.",
+    "coronaMystery": "The Sun's corona is paradoxically much hotter (1-2 million °C) than its surface (5,500 °C). Scientists are still studying why.",
+    "solarWindReach": "The Sun's influence extends far beyond the planets. The heliosphere (bubble of solar wind) reaches beyond Pluto, about 18 billion km from the Sun.",
+    "perfectSize": "The Sun appears the same size as the Moon from Earth (about 0.5 degrees) due to a cosmic coincidence—the Sun is 400 times larger but also 400 times farther away. This makes total solar eclipses possible.",
+    "lifeGiver": "Nearly all energy on Earth comes from the Sun—from photosynthesis in plants to fossil fuels (ancient sunlight) to wind and weather patterns."
+  },
+  "metadata": {
+    "dataSource": "NASA Sun Fact Sheet (scientific data), Grokipedia (mythology and educational content)",
+    "lastUpdated": "2026-01-21",
+    "version": "1.0",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "https://science.nasa.gov/sun/",
+      "https://www.nasa.gov/parker-solar-probe/",
+      "https://sdo.gsfc.nasa.gov/"
+    ]
+  }
+}
